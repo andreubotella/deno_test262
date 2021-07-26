@@ -19,7 +19,7 @@ async function runTest(
     isModule: boolean;
     isAsync: boolean;
   },
-) {
+): Promise<boolean> {
   const env: Record<string, string> = {
     "TEST_FILE": test,
   };
@@ -55,9 +55,11 @@ async function runTest(
   if (!success) {
     console.error(stderr);
   }
+
+  return success;
 }
 
-async function processTest(test: string) {
+async function processTest(test: string, failures: string[]) {
   const testFile = await Deno.readTextFile(new URL(test, TEST_DIR));
   const frontMatterMatch = testFile.match(/\/\*---(.*?)---\*\//s);
   assert(frontMatterMatch !== null, "WTF: No front matter found.");
@@ -86,6 +88,12 @@ async function processTest(test: string) {
   const frontMatter = parseYaml(frontMatterMatch[1]) as FrontMatter;
   const flags = frontMatter.flags ?? [];
 
+  // By default we must run each test wice, one with an additional "use strict"
+  // declaration, and one without. If `addUseStrict` is true, this instance of
+  // the test will be run with an additional strict declaration, regardless of
+  // whether the test would be strict anyway.
+  const instancesFailed = [];
+  let numTotalInstances = 0;
   for (const addUseStrict of [true, false]) {
     if (
       (addUseStrict && flags.includes("noStrict")) ||
@@ -96,24 +104,54 @@ async function processTest(test: string) {
       continue;
     }
 
-    await runTest(test, {
+    numTotalInstances++;
+
+    const success = await runTest(test, {
       errorType: frontMatter.negative?.type,
       includes: frontMatter.includes ?? [],
       addUseStrict,
       isModule: flags.includes("module"),
       isAsync: flags.includes("async"),
     });
+    if (!success) {
+      instancesFailed.push(addUseStrict);
+    }
+  }
+
+  // If there were two instances of this test (with and without "use strict"),
+  // and both fail, just report the test as failing. Same if there was only one
+  // instance. But if one instance succeeds and the other fails, note which one
+  // fails.
+  if (instancesFailed.length === numTotalInstances) {
+    failures.push(test);
+  } else if (instancesFailed.length !== 0) {
+    assert(instancesFailed.length === 1);
+    failures.push(
+      `${test} (${instancesFailed[0] ? "strict" : "non-strict"})`,
+    );
   }
 }
 
-for await (const entry of walk(fromFileUrl(TEST_DIR))) {
-  if (entry.isDirectory || entry.name.includes("_FIXTURE")) {
-    continue;
+async function main() {
+  const failures: string[] = [];
+
+  for await (const entry of walk(fromFileUrl(TEST_DIR))) {
+    if (entry.isDirectory || entry.name.includes("_FIXTURE")) {
+      continue;
+    }
+
+    const relativePath = relative(fromFileUrl(TEST_DIR), entry.path);
+
+    console.log(`${blue("-".repeat(40))}\n${bold(relativePath)}\n`);
+
+    await processTest(relativePath, failures);
   }
 
-  const relativePath = relative(fromFileUrl(TEST_DIR), entry.path);
-
-  console.log(`${blue("-".repeat(40))}\n${bold(relativePath)}\n`);
-
-  await processTest(relativePath);
+  console.log();
+  console.log("The following tests failed:");
+  for (const failure of failures) {
+    console.log("\t%s", failure);
+  }
 }
+
+main();
