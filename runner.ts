@@ -1,5 +1,6 @@
 #!/usr/bin/env -S deno run --allow-read --allow-run --unstable --import-map=import_map.json
 
+import { Args as FlagArgs, parse as parseFlags } from "std/flags/mod.ts";
 import { assert } from "std/testing/asserts.ts";
 import { blue, bold, green, red, yellow } from "std/fmt/colors.ts";
 import { fromFileUrl, relative } from "std/path/mod.ts";
@@ -157,6 +158,10 @@ async function processTest(
 }
 
 async function main() {
+  const { ["--"]: filters } = parseFlags(Deno.args, { "--": true }) as
+    & FlagArgs
+    & { ["--"]: string[] };
+
   const expectations: ExpectationFolder = JSON.parse(
     await Deno.readTextFile(EXPECTATION_FILE),
   );
@@ -169,6 +174,13 @@ async function main() {
     }
 
     const relativePath = relative(fromFileUrl(TEST_DIR), entry.path);
+
+    if (
+      filters.length !== 0 &&
+      !filters.find((filter) => relativePath.startsWith(filter))
+    ) {
+      continue;
+    }
 
     console.log(`${blue("-".repeat(40))}\n${bold(relativePath)}\n`);
 
