@@ -1,15 +1,31 @@
 #!/usr/bin/env -S deno run --allow-read --allow-run --unstable --import-map=import_map.json
 
 import { assert } from "std/testing/asserts.ts";
-import { blue, bold, green, red } from "std/fmt/colors.ts";
+import { blue, bold, green, red, yellow } from "std/fmt/colors.ts";
 import { fromFileUrl, relative } from "std/path/mod.ts";
 import { walk } from "std/fs/mod.ts";
 import { parse as parseYaml } from "std/encoding/yaml.ts";
 
+// -----------------------------------------------------------------------------
+
+interface ExpectationFolder {
+  [file: string]: ExpectationFolder | boolean;
+}
+
+type DifferenceRecord = {
+  unexpectedFailures: string[];
+  unexpectedSuccesses: string[];
+};
+
+// -----------------------------------------------------------------------------
+
 const TEST262_ROOT = new URL("./test262/", import.meta.url);
 const TEST_DIR = new URL("./test/", TEST262_ROOT);
 const SETUP_SCRIPT = new URL("./util/setup.js", import.meta.url);
+const EXPECTATION_FILE = new URL("./expectations.json", import.meta.url);
 
+// Returns whether the test result succeeded, not whether it matched the
+// expectation.
 async function runTest(
   test: string,
   { errorType, includes, addUseStrict, isModule, isAsync }: {
@@ -48,7 +64,11 @@ async function runTest(
   return { success, stderr };
 }
 
-async function processTest(test: string, failures: string[]) {
+async function processTest(
+  test: string,
+  expected: boolean,
+  differences: DifferenceRecord,
+) {
   const testFile = await Deno.readTextFile(new URL(test, TEST_DIR));
   const frontMatterMatch = testFile.match(/\/\*---(.*?)---\*\//s);
   assert(frontMatterMatch !== null, "WTF: No front matter found.");
@@ -103,17 +123,17 @@ async function processTest(test: string, failures: string[]) {
       isAsync: flags.includes("async"),
     });
 
-    console.log(
-      "%s (%s) ... %s",
-      test,
-      flags.includes("module")
-        ? "module"
-        : addUseStrict
-        ? "strict"
-        : "non-strict",
-      success ? green("ok") : red("failed"),
-    );
-    if (!success) {
+    const instanceName = flags.includes("module")
+      ? "module"
+      : addUseStrict
+      ? "strict"
+      : "non-strict";
+    const successOutput = success
+      ? (expected ? green("ok") : red("ok (expected fail)"))
+      : (expected ? red("failed") : yellow("failed (expected)"));
+    console.log("%s (%s) ... %s", test, instanceName, successOutput);
+
+    if (success != expected) {
       console.error(stderr);
       instancesFailed.push(addUseStrict);
     }
@@ -123,8 +143,11 @@ async function processTest(test: string, failures: string[]) {
   // and both fail, just report the test as failing. Same if there was only one
   // instance. But if one instance succeeds and the other fails, note which one
   // fails.
+  const failures = expected
+    ? differences.unexpectedFailures
+    : differences.unexpectedSuccesses;
   if (instancesFailed.length === numTotalInstances) {
-    failures.push(test);
+    (failures).push(test);
   } else if (instancesFailed.length !== 0) {
     assert(instancesFailed.length === 1);
     failures.push(
@@ -134,7 +157,11 @@ async function processTest(test: string, failures: string[]) {
 }
 
 async function main() {
-  const failures: string[] = [];
+  const expectations: ExpectationFolder = JSON.parse(
+    await Deno.readTextFile(EXPECTATION_FILE),
+  );
+
+  const differences = { unexpectedFailures: [], unexpectedSuccesses: [] };
 
   for await (const entry of walk(fromFileUrl(TEST_DIR))) {
     if (entry.isDirectory || entry.name.includes("_FIXTURE")) {
@@ -145,13 +172,42 @@ async function main() {
 
     console.log(`${blue("-".repeat(40))}\n${bold(relativePath)}\n`);
 
-    await processTest(relativePath, failures);
+    const components = relativePath.split("/");
+    let folderExpectations: ExpectationFolder | undefined = expectations;
+    for (const component of components.slice(0, -1)) {
+      const newFolderExpectations: ExpectationFolder | boolean | undefined =
+        folderExpectations?.[component];
+      assert(typeof newFolderExpectations !== "boolean");
+      folderExpectations = newFolderExpectations;
+    }
+
+    const expected = folderExpectations?.[components.at(-1)!] ?? true;
+    assert(typeof expected === "boolean");
+
+    await processTest(relativePath, expected, differences);
   }
 
-  console.log();
-  console.log("The following tests failed:");
-  for (const failure of failures) {
-    console.log("\t%s", failure);
+  if (differences.unexpectedFailures.length !== 0) {
+    console.log();
+    console.log("The following tests failed:");
+    for (const failure of differences.unexpectedFailures) {
+      console.log("\t%s", failure);
+    }
+  }
+
+  if (differences.unexpectedSuccesses.length !== 0) {
+    console.log();
+    console.log("The following tests succeeded unexpectedly:");
+    for (const success of differences.unexpectedSuccesses) {
+      console.log("\t%s", success);
+    }
+  }
+
+  if (
+    differences.unexpectedFailures.length !== 0 ||
+    differences.unexpectedSuccesses.length !== 0
+  ) {
+    Deno.exit(1);
   }
 }
 
