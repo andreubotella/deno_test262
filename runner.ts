@@ -69,6 +69,7 @@ async function processTest(
   test: string,
   expected: boolean,
   differences: DifferenceRecord,
+  outputFlags: { quiet: boolean; onlyPrintFailures: boolean },
 ) {
   const testFile = await Deno.readTextFile(new URL(test, TEST_DIR));
   const frontMatterMatch = testFile.match(/\/\*---(.*?)---\*\//s);
@@ -124,18 +125,26 @@ async function processTest(
       isAsync: flags.includes("async"),
     });
 
-    const instanceName = flags.includes("module")
-      ? "module"
-      : addUseStrict
-      ? "strict"
-      : "non-strict";
-    const successOutput = success
-      ? (expected ? green("ok") : red("ok (expected fail)"))
-      : (expected ? red("failed") : yellow("failed (expected)"));
-    console.log("%s (%s) ... %s", test, instanceName, successOutput);
+    if (
+      !outputFlags.quiet &&
+      (!outputFlags.onlyPrintFailures || success !== expected)
+    ) {
+      const instanceName = flags.includes("module")
+        ? "module"
+        : addUseStrict
+        ? "strict"
+        : "non-strict";
+      const successOutput = success
+        ? (expected ? green("ok") : red("ok (expected fail)"))
+        : (expected ? red("failed") : yellow("failed (expected)"));
+      console.log("%s (%s) ... %s", test, instanceName, successOutput);
+
+      if (success !== expected) {
+        console.error(stderr);
+      }
+    }
 
     if (success != expected) {
-      console.error(stderr);
       instancesFailed.push(addUseStrict);
     }
   }
@@ -158,9 +167,13 @@ async function processTest(
 }
 
 async function main() {
-  const { ["--"]: filters } = parseFlags(Deno.args, { "--": true }) as
-    & FlagArgs
-    & { ["--"]: string[] };
+  const { ["--"]: filters, quiet, ["only-print-failures"]: onlyPrintFailures } =
+    parseFlags(Deno.args, {
+      "--": true,
+      boolean: ["quiet", "only-print-failures"],
+    }) as
+      & FlagArgs
+      & { ["--"]: string[]; quiet: boolean; ["only-print-failures"]: boolean };
 
   const expectations: ExpectationFolder = JSON.parse(
     await Deno.readTextFile(EXPECTATION_FILE),
@@ -182,7 +195,9 @@ async function main() {
       continue;
     }
 
-    console.log(`${blue("-".repeat(40))}\n${bold(relativePath)}\n`);
+    if (!quiet && !onlyPrintFailures) {
+      console.log(`${blue("-".repeat(40))}\n${bold(relativePath)}\n`);
+    }
 
     const components = relativePath.split("/");
     let folderExpectations: ExpectationFolder | undefined = expectations;
@@ -196,7 +211,10 @@ async function main() {
     const expected = folderExpectations?.[components.at(-1)!] ?? true;
     assert(typeof expected === "boolean");
 
-    await processTest(relativePath, expected, differences);
+    await processTest(relativePath, expected, differences, {
+      quiet,
+      onlyPrintFailures,
+    });
   }
 
   if (differences.unexpectedFailures.length !== 0) {
