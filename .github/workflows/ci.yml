@@ -17,5 +17,8 @@ jobs:
       - name: Setup Deno (latest)
         uses: maximousblk/setup-deno@v1
 
+      - name: Print Deno version (for the record)
+        run: deno --version
+
       - name: Run test suite
         run: ./runner.ts
