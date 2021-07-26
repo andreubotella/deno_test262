@@ -19,7 +19,7 @@ async function runTest(
     isModule: boolean;
     isAsync: boolean;
   },
-): Promise<boolean> {
+): Promise<{ success: boolean; stderr: string }> {
   const env: Record<string, string> = {
     "TEST_FILE": test,
   };
@@ -45,18 +45,7 @@ async function runTest(
 
   const stderr = new TextDecoder().decode(await proc.stderrOutput());
   const { success } = await proc.status();
-
-  console.log(
-    "%s (%s) ... %s",
-    test,
-    isModule ? "module" : addUseStrict ? "strict" : "non-strict",
-    success ? green("ok") : red("failed"),
-  );
-  if (!success) {
-    console.error(stderr);
-  }
-
-  return success;
+  return { success, stderr };
 }
 
 async function processTest(test: string, failures: string[]) {
@@ -106,14 +95,26 @@ async function processTest(test: string, failures: string[]) {
 
     numTotalInstances++;
 
-    const success = await runTest(test, {
+    const { success, stderr } = await runTest(test, {
       errorType: frontMatter.negative?.type,
       includes: frontMatter.includes ?? [],
       addUseStrict,
       isModule: flags.includes("module"),
       isAsync: flags.includes("async"),
     });
+
+    console.log(
+      "%s (%s) ... %s",
+      test,
+      flags.includes("module")
+        ? "module"
+        : addUseStrict
+        ? "strict"
+        : "non-strict",
+      success ? green("ok") : red("failed"),
+    );
     if (!success) {
+      console.error(stderr);
       instancesFailed.push(addUseStrict);
     }
   }
