@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Setup Deno (latest)
+        uses: maximousblk/setup-deno@v1
+
+      - name: Print Deno version (for the record)
+        run: deno --version
+
+      - name: Run test suite
+        run: ./runner.ts --only-print-failures
