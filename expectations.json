@@ -1,13 +1,6 @@
 {
   "annexB": {
     "built-ins": {
-      "Date": {
-        "prototype": {
-          "getYear": {
-            "return-value.js": false
-          }
-        }
-      },
       "String": {
         "prototype": {
           "replaceAll": {
@@ -571,22 +564,9 @@
       "15.3.5.4_2-54gs.js": false
     },
     "Date": {
-      "prototype": {
-        "toISOString": {
-          "15.9.5.43-0-9.js": false,
-          "15.9.5.43-0-8.js": false,
-          "15.9.5.43-0-10.js": false
-        }
-      },
-      "S15.9.3.1_A5_T3.js": false,
-      "S15.9.3.1_A5_T2.js": false,
       "proto-from-ctor-realm-two.js": false,
-      "S15.9.3.1_A5_T5.js": false,
-      "S15.9.3.1_A5_T6.js": false,
       "proto-from-ctor-realm-zero.js": false,
-      "S15.9.3.1_A5_T1.js": false,
-      "proto-from-ctor-realm-one.js": false,
-      "S15.9.3.1_A5_T4.js": false
+      "proto-from-ctor-realm-one.js": false
     },
     "String": {
       "prototype": {
