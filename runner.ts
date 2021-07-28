@@ -9,11 +9,10 @@ import { parse as parseYaml } from "std/encoding/yaml.ts";
 
 // -----------------------------------------------------------------------------
 
-type FileExpectation = boolean | "strict" | "non-strict";
-
-interface FolderExpectation {
-  [file: string]: FolderExpectation | FileExpectation;
-}
+import type {
+  FileExpectation,
+  FolderExpectation,
+} from "./expectation_types.d.ts";
 
 type DifferenceRecord = {
   unexpectedFailures: string[];
