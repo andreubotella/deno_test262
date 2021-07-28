@@ -148,9 +148,6 @@
           "emulates-undefined-and.js": false,
           "emulates-undefined-or.js": false,
           "emulates-undefined-coalesce.js": false
-        },
-        "template-literal": {
-          "legacy-octal-escape-sequence-strict.js": false
         }
       },
       "statements": {
@@ -162,9 +159,6 @@
         },
         "switch": {
           "emulates-undefined.js": false
-        },
-        "for-in": {
-          "strict-initializer.js": false
         },
         "function": {
           "default-parameters-emulates-undefined.js": false
@@ -260,11 +254,6 @@
       }
     },
     "Symbol": {
-      "prototype": {
-        "toString": {
-          "toString-default-attributes-strict.js": false
-        }
-      },
       "iterator": {
         "cross-realm.js": false
       },
@@ -286,7 +275,6 @@
       "isConcatSpreadable": {
         "cross-realm.js": false
       },
-      "auto-boxing-strict.js": false,
       "search": {
         "cross-realm.js": false
       },
@@ -501,15 +489,7 @@
     },
     "Function": {
       "prototype": {
-        "call": {
-          "15.3.4.4-1-s.js": false,
-          "15.3.4.4-3-s.js": false,
-          "15.3.4.4-2-s.js": false
-        },
         "apply": {
-          "15.3.4.3-1-s.js": false,
-          "15.3.4.3-2-s.js": false,
-          "15.3.4.3-3-s.js": false,
           "this-not-callable-realm.js": false,
           "argarray-not-object-realm.js": false
         },
@@ -522,23 +502,9 @@
           "built-in-function-object.js": false
         }
       },
-      "15.3.5.4_2-21gs.js": false,
-      "15.3.5.4_2-11gs.js": false,
-      "15.3.5.4_2-25gs.js": false,
-      "15.3.5.4_2-52gs.js": false,
-      "15.3.5.4_2-7gs.js": false,
       "proto-from-ctor-realm.js": false,
-      "15.3.5.4_2-22gs.js": false,
-      "15.3.5-1gs.js": false,
-      "15.3.5.4_2-15gs.js": false,
       "call-bind-this-realm-value.js": false,
-      "15.3.5.4_2-3gs.js": false,
       "proto-from-ctor-realm-prototype.js": false,
-      "15.3.5.4_2-23gs.js": false,
-      "15.3.5.4_2-48gs.js": false,
-      "15.3.5.4_2-27gs.js": false,
-      "15.3.5.4_2-29gs.js": false,
-      "15.3.5.4_2-1gs.js": false,
       "internals": {
         "Construct": {
           "derived-return-val-realm.js": false,
@@ -549,19 +515,7 @@
           "class-ctor-realm.js": false
         }
       },
-      "15.3.5.4_2-9gs.js": false,
-      "15.3.5.4_2-19gs.js": false,
-      "call-bind-this-realm-undef.js": false,
-      "15.3.5.4_2-13gs.js": false,
-      "15.3.5.4_2-24gs.js": false,
-      "15.3.5.4_2-17gs.js": false,
-      "StrictFunction_restricted-properties.js": false,
-      "15.3.5.4_2-26gs.js": false,
-      "15.3.5.4_2-5gs.js": false,
-      "15.3.5-2gs.js": false,
-      "15.3.5.4_2-28gs.js": false,
-      "15.3.5.4_2-50gs.js": false,
-      "15.3.5.4_2-54gs.js": false
+      "call-bind-this-realm-undef.js": false
     },
     "Date": {
       "proto-from-ctor-realm-two.js": false,
@@ -830,11 +784,9 @@
         "find": {
           "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false,
-          "predicate-call-this-strict.js": false,
           "detached-buffer.js": false,
           "BigInt": {
             "predicate-may-detach-buffer.js": false,
-            "predicate-call-this-strict.js": false,
             "detached-buffer.js": false
           }
         },
@@ -918,11 +870,9 @@
         "findIndex": {
           "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false,
-          "predicate-call-this-strict.js": false,
           "detached-buffer.js": false,
           "BigInt": {
             "predicate-may-detach-buffer.js": false,
-            "predicate-call-this-strict.js": false,
             "detached-buffer.js": false
           }
         },
@@ -953,11 +903,6 @@
       "proto-from-ctor-realm.js": false
     },
     "Map": {
-      "prototype": {
-        "forEach": {
-          "callback-this-strict.js": false
-        }
-      },
       "proto-from-ctor-realm.js": false
     },
     "ArrayBuffer": {
@@ -1075,10 +1020,6 @@
           "15.4.4.14-9-b-i-21.js": false,
           "15.4.4.14-9-b-i-15.js": false
         },
-        "toLocaleString": {
-          "primitive_this_value.js": false,
-          "primitive_this_value_getter.js": false
-        },
         "slice": {
           "15.4.4.10-10-c-ii-1.js": false,
           "create-proto-from-ctor-realm-array.js": false,
@@ -1090,9 +1031,6 @@
           "15.4.4.16-7-c-i-16.js": false,
           "15.4.4.16-7-c-i-14.js": false,
           "15.4.4.16-7-c-i-22.js": false
-        },
-        "find": {
-          "predicate-call-this-strict.js": false
         },
         "concat": {
           "create-proto-from-ctor-realm-array.js": false,
@@ -1112,9 +1050,6 @@
           "15.4.4.18-7-c-i-6.js": false,
           "15.4.4.18-7-c-i-22.js": false
         },
-        "flatMap": {
-          "thisArg-argument.js": false
-        },
         "map": {
           "15.4.4.19-8-c-i-14.js": false,
           "create-proto-from-ctor-realm-array.js": false,
@@ -1129,9 +1064,6 @@
           "15.4.4.21-8-b-iii-1-16.js": false,
           "15.4.4.21-8-b-iii-1-6.js": false,
           "15.4.4.21-8-b-iii-1-22.js": false
-        },
-        "findIndex": {
-          "predicate-call-this-strict.js": false
         },
         "lastIndexOf": {
           "15.4.4.15-8-b-i-20.js": false,
@@ -1149,8 +1081,6 @@
       "proto-from-ctor-realm-two.js": false,
       "proto-from-ctor-realm-zero.js": false,
       "from": {
-        "calling-from-valid-1-onlyStrict.js": false,
-        "iter-map-fn-this-strict.js": false,
         "proto-from-ctor-realm.js": false
       },
       "proto-from-ctor-realm-one.js": false,
@@ -1246,7 +1176,6 @@
       "exception-after-resolve-in-thenable-job.js": false,
       "reject-via-abrupt-queue.js": false,
       "resolve-prms-cstm-then-deferred.js": false,
-      "executor-call-context-strict.js": false,
       "proto-from-ctor-realm.js": false,
       "reject": {
         "S25.4.4.4_A2.1_T1.js": false,
@@ -1590,7 +1519,6 @@
           "cross-realm.js": false
         },
         "Symbol.replace": {
-          "fn-invoke-this-strict.js": false,
           "fn-invoke-args-empty-result.js": false,
           "poisoned-stdlib.js": false,
           "coerce-global.js": false
@@ -1747,9 +1675,6 @@
       "named-groups": {
         "non-unicode-property-names-valid.js": false
       }
-    },
-    "undefined": {
-      "15.1.1.3-2.js": false
     },
     "WeakMap": {
       "proto-from-ctor-realm.js": false
@@ -1947,10 +1872,6 @@
     },
     "Object": {
       "prototype": {
-        "toLocaleString": {
-          "primitive_this_value.js": false,
-          "primitive_this_value_getter.js": false
-        },
         "__proto__": {
           "get-to-obj-abrupt.js": false,
           "prop-desc.js": false,
@@ -1978,40 +1899,27 @@
         "15.2.3.7-6-a-188.js": false,
         "15.2.3.7-6-a-193.js": false
       },
-      "freeze": {
-        "frozen-object-contains-symbol-properties-strict.js": false
-      },
       "proto-from-ctor-realm.js": false,
       "defineProperty": {
         "15.2.3.6-3-147-1.js": false,
         "15.2.3.6-4-193.js": false,
         "15.2.3.6-3-144-1.js": false,
-        "15.2.3.6-4-292-2.js": false,
-        "symbol-data-property-default-strict.js": false,
-        "15.2.3.6-4-243-2.js": false,
         "15.2.3.6-3-170-1.js": false,
         "15.2.3.6-4-192.js": false,
         "15.2.3.6-4-196.js": false,
         "15.2.3.6-4-197.js": false,
         "15.2.3.6-3-149-1.js": false,
         "15.2.3.6-3-175-1.js": false,
-        "15.2.3.6-3-173-1.js": false,
-        "15.2.3.6-4-293-4.js": false
+        "15.2.3.6-3-173-1.js": false
       },
       "fromEntries": {
         "uses-keys-not-iterator.js": false
-      },
-      "seal": {
-        "symbol-object-contains-symbol-properties-strict.js": false
       },
       "internals": {
         "DefineOwnProperty": {
           "consistent-value-function-arguments.js": false,
           "consistent-value-function-caller.js": false
         }
-      },
-      "preventExtensions": {
-        "symbol-object-contains-symbol-properties-strict.js": false
       },
       "hasOwn": {
         "hasown_own_getter_and_setter.js": false,
@@ -2091,28 +1999,16 @@
           }
         },
         "Delete": {
-          "key-is-out-of-bounds-strict.js": false,
-          "key-is-not-numeric-index-strict.js": false,
           "detached-buffer-key-is-not-numeric-index.js": false,
-          "key-is-not-minus-zero-strict.js": false,
-          "indexed-value-sab-strict.js": false,
-          "key-is-not-canonical-index-strict.js": false,
           "detached-buffer-realm.js": false,
           "infinity-detached-buffer.js": false,
           "detached-buffer-key-is-symbol.js": false,
-          "indexed-value-ab-strict.js": false,
           "detached-buffer.js": false,
           "BigInt": {
-            "key-is-out-of-bounds-strict.js": false,
-            "key-is-not-numeric-index-strict.js": false,
             "detached-buffer-key-is-not-numeric-index.js": false,
-            "key-is-not-minus-zero-strict.js": false,
-            "indexed-value-sab-strict.js": false,
-            "key-is-not-canonical-index-strict.js": false,
             "detached-buffer-realm.js": false,
             "infinity-detached-buffer.js": false,
             "detached-buffer-key-is-symbol.js": false,
-            "indexed-value-ab-strict.js": false,
             "detached-buffer.js": false
           }
         },
@@ -2177,12 +2073,6 @@
           "integer-indexes-resizable-array-buffer-auto.js": false
         }
       },
-      "from": {
-        "BigInt": {
-          "mapfn-this-without-thisarg-strict.js": false
-        },
-        "mapfn-this-without-thisarg-strict.js": false
-      },
       "ctors-bigint": {
         "object-arg": {
           "proto-from-ctor-realm.js": false
@@ -2236,16 +2126,7 @@
         }
       }
     },
-    "global": {
-      "10.2.1.1.3-4-16-s.js": false,
-      "10.2.1.1.3-4-18-s.js": false
-    },
     "Set": {
-      "prototype": {
-        "forEach": {
-          "this-strict.js": false
-        }
-      },
       "proto-from-ctor-realm.js": false
     },
     "Error": {
@@ -2514,19 +2395,6 @@
   },
   "language": {
     "literals": {
-      "numeric": {
-        "legacy-octal-integer-strict.js": false,
-        "non-octal-decimal-integer-strict.js": false,
-        "legacy-octal-integery-07-strict.js": false,
-        "7.8.3-3gs.js": false,
-        "7.8.3-1gs.js": false,
-        "legacy-octal-integery-01-strict.js": false,
-        "7.8.3-2gs.js": false,
-        "legacy-octal-integery-010-strict.js": false,
-        "legacy-octal-integery-06-strict.js": false,
-        "legacy-octal-integery-005-strict.js": false,
-        "legacy-octal-integery-000-strict.js": false
-      },
       "regexp": {
         "u-invalid-optional-negative-lookbehind.js": false,
         "u-unicode-esc-bounds.js": false,
@@ -2612,14 +2480,6 @@
           "invalid-unterminated-groupspecifier-u.js": false
         },
         "u-invalid-range-negative-lookahead.js": false
-      },
-      "string": {
-        "legacy-octal-escape-sequence-strict.js": false,
-        "S7.8.4_A4.3_T2.js": false,
-        "legacy-non-octal-escape-sequence-8-strict.js": false,
-        "legacy-non-octal-escape-sequence-9-strict.js": false,
-        "S7.8.4_A4.3_T1.js": false,
-        "legacy-non-octal-escape-sequence-strict.js": false
       }
     },
     "arguments-object": {
@@ -2629,17 +2489,13 @@
       "cls-decl-async-gen-meth-args-trailing-comma-multiple.js": false,
       "cls-decl-async-private-gen-meth-static-args-trailing-comma-multiple.js": false,
       "cls-expr-async-gen-meth-static-args-trailing-comma-null.js": false,
-      "10.6-13-c-1-s.js": false,
-      "10.6-13-c-3-s.js": false,
       "cls-decl-async-gen-meth-args-trailing-comma-null.js": false,
       "cls-expr-async-gen-meth-args-trailing-comma-multiple.js": false,
       "async-gen-named-func-expr-args-trailing-comma-undefined.js": false,
-      "10.6-10-c-ii-1-s.js": false,
       "cls-expr-async-private-gen-meth-static-args-trailing-comma-null.js": false,
       "cls-decl-async-private-gen-meth-args-trailing-comma-null.js": false,
       "unmapped": {
-        "Symbol.iterator.js": false,
-        "via-strict.js": false
+        "Symbol.iterator.js": false
       },
       "cls-decl-async-gen-func-args-trailing-comma-spread-operator.js": false,
       "cls-expr-async-gen-func-args-trailing-comma-multiple.js": false,
@@ -2655,7 +2511,6 @@
       "async-gen-named-func-expr-args-trailing-comma-spread-operator.js": false,
       "cls-expr-async-gen-func-args-trailing-comma-spread-operator.js": false,
       "cls-decl-async-gen-meth-static-args-trailing-comma-undefined.js": false,
-      "10.5-7-b-1-s.js": false,
       "async-gen-meth-args-trailing-comma-spread-operator.js": false,
       "cls-decl-async-private-gen-meth-args-trailing-comma-spread-operator.js": false,
       "cls-decl-async-gen-meth-static-args-trailing-comma-spread-operator.js": false,
@@ -2669,9 +2524,7 @@
       "async-gen-named-func-expr-args-trailing-comma-multiple.js": false,
       "cls-decl-async-gen-meth-args-trailing-comma-single-args.js": false,
       "cls-decl-async-gen-func-args-trailing-comma-undefined.js": false,
-      "10.6-2gs.js": false,
       "cls-expr-async-gen-func-args-trailing-comma-undefined.js": false,
-      "10.5-1-s.js": false,
       "cls-expr-async-gen-meth-args-trailing-comma-undefined.js": false,
       "cls-decl-async-private-gen-meth-args-trailing-comma-single-args.js": false,
       "cls-expr-async-gen-meth-static-args-trailing-comma-single-args.js": false,
@@ -2683,12 +2536,10 @@
       "cls-expr-async-private-gen-meth-static-args-trailing-comma-undefined.js": false,
       "cls-expr-async-private-gen-meth-static-args-trailing-comma-spread-operator.js": false,
       "cls-expr-async-private-gen-meth-static-args-trailing-comma-multiple.js": false,
-      "10.6-14-c-4-s.js": false,
       "cls-decl-async-private-gen-meth-args-trailing-comma-multiple.js": false,
       "cls-decl-async-private-gen-meth-static-args-trailing-comma-spread-operator.js": false,
       "cls-decl-async-private-gen-meth-static-args-trailing-comma-single-args.js": false,
       "cls-decl-async-gen-func-args-trailing-comma-single-args.js": false,
-      "10.5-1gs.js": false,
       "cls-decl-async-gen-func-args-trailing-comma-null.js": false,
       "cls-decl-async-gen-meth-static-args-trailing-comma-multiple.js": false,
       "cls-decl-async-gen-meth-static-args-trailing-comma-single-args.js": false,
@@ -2706,16 +2557,12 @@
       "script-decl-lex-lex.js": false,
       "script-decl-func.js": false,
       "script-decl-func-err-non-extensible.js": false,
-      "yield-strict.js": false,
       "script-decl-func-dups.js": false,
-      "block-decl-strict.js": false,
       "script-decl-var.js": false,
       "script-decl-lex-var.js": false,
       "script-decl-func-err-non-configurable.js": false,
-      "switch-dflt-decl-strict.js": false,
       "script-decl-lex-deletion.js": false,
-      "script-decl-var-collision.js": false,
-      "switch-case-decl-strict.js": false
+      "script-decl-var-collision.js": false
     },
     "module-code": {
       "instn-named-bndng-dflt-star.js": false,
@@ -3122,50 +2969,27 @@
       },
       "tagged-template": {
         "cache-realm.js": false,
-        "call-expression-context-strict.js": false,
         "tco-member.js": false,
-        "template-object-frozen-strict.js": false,
         "tco-call.js": false
       },
       "compound-assignment": {
         "S11.13.2_A7.1_T4.js": false,
         "S11.13.2_A5.8_T3.js": false,
-        "mod-eval-strict.js": false,
-        "11.13.2-46-s.js": false,
-        "11.13.2-53-s.js": false,
         "S11.13.2_A5.8_T1.js": false,
         "S11.13.2_A5.1_T1.js": false,
-        "11.13.2-24-s.js": false,
         "S11.13.2_A6.2_T1.js": false,
-        "11.13.2-41-s.js": false,
-        "11.13.2-37-s.js": false,
-        "11.13.2-28-s.js": false,
-        "xor-arguments-strict.js": false,
         "S11.13.2_A6.6_T1.js": false,
-        "11.13.2-42-s.js": false,
         "S11.13.2_A5.7_T3.js": false,
-        "11.13.2-26-s.js": false,
         "S11.13.2_A7.11_T4.js": false,
         "S11.13.2_A5.7_T1.js": false,
-        "div-arguments-strict.js": false,
         "S11.13.2_A6.10_T1.js": false,
         "S11.13.2_A6.5_T1.js": false,
         "S11.13.2_A5.7_T2.js": false,
-        "11.13.2-54-s.js": false,
         "S11.13.2_A5.5_T1.js": false,
-        "srshift-eval-strict.js": false,
-        "11.13.2-43-s.js": false,
         "S11.13.2_A7.5_T4.js": false,
-        "and-arguments-strict.js": false,
-        "11.13.2-6-1gs.js": false,
-        "add-eval-strict.js": false,
         "S11.13.2_A5.10_T3.js": false,
         "S11.13.2_A7.2_T4.js": false,
-        "11.13.2-34-s.js": false,
-        "sub-arguments-strict.js": false,
         "S11.13.2_A6.9_T1.js": false,
-        "and-eval-strict.js": false,
-        "sub-eval-strict.js": false,
         "S11.13.2_A5.5_T3.js": false,
         "S11.13.2_A5.9_T1.js": false,
         "S11.13.2_A6.4_T1.js": false,
@@ -3173,69 +2997,34 @@
         "S11.13.2_A5.1_T3.js": false,
         "S11.13.2_A5.2_T1.js": false,
         "S11.13.2_A5.11_T2.js": false,
-        "lshift-arguments-strict.js": false,
         "S11.13.2_A6.8_T1.js": false,
-        "11.13.2-30-s.js": false,
-        "11.13.2-40-s.js": false,
         "S11.13.2_A6.7_T1.js": false,
         "S11.13.2_A7.6_T4.js": false,
-        "11.13.2-29-s.js": false,
-        "11.13.2-48-s.js": false,
-        "mult-arguments-strict.js": false,
-        "srshift-arguments-strict.js": false,
-        "11.13.2-39-s.js": false,
-        "11.13.2-51-s.js": false,
         "S11.13.2_A5.11_T3.js": false,
         "S11.13.2_A7.9_T4.js": false,
         "S11.13.2_A5.1_T2.js": false,
-        "urshift-eval-strict.js": false,
         "S11.13.2_A5.6_T2.js": false,
         "S11.13.2_A5.9_T2.js": false,
-        "11.13.2-38-s.js": false,
         "S11.13.2_A7.7_T4.js": false,
         "S11.13.2_A6.11_T1.js": false,
         "S11.13.2_A5.3_T2.js": false,
-        "div-eval-strict.js": false,
         "S11.13.2_A7.3_T4.js": false,
-        "11.13.2-44-s.js": false,
-        "mult-eval-strict.js": false,
-        "11.13.2-32-s.js": false,
         "S11.13.2_A5.8_T2.js": false,
-        "lshift-eval-strict.js": false,
-        "11.13.2-35-s.js": false,
-        "or-arguments-strict.js": false,
         "S11.13.2_A5.2_T3.js": false,
-        "11.13.2-25-s.js": false,
-        "11.13.2-36-s.js": false,
-        "or-eval-strict.js": false,
-        "11.13.2-27-s.js": false,
         "S11.13.2_A5.6_T1.js": false,
-        "11.13.2-50-s.js": false,
         "S11.13.2_A7.4_T4.js": false,
-        "11.13.2-31-s.js": false,
         "S11.13.2_A5.5_T2.js": false,
         "S11.13.2_A5.6_T3.js": false,
-        "11.13.2-55-s.js": false,
-        "11.13.2-45-s.js": false,
-        "11.13.2-33-s.js": false,
-        "11.13.2-49-s.js": false,
         "S11.13.2_A5.2_T2.js": false,
-        "11.13.2-52-s.js": false,
         "S11.13.2_A5.4_T2.js": false,
         "S11.13.2_A7.8_T4.js": false,
         "S11.13.2_A6.3_T1.js": false,
-        "add-arguments-strict.js": false,
-        "xor-eval-strict.js": false,
-        "urshift-arguments-strict.js": false,
         "S11.13.2_A6.1_T1.js": false,
         "S11.13.2_A5.9_T3.js": false,
         "S11.13.2_A5.10_T1.js": false,
         "S11.13.2_A5.11_T1.js": false,
-        "11.13.2-47-s.js": false,
-        "11.13.2-23-s.js": false,
         "S11.13.2_A5.3_T3.js": false,
         "S11.13.2_A5.4_T3.js": false,
-        "mod-arguments-strict.js": false,
         "S11.13.2_A7.10_T4.js": false,
         "S11.13.2_A5.4_T1.js": false,
         "S11.13.2_A5.3_T1.js": false
@@ -3259,11 +3048,9 @@
         "eval-var-scope-syntax-err.js": false,
         "dflt-params-ref-later.js": false,
         "dflt-params-abrupt.js": false,
-        "early-errors-arrow-arguments-in-formal-parameters.js": false,
         "try-return-finally-return.js": false,
         "try-reject-finally-throw.js": false,
         "try-throw-finally-reject.js": false,
-        "early-errors-arrow-eval-in-formal-parameters.js": false,
         "forbidden-ext": {
           "b1": {
             "async-arrow-function-forbidden-ext-direct-access-prop-caller.js": false,
@@ -3281,9 +3068,6 @@
       "async-generator": {
         "named-dflt-params-trailing-comma.js": false,
         "named-yield-identifier-non-strict.js": false,
-        "early-errors-expression-eval-in-formal-parameters.js": false,
-        "early-errors-expression-binding-identifier-arguments.js": false,
-        "early-errors-expression-binding-identifier-eval.js": false,
         "dflt-params-ref-prior.js": false,
         "named-yield-star-getiter-async-returns-undefined-throw.js": false,
         "named-yield-star-next-call-returns-abrupt.js": false,
@@ -3301,7 +3085,6 @@
         "named-yield-star-next-not-callable-symbol-throw.js": false,
         "named-yield-promise-reject-next-for-await-of-sync-iterator.js": false,
         "yield-star-next-then-non-callable-symbol-fulfillpromise.js": false,
-        "early-errors-expression-arguments-in-formal-parameters.js": false,
         "yield-promise-reject-next-for-await-of-async-iterator.js": false,
         "named-yield-promise-reject-next-for-await-of-async-iterator.js": false,
         "named-yield-star-async-next.js": false,
@@ -3343,7 +3126,6 @@
         "yield-star-next-not-callable-boolean-throw.js": false,
         "yield-identifier-spread-non-strict.js": false,
         "expression-await-promise-as-yield-operand.js": false,
-        "named-yield-identifier-spread-strict.js": false,
         "yield-star-next-not-callable-number-throw.js": false,
         "yield-spread-obj.js": false,
         "yield-star-next-call-done-get-abrupt.js": false,
@@ -3379,7 +3161,6 @@
         "named-yield-star-getiter-sync-returns-abrupt.js": false,
         "named-yield-spread-obj.js": false,
         "named-params-trailing-comma-multiple.js": false,
-        "yield-identifier-spread-strict.js": false,
         "yield-star-sync-return.js": false,
         "yield-star-getiter-sync-not-callable-boolean-throw.js": false,
         "named-yield-star-next-then-non-callable-undefined-fulfillpromise.js": false,
@@ -3392,7 +3173,6 @@
         "yield-star-getiter-async-return-method-is-null.js": false,
         "eval-body-proto-realm.js": false,
         "expression-await-thenable-as-yield-operand.js": false,
-        "named-yield-identifier-strict.js": false,
         "yield-star-next-then-non-callable-number-fulfillpromise.js": false,
         "named-yield-star-getiter-async-undefined-sync-get-abrupt.js": false,
         "named-yield-star-next-then-non-callable-symbol-fulfillpromise.js": false,
@@ -3415,7 +3195,6 @@
         "named-yield-star-getiter-sync-returns-null-throw.js": false,
         "yield-identifier-non-strict.js": false,
         "named-unscopables-with.js": false,
-        "yield-identifier-strict.js": false,
         "named-yield-star-sync-return.js": false,
         "named-yield-star-next-then-non-callable-boolean-fulfillpromise.js": false,
         "expression-yield-star-before-newline.js": false,
@@ -3724,27 +3503,13 @@
         "yield-star-getiter-sync-returns-string-throw.js": false
       },
       "super": {
-        "prop-expr-obj-ref-strict.js": false,
-        "prop-dot-obj-ref-strict.js": false,
         "realm.js": false
       },
       "assignment": {
-        "11.13.1-4-29gs.js": false,
-        "11.13.1-4-6-s.js": false,
-        "11.13.1-4-3-s.js": false,
-        "11.13.1-2-s.js": false,
         "S11.13.1_A6_T1.js": false,
-        "11.13.1-3-s.js": false,
-        "11.13.1-1-s.js": false,
-        "11.13.1-4-28gs.js": false,
         "fn-name-lhs-cover.js": false,
-        "11.13.1-4-14-s.js": false,
         "S11.13.1_A5_T3.js": false,
-        "11.13.1-4-27-s.js": false,
-        "id-eval-strict.js": false,
         "S11.13.1_A6_T2.js": false,
-        "id-arguments-strict.js": false,
-        "8.14.4-8-b_2.js": false,
         "S11.13.1_A7_T3.js": false,
         "destructuring": {
           "keyed-destructuring-property-reference-target-evaluation-order.js": false,
@@ -3752,37 +3517,7 @@
         },
         "S11.13.1_A5_T1.js": false,
         "S11.13.1_A5_T2.js": false,
-        "S11.13.1_A6_T3.js": false,
-        "dstr": {
-          "array-elem-target-yield-invalid.js": false,
-          "obj-id-init-yield-ident-invalid.js": false,
-          "obj-id-init-simple-strict.js": false,
-          "obj-id-put-unresolvable-strict.js": false,
-          "syntax-error-ident-ref-package-escaped.js": false,
-          "syntax-error-ident-ref-let-escaped.js": false,
-          "array-elem-nested-obj-yield-ident-invalid.js": false,
-          "syntax-error-ident-ref-implements-escaped.js": false,
-          "syntax-error-ident-ref-interface-escaped.js": false,
-          "obj-id-identifier-yield-ident-invalid.js": false,
-          "syntax-error-ident-ref-public-escaped.js": false,
-          "array-rest-put-unresolvable-strict.js": false,
-          "obj-prop-nested-obj-yield-ident-invalid.js": false,
-          "obj-prop-put-unresolvable-strict.js": false,
-          "syntax-error-ident-ref-private-escaped.js": false,
-          "array-rest-nested-obj-yield-ident-invalid.js": false,
-          "array-elem-put-unresolvable-strict.js": false,
-          "array-rest-nested-array-yield-ident-invalid.js": false,
-          "obj-prop-elem-target-yield-ident-invalid.js": false,
-          "array-elem-target-simple-strict.js": false,
-          "syntax-error-ident-ref-protected-escaped.js": false,
-          "obj-prop-nested-array-yield-ident-invalid.js": false,
-          "syntax-error-ident-ref-static-escaped.js": false,
-          "obj-prop-elem-init-yield-ident-invalid.js": false,
-          "array-elem-nested-array-yield-ident-invalid.js": false,
-          "array-rest-yield-ident-invalid.js": false,
-          "obj-id-simple-strict.js": false,
-          "array-elem-init-yield-ident-invalid.js": false
-        }
+        "S11.13.1_A6_T3.js": false
       },
       "logical-and": {
         "tco-right.js": false
@@ -3794,7 +3529,6 @@
         "eval-spread.js": false,
         "tco-cross-realm-fun-call.js": false,
         "tco-cross-realm-class-derived-construct.js": false,
-        "eval-strictness-inherit-strict.js": false,
         "eval-realm-indirect.js": false,
         "tco-non-eval-function.js": false,
         "tco-non-eval-global.js": false,
@@ -3811,19 +3545,12 @@
         "member-expression-async-this.js": false
       },
       "assignmenttargettype": {
-        "parenthesized-identifierreference-arguments-strict.js": false,
         "parenthesized-callexpression-arguments.js": false,
-        "direct-callexpression-arguments.js": false,
-        "direct-identifierreference-arguments-strict.js": false,
-        "direct-identifierreference-eval-strict.js": false,
-        "parenthesized-identifierreference-eval-strict.js": false
+        "direct-callexpression-arguments.js": false
       },
       "postfix-increment": {
         "S11.3.1_A5_T3.js": false,
-        "arguments.js": false,
         "S11.3.1_A6_T3.js": false,
-        "11.3.1-2-1gs.js": false,
-        "eval.js": false,
         "S11.3.1_A5_T2.js": false,
         "S11.3.1_A5_T1.js": false
       },
@@ -3947,7 +3674,6 @@
         "2nd-param-yield-expr.js": false,
         "2nd-param-assert-enumeration.js": false,
         "eval-rqstd-once.js": false,
-        "2nd-param-yield-ident-invalid.js": false,
         "custom-primitive.js": false,
         "eval-export-dflt-cls-name-meth.js": false,
         "reuse-namespace-object-from-script.js": false,
@@ -4225,37 +3951,26 @@
       "prefix-increment": {
         "S11.4.4_A5_T1.js": false,
         "S11.4.4_A6_T3.js": false,
-        "arguments.js": false,
-        "eval.js": false,
         "S11.4.4_A5_T3.js": false,
         "S11.4.4_A5_T2.js": false
       },
       "in": {
-        "private-field-rhs-await-present.js": false,
-        "rhs-yield-absent-strict.js": false
+        "private-field-rhs-await-present.js": false
       },
       "new": {
         "non-ctor-err-realm.js": false
       },
       "prefix-decrement": {
         "S11.4.5_A6_T3.js": false,
-        "arguments.js": false,
-        "eval.js": false,
         "S11.4.5_A5_T3.js": false,
         "S11.4.5_A5_T1.js": false,
-        "11.4.5-2-2gs.js": false,
         "S11.4.5_A5_T2.js": false
       },
       "object": {
-        "getter-body-strict-outside.js": false,
         "cpn-obj-lit-computed-property-name-from-await-expression.js": false,
         "ident-name-prop-name-literal-await-static-init.js": false,
         "__proto__-fn-name.js": false,
-        "setter-param-eval-strict-outside.js": false,
         "identifier-shorthand-static-init-await-valid.js": false,
-        "setter-param-arguments-strict-outside.js": false,
-        "setter-body-strict-outside.js": false,
-        "11.1.5-1gs.js": false,
         "method-definition": {
           "async-gen-yield-star-expr-abrupt.js": false,
           "async-gen-yield-promise-reject-next-for-await-of-sync-iterator.js": false,
@@ -4294,7 +4009,6 @@
           "async-gen-meth-dflt-params-trailing-comma.js": false,
           "async-gen-yield-star-getiter-async-returns-null-throw.js": false,
           "async-gen-yield-promise-reject-next-for-await-of-async-iterator.js": false,
-          "early-errors-object-method-arguments-in-formal-parameters.js": false,
           "async-gen-yield-star-next-then-returns-abrupt.js": false,
           "async-gen-yield-star-getiter-async-returns-undefined-throw.js": false,
           "async-gen-meth-params-trailing-comma-multiple.js": false,
@@ -4317,7 +4031,6 @@
           "async-gen-yield-spread-arr-multiple.js": false,
           "static-init-await-reference-accessor.js": false,
           "async-gen-yield-promise-reject-next-catch.js": false,
-          "async-gen-yield-identifier-spread-strict.js": false,
           "async-gen-yield-spread-obj.js": false,
           "async-gen-yield-star-next-then-non-callable-object-fulfillpromise.js": false,
           "async-gen-yield-star-getiter-sync-returns-undefined-throw.js": false,
@@ -4330,12 +4043,9 @@
           "async-gen-yield-identifier-spread-non-strict.js": false,
           "async-gen-yield-star-next-call-returns-abrupt.js": false,
           "async-gen-yield-star-next-then-non-callable-string-fulfillpromise.js": false,
-          "gen-yield-identifier-strict.js": false,
           "async-meth-dflt-params-ref-self.js": false,
-          "gen-yield-identifier-spread-strict.js": false,
           "async-gen-yield-star-next-not-callable-number-throw.js": false,
           "async-gen-yield-star-getiter-sync-not-callable-symbol-throw.js": false,
-          "async-gen-yield-identifier-strict.js": false,
           "async-meth-dflt-params-arg-val-undefined.js": false,
           "static-init-await-reference-generator.js": false,
           "async-meth-eval-var-scope-syntax-err.js": false,
@@ -4370,7 +4080,6 @@
           "async-gen-yield-star-next-not-callable-boolean-throw.js": false,
           "async-gen-yield-star-next-not-callable-undefined-throw.js": false,
           "async-returns-async-function-returns-newtarget.js": false,
-          "early-errors-object-method-eval-in-formal-parameters.js": false,
           "async-gen-yield-star-getiter-async-not-callable-number-throw.js": false,
           "async-super-call-param.js": false,
           "async-gen-yield-star-getiter-async-not-callable-object-throw.js": false,
@@ -4512,16 +4221,8 @@
       "generators": {
         "static-init-await-reference.js": false,
         "generator-created-after-decl-inst.js": false,
-        "named-yield-identifier-spread-strict.js": false,
-        "scope-name-var-open-strict.js": false,
-        "yield-identifier-spread-strict.js": false,
         "eval-body-proto-realm.js": false,
-        "named-yield-identifier-strict.js": false,
-        "named-strict-error-reassign-fn-name-in-body-in-arrow.js": false,
         "static-init-await-binding.js": false,
-        "named-strict-error-reassign-fn-name-in-body-in-eval.js": false,
-        "named-strict-error-reassign-fn-name-in-body.js": false,
-        "yield-identifier-strict.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
@@ -4532,29 +4233,16 @@
         "tco-pos-undefined.js": false
       },
       "function": {
-        "param-duplicated-strict-1.js": false,
         "static-init-await-reference.js": false,
-        "name-arguments-strict.js": false,
-        "scope-name-var-open-strict.js": false,
-        "named-strict-error-reassign-fn-name-in-body-in-arrow.js": false,
         "static-init-await-binding.js": false,
-        "named-strict-error-reassign-fn-name-in-body-in-eval.js": false,
-        "named-strict-error-reassign-fn-name-in-body.js": false,
-        "param-duplicated-strict-3.js": false,
-        "param-dflt-yield-strict.js": false,
-        "name-eval-strict.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
-        },
-        "param-duplicated-strict-2.js": false
+        }
       },
       "async-function": {
         "named-dflt-params-trailing-comma.js": false,
-        "early-errors-expression-eval-in-formal-parameters.js": false,
         "try-reject-finally-reject.js": false,
-        "early-errors-expression-binding-identifier-arguments.js": false,
-        "early-errors-expression-binding-identifier-eval.js": false,
         "named-reassign-fn-name-in-body-in-arrow.js": false,
         "named-returns-async-arrow.js": false,
         "named-reassign-fn-name-in-body.js": false,
@@ -4627,38 +4315,12 @@
       "postfix-decrement": {
         "S11.3.2_A5_T2.js": false,
         "S11.3.2_A6_T3.js": false,
-        "arguments.js": false,
-        "eval.js": false,
         "S11.3.2_A5_T1.js": false,
         "S11.3.2_A5_T3.js": false
       },
-      "yield": {
-        "formal-parameters-after-reassignment-strict.js": false
-      },
       "arrow-function": {
-        "syntax": {
-          "early-errors": {
-            "arrowparameters-cover-no-yield.js": false,
-            "arrowparameters-bindingidentifier-identifier-strict-futurereservedword.js": false,
-            "arrowparameters-bindingidentifier-no-arguments.js": false,
-            "arrowparameters-cover-no-arguments.js": false,
-            "arrowparameters-bindingidentifier-no-yield.js": false,
-            "arrowparameters-cover-no-eval.js": false,
-            "arrowparameters-bindingidentifier-no-eval.js": false
-          }
-        },
-        "param-dflt-yield-id-strict.js": false,
-        "strict.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
-          "syntax-error-ident-ref-package-escaped.js": false,
-          "syntax-error-ident-ref-let-escaped.js": false,
-          "syntax-error-ident-ref-implements-escaped.js": false,
-          "syntax-error-ident-ref-interface-escaped.js": false,
-          "syntax-error-ident-ref-public-escaped.js": false,
-          "syntax-error-ident-ref-private-escaped.js": false,
-          "syntax-error-ident-ref-protected-escaped.js": false,
-          "syntax-error-ident-ref-static-escaped.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
         }
       },
@@ -4668,33 +4330,6 @@
       "conditional": {
         "tco-pos.js": false,
         "tco-cond.js": false
-      },
-      "logical-assignment": {
-        "lgcl-or-assignment-operator-non-extensible.js": false,
-        "lgcl-nullish-assignment-operator-non-writeable-put.js": false,
-        "lgcl-nullish-assignment-operator-non-extensible.js": false,
-        "lgcl-and-assignment-operator-non-writeable-put.js": false,
-        "lgcl-and-assignment-operator-no-set-put.js": false,
-        "lgcl-or-assignment-operator-non-writeable-put.js": false,
-        "lgcl-nullish-eval-strict.js": false,
-        "lgcl-or-arguments-strict.js": false,
-        "lgcl-or-eval-strict.js": false,
-        "lgcl-and-eval-strict.js": false,
-        "lgcl-nullish-arguments-strict.js": false,
-        "lgcl-or-assignment-operator-no-set-put.js": false,
-        "lgcl-nullish-assignment-operator-no-set-put.js": false,
-        "lgcl-and-arguments-strict.js": false
-      },
-      "delete": {
-        "identifier-strict-recursive.js": false,
-        "11.4.1-4.a-3-s.js": false,
-        "identifier-strict.js": false,
-        "11.4.4-4.a-3-s.js": false,
-        "11.4.1-4.a-8-s.js": false,
-        "11.4.1-4-a-1-s.js": false,
-        "11.4.1-4.a-9-s.js": false,
-        "11.4.1-4-a-2-s.js": false,
-        "11.4.1-5-a-27-s.js": false
       },
       "new.target": {
         "unary-expr.js": false
@@ -5832,9 +5467,6 @@
         }
       }
     },
-    "identifiers": {
-      "val-yield-strict.js": false
-    },
     "identifier-resolution": {
       "assign-to-global-undefined.js": false
     },
@@ -5853,29 +5485,9 @@
     "statements": {
       "for-of": {
         "dstr": {
-          "array-elem-target-yield-invalid.js": false,
-          "obj-id-init-yield-ident-invalid.js": false,
-          "obj-id-init-simple-strict.js": false,
-          "obj-id-put-unresolvable-strict.js": false,
-          "array-elem-nested-obj-yield-ident-invalid.js": false,
           "var-ary-init-iter-get-err-array-prototype.js": false,
-          "obj-id-identifier-yield-ident-invalid.js": false,
-          "array-rest-put-unresolvable-strict.js": false,
-          "obj-prop-nested-obj-yield-ident-invalid.js": false,
           "let-ary-init-iter-get-err-array-prototype.js": false,
-          "obj-prop-put-unresolvable-strict.js": false,
-          "array-rest-nested-obj-yield-ident-invalid.js": false,
-          "array-elem-put-unresolvable-strict.js": false,
-          "array-rest-nested-array-yield-ident-invalid.js": false,
-          "obj-prop-elem-target-yield-ident-invalid.js": false,
-          "array-elem-target-simple-strict.js": false,
-          "obj-prop-nested-array-yield-ident-invalid.js": false,
-          "obj-prop-elem-init-yield-ident-invalid.js": false,
-          "array-elem-nested-array-yield-ident-invalid.js": false,
-          "array-rest-yield-ident-invalid.js": false,
-          "const-ary-init-iter-get-err-array-prototype.js": false,
-          "obj-id-simple-strict.js": false,
-          "array-elem-init-yield-ident-invalid.js": false
+          "const-ary-init-iter-get-err-array-prototype.js": false
         }
       },
       "for-await-of": {
@@ -6101,7 +5713,6 @@
         "async-func-dstr-let-async-obj-ptrn-id-init-fn-name-fn.js": false,
         "async-func-dstr-let-ary-ptrn-elem-id-init-fn-name-class.js": false,
         "async-gen-decl-dstr-array-elision-val-array.js": false,
-        "async-func-decl-dstr-array-elem-target-yield-invalid.js": false,
         "async-func-decl-dstr-array-elem-init-fn-name-gen.js": false,
         "async-gen-dstr-var-obj-ptrn-prop-ary-trailing-comma.js": false,
         "async-func-dstr-const-obj-ptrn-id-init-throws.js": false,
@@ -6168,7 +5779,6 @@
         "async-gen-decl-dstr-obj-empty-obj.js": false,
         "async-gen-dstr-var-async-obj-ptrn-empty.js": false,
         "async-gen-decl-dstr-obj-id-init-order.js": false,
-        "async-func-decl-dstr-array-elem-nested-obj-yield-ident-invalid.js": false,
         "async-func-decl-dstr-array-rest-nested-obj.js": false,
         "async-func-dstr-var-async-ary-ptrn-elem-id-init-exhausted.js": false,
         "async-gen-dstr-let-obj-ptrn-list-err.js": false,
@@ -6322,7 +5932,6 @@
         "async-gen-dstr-let-async-ary-ptrn-elem-ary-rest-init.js": false,
         "async-gen-dstr-let-obj-ptrn-prop-obj-value-undef.js": false,
         "async-gen-dstr-let-obj-ptrn-id-init-fn-name-fn.js": false,
-        "async-func-decl-dstr-array-elem-nested-array-yield-ident-invalid.js": false,
         "async-gen-decl-dstr-obj-rest-number.js": false,
         "async-gen-decl-dstr-obj-rest-descriptors.js": false,
         "async-func-dstr-let-obj-ptrn-prop-id-trailing-comma.js": false,
@@ -6460,7 +6069,6 @@
         "async-gen-dstr-let-async-obj-ptrn-prop-ary-trailing-comma.js": false,
         "async-gen-dstr-var-obj-ptrn-id-init-throws.js": false,
         "async-gen-dstr-var-async-ary-ptrn-elem-ary-rest-iter.js": false,
-        "async-func-decl-dstr-array-elem-target-simple-strict.js": false,
         "async-func-dstr-let-async-ary-ptrn-rest-id-elision.js": false,
         "async-gen-dstr-var-ary-ptrn-elem-ary-elision-init.js": false,
         "async-gen-dstr-const-async-ary-ptrn-rest-id.js": false,
@@ -6996,7 +6604,6 @@
         "async-gen-dstr-var-ary-ptrn-elem-obj-val-undef.js": false,
         "async-func-dstr-var-async-ary-ptrn-elem-ary-elision-init.js": false,
         "async-func-decl-dstr-obj-prop-elem-init-evaluation.js": false,
-        "async-func-decl-dstr-array-elem-init-yield-ident-invalid.js": false,
         "async-func-decl-dstr-array-elision-val-string.js": false,
         "async-gen-dstr-var-async-obj-ptrn-id-init-skipped.js": false,
         "async-func-dstr-var-ary-ptrn-rest-obj-prop-id.js": false,
@@ -7026,87 +6633,18 @@
         "async-func-dstr-var-async-ary-ptrn-elem-ary-empty-init.js": false
       },
       "variable": {
-        "eval-strict-list-middle.js": false,
-        "arguments-fn-strict-list-final-init.js": false,
-        "12.2.1-1gs.js": false,
-        "12.2.1-7-s.js": false,
-        "arguments-fn-strict-single.js": false,
-        "eval-strict-list-final.js": false,
-        "12.2.1-4gs.js": false,
-        "arguments-strict-list-middle-init.js": false,
-        "arguments-fn-strict-list-middle-init.js": false,
-        "eval-strict-list-repeated.js": false,
-        "eval-strict-list-first-init.js": false,
-        "12.2.1-2-s.js": false,
-        "arguments-fn-strict-list-first-init.js": false,
-        "12.2.1-8-s.js": false,
-        "arguments-fn-strict-list-first.js": false,
-        "12.2.1-4-s.js": false,
-        "eval-strict-single.js": false,
-        "arguments-strict-single-init.js": false,
-        "12.2.1-19-s.js": false,
-        "arguments-strict-single.js": false,
-        "arguments-fn-strict-list-repeated.js": false,
-        "arguments-fn-strict-list-middle.js": false,
-        "id-eval-strict.js": false,
-        "eval-strict-list-final-init.js": false,
-        "arguments-strict-list-repeated.js": false,
-        "arguments-strict-list-first-init.js": false,
-        "arguments-strict-list-final-init.js": false,
-        "12.2.1-3-s.js": false,
-        "arguments-fn-strict-single-init.js": false,
-        "12.2.1-18-s.js": false,
-        "id-arguments-strict.js": false,
-        "arguments-strict-list-final.js": false,
-        "eval-strict-list-first.js": false,
-        "eval-strict-single-init.js": false,
         "static-init-await-binding-valid.js": false,
-        "eval-strict-list-middle-init.js": false,
-        "arguments-fn-strict-list-final.js": false,
-        "arguments-strict-list-first.js": false,
         "dstr": {
           "obj-ptrn-elem-id-static-init-await-valid.js": false,
           "ary-init-iter-get-err-array-prototype.js": false,
           "ary-ptrn-elem-id-static-init-await-valid.js": false
         },
-        "binding-resolution.js": false,
-        "arguments-strict-list-middle.js": false
+        "binding-resolution.js": false
       },
       "switch": {
-        "syntax": {
-          "redeclaration": {
-            "function-name-redeclaration-attempt-with-function.js": false
-          }
-        },
         "tco-dftl-body.js": false,
         "tco-case-body-dflt.js": false,
         "tco-case-body.js": false
-      },
-      "for-in": {
-        "var-eval-strict-init.js": false,
-        "var-arguments-strict-init.js": false,
-        "var-eval-strict.js": false,
-        "var-arguments-fn-strict-init.js": false,
-        "var-arguments-strict.js": false,
-        "var-arguments-fn-strict.js": false,
-        "dstr": {
-          "array-elem-target-yield-invalid.js": false,
-          "obj-id-init-yield-ident-invalid.js": false,
-          "obj-id-init-simple-strict.js": false,
-          "array-elem-nested-obj-yield-ident-invalid.js": false,
-          "obj-id-identifier-yield-ident-invalid.js": false,
-          "obj-prop-nested-obj-yield-ident-invalid.js": false,
-          "array-rest-nested-obj-yield-ident-invalid.js": false,
-          "array-rest-nested-array-yield-ident-invalid.js": false,
-          "obj-prop-elem-target-yield-ident-invalid.js": false,
-          "array-elem-target-simple-strict.js": false,
-          "obj-prop-nested-array-yield-ident-invalid.js": false,
-          "obj-prop-elem-init-yield-ident-invalid.js": false,
-          "array-elem-nested-array-yield-ident-invalid.js": false,
-          "array-rest-yield-ident-invalid.js": false,
-          "obj-id-simple-strict.js": false,
-          "array-elem-init-yield-ident-invalid.js": false
-        }
       },
       "async-generator": {
         "dflt-params-ref-prior.js": false,
@@ -7166,7 +6704,6 @@
         "yield-star-getiter-sync-returns-undefined-throw.js": false,
         "yield-star-next-then-non-callable-null-fulfillpromise.js": false,
         "yield-star-getiter-async-returns-string-throw.js": false,
-        "yield-identifier-spread-strict.js": false,
         "yield-star-sync-return.js": false,
         "yield-star-getiter-sync-not-callable-boolean-throw.js": false,
         "yield-star-async-from-sync-iterator-inaccessible.js": false,
@@ -7181,7 +6718,6 @@
         "yield-star-getiter-sync-returns-null-throw.js": false,
         "yield-return-then-getter-ticks.js": false,
         "yield-identifier-non-strict.js": false,
-        "yield-identifier-strict.js": false,
         "yield-spread-arr-multiple.js": false,
         "yield-star-getiter-async-returns-undefined-throw.js": false,
         "yield-star-getiter-sync-get-abrupt.js": false,
@@ -7336,47 +6872,21 @@
       "labeled": {
         "value-await-module-escaped.js": false,
         "value-await-module.js": false,
-        "value-yield-strict-escaped.js": false,
-        "tco.js": false,
-        "value-yield-strict.js": false,
-        "decl-fun-strict.js": false
+        "tco.js": false
       },
       "generators": {
         "generator-created-after-decl-inst.js": false,
-        "yield-identifier-spread-strict.js": false,
-        "yield-identifier-strict.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
         }
       },
       "function": {
-        "param-eval-strict.js": false,
-        "13.1-4gs.js": false,
-        "13.2-4-s.js": false,
-        "13.0-8-s.js": false,
-        "13.1-1gs.js": false,
-        "13.1-2-s.js": false,
-        "param-arguments-strict.js": false,
-        "13.0_4-5gs.js": false,
-        "param-duplicated-strict-1.js": false,
-        "13.1-4-s.js": false,
-        "name-arguments-strict.js": false,
-        "enable-strict-via-outer-script.js": false,
-        "13.1-13gs.js": false,
         "static-init-await-binding-valid.js": false,
-        "param-duplicated-strict-3.js": false,
-        "13.1-8gs.js": false,
-        "13.2-2-s.js": false,
-        "13.1-5gs.js": false,
-        "param-dflt-yield-strict.js": false,
-        "name-eval-strict.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
-        },
-        "13.2-19-b-3gs.js": false,
-        "param-duplicated-strict-2.js": false
+        }
       },
       "async-function": {
         "try-reject-finally-reject.js": false,
@@ -7384,20 +6894,17 @@
         "returns-async-arrow-returns-newtarget.js": false,
         "returns-async-function-returns-arguments-from-own-function.js": false,
         "params-trailing-comma-single.js": false,
-        "early-errors-declaration-binding-identifier-arguments.js": false,
         "try-throw-finally-throw.js": false,
         "evaluation-default-that-throws.js": false,
         "returns-async-arrow-returns-arguments-from-parent-function.js": false,
         "unscopables-with.js": false,
         "evaluation-body-that-returns.js": false,
         "try-return-finally-reject.js": false,
-        "early-errors-declaration-duplicate-parameters.js": false,
         "dflt-params-trailing-comma.js": false,
         "evaluation-unmapped-arguments.js": false,
         "unscopables-with-in-nested-fn.js": false,
         "evaluation-body-that-returns-after-await.js": false,
         "returns-async-arrow.js": false,
-        "early-errors-declaration-eval-in-formal-parameters.js": false,
         "returns-async-function.js": false,
         "params-trailing-comma-multiple.js": false,
         "dflt-params-ref-self.js": false,
@@ -7408,7 +6915,6 @@
         "try-reject-finally-return.js": false,
         "dflt-params-arg-val-undefined.js": false,
         "eval-var-scope-syntax-err.js": false,
-        "early-errors-declaration-binding-identifier-eval.js": false,
         "syntax-declaration.js": false,
         "dflt-params-ref-later.js": false,
         "dflt-params-abrupt.js": false,
@@ -7417,7 +6923,6 @@
         "try-throw-finally-reject.js": false,
         "returns-async-function-returns-newtarget.js": false,
         "evaluation-this-value-passed.js": false,
-        "early-errors-declaration-arguments-in-formal-parameters.js": false,
         "forbidden-ext": {
           "b1": {
             "async-func-decl-forbidden-ext-direct-access-prop-arguments.js": false,
@@ -7453,25 +6958,14 @@
         }
       },
       "let": {
-        "syntax": {
-          "identifier-let-allowed-as-lefthandside-expression-strict.js": false
-        },
         "static-init-await-binding-valid.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false
         }
       },
       "if": {
-        "if-fun-no-else-strict.js": false,
-        "if-fun-else-fun-strict.js": false,
         "tco-if-body.js": false,
-        "if-fun-else-stmt-strict.js": false,
-        "if-decl-else-decl-strict.js": false,
-        "if-decl-else-stmt-strict.js": false,
-        "tco-else-body.js": false,
-        "if-stmt-else-decl-strict.js": false,
-        "if-decl-no-else-strict.js": false,
-        "if-stmt-else-fun-strict.js": false
+        "tco-else-body.js": false
       },
       "while": {
         "tco-body.js": false
@@ -7480,25 +6974,16 @@
         "tco.js": false
       },
       "try": {
-        "catch-parameter-boundnames-restriction-arguments-eval-throws.js": false,
-        "catch-parameter-boundnames-restriction-eval-negative-early.js": false,
-        "catch-parameter-boundnames-restriction-eval-eval-throws.js": false,
         "tco-catch.js": false,
         "tco-finally.js": false,
         "tco-catch-finally.js": false,
         "static-init-await-binding-valid.js": false,
-        "catch-parameter-boundnames-restriction-arguments-negative-early.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false
         }
       },
       "with": {
-        "stict-script.js": false,
-        "unscopables-inc-dec.js": false,
-        "12.10.1-11gs.js": false,
-        "strict-fn-expr.js": false,
-        "strict-fn-method.js": false,
-        "12.10.1-10-s.js": false
+        "unscopables-inc-dec.js": false
       },
       "const": {
         "static-init-await-binding-valid.js": false,
@@ -8636,39 +8121,6 @@
         }
       }
     },
-    "function-code": {
-      "10.4.3-1-9-s.js": false,
-      "10.4.3-1-104.js": false,
-      "10.4.3-1-28-s.js": false,
-      "10.4.3-1-11gs.js": false,
-      "block-decl-onlystrict.js": false,
-      "switch-case-decl-onlystrict.js": false,
-      "10.4.3-1-9gs.js": false,
-      "10.4.3-1-11-s.js": false,
-      "10.4.3-1-30-s.js": false,
-      "switch-dflt-decl-onlystrict.js": false,
-      "10.4.3-1-7-s.js": false,
-      "10.4.3-1-32-s.js": false,
-      "10.4.3-1-106.js": false,
-      "10.4.3-1-33gs.js": false,
-      "10.4.3-1-31gs.js": false,
-      "S10.4.3_A1.js": false,
-      "10.4.3-1-28gs.js": false,
-      "10.4.3-1-27-s.js": false,
-      "10.4.3-1-33-s.js": false,
-      "10.4.3-1-32gs.js": false,
-      "10.4.3-1-34gs.js": false,
-      "10.4.3-1-34-s.js": false,
-      "10.4.3-1-35gs.js": false,
-      "10.4.3-1-29-s.js": false,
-      "10.4.3-1-35-s.js": false,
-      "10.4.3-1-27gs.js": false,
-      "10.4.3-1-17-s.js": false,
-      "10.4.3-1-30gs.js": false,
-      "10.4.3-1-29gs.js": false,
-      "10.4.3-1-31-s.js": false,
-      "10.4.3-1-7gs.js": false
-    },
     "computed-property-names": {
       "class": {
         "static": {
@@ -8685,24 +8137,19 @@
         "non-definable-function-with-variable.js": false
       },
       "direct": {
-        "var-env-var-strict-caller-3.js": false,
         "async-func-expr-named-fn-body-cntns-arguments-func-decl-declare-arguments-and-assign.js": false,
         "async-meth-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js": false,
         "async-func-decl-no-pre-existing-arguments-bindings-are-present-declare-arguments.js": false,
         "func-decl-no-pre-existing-arguments-bindings-are-present-declare-arguments.js": false,
         "async-func-expr-named-fn-body-cntns-arguments-var-bind-declare-arguments.js": false,
-        "var-env-lower-lex-strict-caller.js": false,
         "async-func-expr-nameless-fn-body-cntns-arguments-lex-bind-declare-arguments.js": false,
         "async-func-expr-nameless-fn-body-cntns-arguments-func-decl-declare-arguments.js": false,
         "async-gen-named-func-expr-fn-body-cntns-arguments-func-decl-declare-arguments.js": false,
-        "block-decl-onlystrict.js": false,
-        "switch-case-decl-onlystrict.js": false,
         "async-func-expr-named-a-preceding-parameter-is-named-arguments-declare-arguments.js": false,
         "gen-func-expr-named-fn-body-cntns-arguments-var-bind-declare-arguments.js": false,
         "async-func-expr-nameless-no-pre-existing-arguments-bindings-are-present-declare-arguments.js": false,
         "gen-func-expr-named-fn-body-cntns-arguments-func-decl-declare-arguments-and-assign.js": false,
         "async-gen-named-func-expr-fn-body-cntns-arguments-var-bind-declare-arguments.js": false,
-        "strict-caller-global.js": false,
         "async-func-expr-named-a-following-parameter-is-named-arguments-declare-arguments.js": false,
         "non-definable-function-with-function.js": false,
         "async-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js": false,
@@ -8731,8 +8178,6 @@
         "func-expr-no-pre-existing-arguments-bindings-are-present-declare-arguments.js": false,
         "async-gen-meth-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js": false,
         "gen-func-expr-nameless-no-pre-existing-arguments-bindings-are-present-declare-arguments.js": false,
-        "switch-dflt-decl-onlystrict.js": false,
-        "this-value-func-strict-caller.js": false,
         "gen-func-decl-no-pre-existing-arguments-bindings-are-present-declare-arguments-and-assign.js": false,
         "gen-func-expr-nameless-fn-body-cntns-arguments-var-bind-declare-arguments.js": false,
         "async-gen-named-func-expr-fn-body-cntns-arguments-func-decl-declare-arguments-and-assign.js": false,
@@ -8742,16 +8187,13 @@
         "gen-meth-fn-body-cntns-arguments-func-decl-declare-arguments.js": false,
         "gen-meth-fn-body-cntns-arguments-var-bind-declare-arguments.js": false,
         "gen-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js": false,
-        "var-env-gloabl-lex-strict-caller.js": false,
         "gen-func-expr-named-fn-body-cntns-arguments-lex-bind-declare-arguments.js": false,
-        "var-env-func-strict-caller.js": false,
         "func-expr-fn-body-cntns-arguments-var-bind-declare-arguments.js": false,
         "gen-func-expr-nameless-fn-body-cntns-arguments-func-decl-declare-arguments.js": false,
         "async-meth-fn-body-cntns-arguments-var-bind-declare-arguments.js": false,
         "gen-func-expr-named-no-pre-existing-arguments-bindings-are-present-declare-arguments-and-assign.js": false,
         "async-func-decl-a-preceding-parameter-is-named-arguments-declare-arguments-and-assign.js": false,
         "async-meth-no-pre-existing-arguments-bindings-are-present-declare-arguments.js": false,
-        "var-env-var-strict-caller.js": false,
         "async-meth-a-preceding-parameter-is-named-arguments-declare-arguments-and-assign.js": false,
         "async-gen-func-expr-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js": false,
         "async-gen-named-func-expr-no-pre-existing-arguments-bindings-are-present-declare-arguments.js": false,
@@ -8780,7 +8222,6 @@
         "async-gen-meth-fn-body-cntns-arguments-func-decl-declare-arguments.js": false,
         "async-gen-func-expr-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js": false,
         "async-gen-named-func-expr-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js": false,
-        "var-env-func-strict-caller-2.js": false,
         "gen-meth-no-pre-existing-arguments-bindings-are-present-declare-arguments-and-assign.js": false,
         "async-gen-func-expr-fn-body-cntns-arguments-lex-bind-declare-arguments.js": false,
         "async-gen-func-decl-fn-body-cntns-arguments-func-decl-declare-arguments-and-assign.js": false,
@@ -8808,7 +8249,6 @@
         "gen-func-expr-named-fn-body-cntns-arguments-func-decl-declare-arguments.js": false,
         "async-gen-func-decl-no-pre-existing-arguments-bindings-are-present-declare-arguments-and-assign.js": false,
         "async-func-decl-fn-body-cntns-arguments-func-decl-declare-arguments.js": false,
-        "var-env-var-strict-caller-2.js": false,
         "async-func-decl-a-following-parameter-is-named-arguments-declare-arguments-and-assign.js": false,
         "meth-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js": false,
         "func-expr-fn-body-cntns-arguments-func-decl-declare-arguments-and-assign.js": false,
@@ -8837,49 +8277,13 @@
         "meth-fn-body-cntns-arguments-var-bind-declare-arguments.js": false
       }
     },
-    "block-scope": {
-      "syntax": {
-        "redeclaration": {
-          "function-name-redeclaration-attempt-with-function.js": false
-        },
-        "function-declarations": {
-          "in-statement-position-if-expression-statement-else-statement.js": false,
-          "in-statement-position-if-expression-statement.js": false
-        }
-      }
-    },
-    "future-reserved-words": {
-      "interface-strict-escaped.js": false,
-      "interface-strict.js": false,
-      "implements-strict-escaped.js": false,
-      "package-strict.js": false,
-      "package-strict-escaped.js": false,
-      "let-strict-escaped.js": false,
-      "public-strict.js": false,
-      "protected-strict-escaped.js": false,
-      "static-strict-escaped.js": false,
-      "private-strict-escaped.js": false,
-      "yield-strict.js": false,
-      "private-strict.js": false,
-      "yield-strict-escaped.js": false,
-      "let-strict.js": false,
-      "protected-strict.js": false,
-      "implements-strict.js": false,
-      "static-strict.js": false,
-      "public-strict-escaped.js": false
-    },
     "reserved-words": {
       "await-module.js": false
     },
     "types": {
       "reference": {
         "put-value-prop-base-primitive-realm.js": false,
-        "8.7.2-3-s.js": false,
-        "8.7.2-4-s.js": false,
-        "get-value-prop-base-primitive-realm.js": false,
-        "8.7.2-1-s.js": false,
-        "8.7.2-5-s.js": false,
-        "8.7.2-3-a-1gs.js": false
+        "get-value-prop-base-primitive-realm.js": false
       }
     }
   }
