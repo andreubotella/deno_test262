@@ -24,5 +24,8 @@ jobs:
       - name: Print Deno version (for the record)
         run: deno --version
 
+      - name: Check the expectations file is sorted
+        run: ./scripts/sort_expectations.ts --check
+
       - name: Run test suite
         run: ./runner.ts --only-print-failures
