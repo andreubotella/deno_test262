@@ -1917,8 +1917,8 @@
       },
       "internals": {
         "DefineOwnProperty": {
-          "consistent-value-function-arguments.js": false,
-          "consistent-value-function-caller.js": false
+          "consistent-value-function-arguments.js": "strict",
+          "consistent-value-function-caller.js": "strict"
         }
       },
       "hasOwn": {
@@ -6886,7 +6886,8 @@
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
-        }
+        },
+        "13.2-30-s.js": "non-strict"
       },
       "async-function": {
         "try-reject-finally-reject.js": false,

@@ -9,8 +9,10 @@ import { parse as parseYaml } from "std/encoding/yaml.ts";
 
 // -----------------------------------------------------------------------------
 
-interface ExpectationFolder {
-  [file: string]: ExpectationFolder | boolean;
+type FileExpectation = boolean | "strict" | "non-strict";
+
+interface FolderExpectation {
+  [file: string]: FolderExpectation | FileExpectation;
 }
 
 type DifferenceRecord = {
@@ -65,7 +67,7 @@ async function runTest(
 
 async function processTest(
   test: string,
-  expected: boolean,
+  expected: FileExpectation,
   differences: DifferenceRecord,
   outputFlags: { quiet: boolean; onlyPrintFailures: boolean },
 ) {
@@ -115,6 +117,12 @@ async function processTest(
 
     numTotalInstances++;
 
+    const instanceExpected = expected === "strict"
+      ? addUseStrict
+      : expected === "non-strict"
+      ? !addUseStrict
+      : expected;
+
     const { success, stderr } = await runTest(test, {
       errorType: frontMatter.negative?.type,
       includes: frontMatter.includes ?? [],
@@ -125,7 +133,7 @@ async function processTest(
 
     if (
       !outputFlags.quiet &&
-      (!outputFlags.onlyPrintFailures || success !== expected)
+      (!outputFlags.onlyPrintFailures || success !== instanceExpected)
     ) {
       const instanceName = flags.includes("module")
         ? "module"
@@ -133,16 +141,16 @@ async function processTest(
         ? "strict"
         : "non-strict";
       const successOutput = success
-        ? (expected ? green("ok") : red("ok (expected fail)"))
-        : (expected ? red("failed") : yellow("failed (expected)"));
+        ? (instanceExpected ? green("ok") : red("ok (expected fail)"))
+        : (instanceExpected ? red("failed") : yellow("failed (expected)"));
       console.log("%s (%s) ... %s", test, instanceName, successOutput);
 
-      if (success !== expected) {
+      if (success !== instanceExpected) {
         console.error(stderr);
       }
     }
 
-    if (success != expected) {
+    if (success != instanceExpected) {
       instancesFailed.push(addUseStrict);
     }
   }
@@ -173,7 +181,7 @@ async function main() {
       & FlagArgs
       & { ["--"]: string[]; quiet: boolean; ["only-print-failures"]: boolean };
 
-  const expectations: ExpectationFolder = JSON.parse(
+  const expectations: FolderExpectation = JSON.parse(
     await Deno.readTextFile(EXPECTATION_FILE),
   );
 
@@ -198,16 +206,26 @@ async function main() {
     }
 
     const components = relativePath.split("/");
-    let folderExpectations: ExpectationFolder | undefined = expectations;
+    let folderExpectations: FolderExpectation | undefined = expectations;
     for (const component of components.slice(0, -1)) {
-      const newFolderExpectations: ExpectationFolder | boolean | undefined =
-        folderExpectations?.[component];
-      assert(typeof newFolderExpectations !== "boolean");
-      folderExpectations = newFolderExpectations;
+      // We use hasOwnProperty because some of the relevant components are
+      // things like "prototype", "constructor", etc. which are members of
+      // `Object.prototype`.
+      if (
+        folderExpectations !== undefined &&
+        Object.prototype.hasOwnProperty.call(folderExpectations, component)
+      ) {
+        const newFolderExpectations: FolderExpectation | FileExpectation =
+          folderExpectations[component];
+        assert(typeof newFolderExpectations === "object");
+        folderExpectations = newFolderExpectations;
+      } else {
+        folderExpectations = undefined;
+      }
     }
 
     const expected = folderExpectations?.[components.at(-1)!] ?? true;
-    assert(typeof expected === "boolean");
+    assert(typeof expected === "boolean" || typeof expected === "string");
 
     await processTest(relativePath, expected, differences, {
       quiet,
