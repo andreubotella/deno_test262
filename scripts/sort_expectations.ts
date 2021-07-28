@@ -43,7 +43,13 @@ async function main() {
       console.log(
         "Make sure to run `./scripts/sort_expectations.ts` without the --check flag.",
       );
-      Deno.exit(1);
+      if (Deno.env.get("CI") === "true") {
+        console.log(
+          "::error file=expectations.json::Expectations file is not sorted.",
+        );
+      } else {
+        Deno.exit(1);
+      }
     } else {
       console.log("Sorting it!");
       await Deno.writeTextFile(EXPECTATIONS_FILE, sortedJson);
