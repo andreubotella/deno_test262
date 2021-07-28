@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write --import-map=import_map.json
+#!/usr/bin/env -S deno run --allow-read --allow-write --allow-env --import-map=import_map.json
 
 import { parse as parseFlags } from "std/flags/mod.ts";
 import type {
