@@ -208,15 +208,20 @@ async function main() {
     const components = relativePath.split("/");
     let folderExpectations: FolderExpectation | undefined = expectations;
     for (const component of components.slice(0, -1)) {
-      const newFolderExpectations:
-        | FolderExpectation
-        | FileExpectation
-        | undefined = folderExpectations?.[component];
-      assert(
-        typeof newFolderExpectations === "object" ||
-          newFolderExpectations === undefined,
-      );
-      folderExpectations = newFolderExpectations;
+      // We use hasOwnProperty because some of the relevant components are
+      // things like "prototype", "constructor", etc. which are members of
+      // `Object.prototype`.
+      if (
+        folderExpectations !== undefined &&
+        Object.prototype.hasOwnProperty.call(folderExpectations, component)
+      ) {
+        const newFolderExpectations: FolderExpectation | FileExpectation =
+          folderExpectations[component];
+        assert(typeof newFolderExpectations === "object");
+        folderExpectations = newFolderExpectations;
+      } else {
+        folderExpectations = undefined;
+      }
     }
 
     const expected = folderExpectations?.[components.at(-1)!] ?? true;
