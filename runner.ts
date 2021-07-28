@@ -37,15 +37,6 @@ async function runTest(
     isAsync: boolean;
   },
 ): Promise<{ success: boolean; stderr: string }> {
-  const env: Record<string, string> = {
-    "TEST_FILE": test,
-  };
-  if (errorType !== undefined) env["ERROR_TYPE"] = errorType;
-  if (includes) env["INCLUDES"] = includes.join(",");
-  if (addUseStrict) env["USE_STRICT"] = "";
-  if (isModule) env["IS_MODULE"] = "";
-  if (isAsync) env["IS_ASYNC"] = "";
-
   const proc = Deno.run({
     cmd: [
       "deno",
@@ -54,7 +45,14 @@ async function runTest(
       "--allow-env",
       fromFileUrl(SETUP_SCRIPT),
     ],
-    env,
+    env: {
+      "TEST_FILE": test,
+      "ERROR_TYPE": errorType ?? "",
+      "INCLUDES": includes.join(","),
+      "USE_STRICT": addUseStrict ? "1" : "",
+      "IS_MODULE": isModule ? "1" : "",
+      "IS_ASYNC": isAsync ? "1" : "",
+    },
     stdout: "null",
     stderr: "piped",
     stdin: "null",
