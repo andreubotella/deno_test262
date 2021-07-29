@@ -4194,7 +4194,6 @@
             "returns-async-function-returns-newtarget.js": false,
             "returns-async-function.js": false
           },
-          "class-name-static-initializer-default-export.js": false,
           "multiple-definitions-rs-static-async-generator-method-privatename-identifier-alt.js": false,
           "multiple-definitions-rs-static-async-generator-method-privatename-identifier.js": false,
           "multiple-definitions-rs-static-async-method-privatename-identifier-alt.js": false,
