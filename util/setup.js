@@ -1,8 +1,16 @@
 (() => {
   // Make sure we control the only output.
-  const { Deno, console } = globalThis;
+  const { Deno, console, URL } = globalThis;
   delete globalThis.Deno;
   delete globalThis.console;
+  delete globalThis.URL;
+
+  const liftThis = (fn) => fn.call.bind(fn);
+
+  // Primordials
+  const PromiseResolve = Promise.resolve.bind(Promise);
+  const PromiseReject = Promise.reject.bind(Promise);
+  const PromisePrototypeThen = liftThis(Promise.prototype.then);
 
   // ---------------------------------------------------------------------------
 
@@ -63,54 +71,75 @@
     }
   }
 
-  // TODO: async, module
+  // TODO: async
 
-  const mainScriptUrl = new URL(testFile, new URL("./test/", test262Root));
-  let mainScript = Deno.readTextFileSync(mainScriptUrl);
-  if (addUseStrict) {
-    mainScript = `"use strict";\n${mainScript}`;
-  }
+  const testUrl = new URL(testFile, new URL("./test/", test262Root));
 
-  const err = Deno.core.evalContext(mainScript, mainScriptUrl.href)[1];
-  if (err !== null && errorType !== null) {
+  let resultPromise;
+
+  if (!isModule) {
+    let testScript = Deno.readTextFileSync(testUrl);
+    if (addUseStrict) {
+      testScript = `"use strict";\n${testScript}`;
+    }
+
+    const errorInfo = Deno.core.evalContext(testScript, testUrl.href)[1];
+
     // TODO: Can we use err.isNativeError and err.isCompileError to check the
     // phase in which the error was thrown?
-    const error = err.thrown;
-    if (typeof error !== "object") {
-      console.error(
-        "Test threw %o with type %s, expected %s error.",
-        error,
-        typeof error,
-        errorType,
-      );
-      Deno.exit(1);
-    } else if (err === null) {
-      console.error("Test threw null, expected %s error.", errorType);
-      Deno.exit(1);
-    } else if (typeof error.constructor !== "function") {
-      console.error(
-        "Test threw %o, whose constructor is type %s; expected %s error.",
-        error,
-        typeof error.constructor,
-        errorType,
-      );
-      Deno.exit(1);
-    } else if (error.constructor.name !== errorType) {
-      console.error(
-        "Test threw %s error, expected %s error.",
-        error.constructor.name,
-        errorType,
-      );
-      Deno.exit(1);
-    }
-  } else if (errorType !== null) {
-    console.error("Expected test to throw %s error.", errorType);
-    Deno.exit(1);
-  } else if (err !== null) {
-    console.error("Test threw an unexpected error:");
-    console.error(err.thrown);
-    Deno.exit(1);
+    resultPromise = (errorInfo === null)
+      ? PromiseResolve()
+      : PromiseReject(errorInfo.thrown);
+  } else {
+    resultPromise = import(testUrl.href);
   }
+
+  PromisePrototypeThen(
+    resultPromise,
+    () => {
+      // Test succeeded.
+      if (errorType !== null) {
+        console.error("Expected test to throw %s error.", errorType);
+        Deno.exit(1);
+      }
+    },
+    (error) => {
+      // Test failed with `error`.
+      if (errorType !== null) {
+        if (typeof error !== "object") {
+          console.error(
+            "Test threw %o with type %s, expected %s error.",
+            error,
+            typeof error,
+            errorType,
+          );
+          Deno.exit(1);
+        } else if (error === null) {
+          console.error("Test threw null, expected %s error.", errorType);
+          Deno.exit(1);
+        } else if (typeof error.constructor !== "function") {
+          console.error(
+            "Test threw %o, whose constructor is type %s; expected %s error.",
+            error,
+            typeof error.constructor,
+            errorType,
+          );
+          Deno.exit(1);
+        } else if (error.constructor.name !== errorType) {
+          console.error(
+            "Test threw %s error, expected %s error.",
+            error.constructor.name,
+            errorType,
+          );
+          Deno.exit(1);
+        }
+      } else {
+        console.error("Test threw an unexpected error:");
+        console.error(error);
+        Deno.exit(1);
+      }
+    },
+  );
 })();
 
 export {};
