@@ -23,7 +23,7 @@ type DifferenceRecord = {
 
 const TEST262_ROOT = new URL("./test262/", import.meta.url);
 const TEST_DIR = new URL("./test/", TEST262_ROOT);
-const SETUP_SCRIPT = new URL("./util/setup.js", import.meta.url);
+const SETUP_SCRIPT = new URL("./runner_util/setup.js", import.meta.url);
 const EXPECTATION_FILE = new URL("./expectations.json", import.meta.url);
 
 // Returns whether the test result succeeded, not whether it matched the
