@@ -8,8 +8,9 @@
   const liftThis = (fn) => fn.call.bind(fn);
 
   // Primordials
-  const PromiseResolve = Promise.resolve.bind(Promise);
+  const Promise = globalThis.Promise;
   const PromiseReject = Promise.reject.bind(Promise);
+  const PromiseResolve = Promise.resolve.bind(Promise);
   const PromisePrototypeThen = liftThis(Promise.prototype.then);
 
   // ---------------------------------------------------------------------------
@@ -54,6 +55,29 @@
 
   // ---------------------------------------------------------------------------
 
+  let printPromise;
+  if (isAsync) {
+    const SUCCESS_MESSAGE = "Test262:AsyncTestComplete";
+    const FAILURE_PREFIX = "Test262:AsyncTestFailure:";
+
+    printPromise = new Promise((resolve, reject) => {
+      let alreadyResolved = false;
+      globalThis.print = function print(string) {
+        if (alreadyResolved) {
+          throw new Error("Test printed when the promise is already resolved.");
+        }
+        alreadyResolved = true;
+
+        if (string === SUCCESS_MESSAGE) {
+          resolve();
+        } else if (string.startsWith(FAILURE_PREFIX)) {
+          const message = string.slice(FAILURE_PREFIX.length).trim();
+          reject(message);
+        }
+      };
+    });
+  }
+
   const test262Root = new URL("../test262/", import.meta.url);
 
   for (const includedFile of includes) {
@@ -70,8 +94,6 @@
       Deno.exit(1);
     }
   }
-
-  // TODO: async
 
   const testUrl = new URL(testFile, new URL("./test/", test262Root));
 
@@ -101,6 +123,22 @@
       if (errorType !== null) {
         console.error("Expected test to throw %s error.", errorType);
         Deno.exit(1);
+      }
+
+      if (isAsync) {
+        const timeoutHandle = setTimeout(() => {
+          console.error("Asynchronous test timed out.");
+          Deno.exit(1);
+        }, 10 * 1000);
+        PromisePrototypeThen(
+          printPromise,
+          () => clearTimeout(timeoutHandle),
+          (message) => {
+            console.error("Test failed asynchronously with:");
+            console.error(message);
+            Deno.exit(1);
+          },
+        );
       }
     },
     (error) => {
