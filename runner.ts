@@ -2,7 +2,7 @@
 
 import { Args as FlagArgs, parse as parseFlags } from "std/flags/mod.ts";
 import { assert } from "std/testing/asserts.ts";
-import { blue, bold, green, red, yellow } from "std/fmt/colors.ts";
+import { blue, bold, gray, green, red, yellow } from "std/fmt/colors.ts";
 import { fromFileUrl, relative } from "std/path/mod.ts";
 import { walk } from "std/fs/mod.ts";
 import { parse as parseYaml } from "std/encoding/yaml.ts";
@@ -17,6 +17,7 @@ import type {
 type DifferenceRecord = {
   unexpectedFailures: string[];
   unexpectedSuccesses: string[];
+  unexpectedIgnores: string[];
 };
 
 // -----------------------------------------------------------------------------
@@ -91,14 +92,40 @@ async function processTest(
       type: string;
     };
     includes?: string[];
+    features?: string[];
     flags?: FrontMatterFlag[];
     locale?: string[];
   }
 
   const frontMatter = parseYaml(frontMatterMatch[1]) as FrontMatter;
+  const features = frontMatter.features ?? [];
   const flags = frontMatter.flags ?? [];
 
-  // By default we must run each test wice, one with an additional "use strict"
+  const ignore = features.includes("IsHTMLDDA");
+  if (ignore) {
+    let testName = test;
+    if (typeof expected === "string") {
+      testName += ` (${expected})`;
+    }
+
+    let colorResult;
+    if (expected !== true) {
+      colorResult = red("ignored (expected fail)");
+      differences.unexpectedIgnores.push(testName);
+    } else {
+      colorResult = gray("ignored");
+    }
+
+    if (
+      !outputFlags.quiet &&
+      (!outputFlags.onlyPrintFailures || expected !== true)
+    ) {
+      console.log("%s ... %s", testName, colorResult);
+    }
+    return;
+  }
+
+  // By default we must run each test twice, one with an additional "use strict"
   // declaration, and one without. If `addUseStrict` is true, this instance of
   // the test will be run with an additional strict declaration, regardless of
   // whether the test would be strict anyway.
@@ -162,7 +189,7 @@ async function processTest(
     ? differences.unexpectedFailures
     : differences.unexpectedSuccesses;
   if (instancesFailed.length === numTotalInstances) {
-    (failures).push(test);
+    failures.push(test);
   } else if (instancesFailed.length !== 0) {
     assert(instancesFailed.length === 1);
     failures.push(
@@ -184,7 +211,11 @@ async function main() {
     await Deno.readTextFile(EXPECTATION_FILE),
   );
 
-  const differences = { unexpectedFailures: [], unexpectedSuccesses: [] };
+  const differences = {
+    unexpectedFailures: [],
+    unexpectedSuccesses: [],
+    unexpectedIgnores: [],
+  };
 
   for await (const entry of walk(fromFileUrl(TEST_DIR))) {
     if (entry.isDirectory || entry.name.includes("_FIXTURE")) {
@@ -248,9 +279,18 @@ async function main() {
     }
   }
 
+  if (differences.unexpectedIgnores.length !== 0) {
+    console.log();
+    console.log("The following tests weren't expected to be ignored:");
+    for (const success of differences.unexpectedIgnores) {
+      console.log("\t%s", success);
+    }
+  }
+
   if (
     differences.unexpectedFailures.length !== 0 ||
-    differences.unexpectedSuccesses.length !== 0
+    differences.unexpectedSuccesses.length !== 0 ||
+    differences.unexpectedIgnores.length !== 0
   ) {
     Deno.exit(1);
   }
