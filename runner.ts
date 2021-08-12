@@ -101,7 +101,8 @@ async function processTest(
   const features = frontMatter.features ?? [];
   const flags = frontMatter.flags ?? [];
 
-  const ignore = features.includes("IsHTMLDDA");
+  const ignore = features.includes("IsHTMLDDA") ||
+    flags.includes("CanBlockIsFalse");
   if (ignore) {
     let testName = test;
     if (typeof expected === "string") {

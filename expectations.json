@@ -288,7 +288,6 @@
       },
       "wait": {
         "bigint": {
-          "cannot-suspend-throws.js": false,
           "false-for-timeout-agent.js": false,
           "nan-for-timeout.js": false,
           "negative-timeout-agent.js": false,
@@ -307,7 +306,6 @@
           "waiterlist-order-of-operations-is-fifo.js": false,
           "was-woken-before-timeout.js": false
         },
-        "cannot-suspend-throws.js": false,
         "false-for-timeout-agent.js": false,
         "good-views.js": false,
         "nan-for-timeout.js": false,
