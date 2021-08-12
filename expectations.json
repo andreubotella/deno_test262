@@ -1224,6 +1224,18 @@
             "throw-type-error-from-GetOptionsObject.js": false,
             "throw-type-error-from-RequireInternalSlot.js": false
           },
+          "dateUntil": {
+            "branding.js": false,
+            "largest-unit-day.js": false,
+            "largest-unit-month.js": false,
+            "largest-unit-week.js": false,
+            "largest-unit-year.js": false,
+            "no-options.js": false,
+            "throws-range-error-ToLargestTemporalUnit.js": false,
+            "throws-range-error-ToTemporalDate.js": false,
+            "throws-type-error-GetOptionsObject.js": false,
+            "throws-type-error-RequireInternalSlot.js": false
+          },
           "day": {
             "branding.js": false,
             "date-time.js": false,
@@ -1235,7 +1247,19 @@
           },
           "dayOfWeek": {
             "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false
+            "throw-range-error-ToTemporalDate.js": false,
+            "branding.js": false,
+            "plain-date-time.js": false,
+            "plain-date.js": false,
+            "throw-type-error-RequireInternalSlot.js": false
+          },
+          "daysInMonth": {
+            "branding.js": false,
+            "plain-date-time.js": false,
+            "plain-date.js": false,
+            "string.js": false,
+            "throw-range-error-ToTemporalDate.js": false,
+            "throw-type-error-RequireInternalSlot.js": false
           },
           "daysInWeek": {
             "branding.js": false,
@@ -1245,11 +1269,24 @@
             "throw-range-error-ToTemporalDate.js": false,
             "throw-type-error-RequireInternalSlot.js": false
           },
+          "daysInYear": {
+            "string.js": false
+          },
           "fields": {
             "long-input.js": false
           },
           "mergeFields": {
             "branding.js": false
+          },
+          "monthCode": {
+            "branding.js": false,
+            "date-time.js": false,
+            "date.js": false,
+            "month-day.js": false,
+            "string.js": false,
+            "throw-range-error-ToTemporalDate.js": false,
+            "throw-type-error-RequireInternalSlot.js": false,
+            "year-month.js": false
           },
           "weekOfYear": {
             "branding.js": false
@@ -1277,6 +1314,57 @@
             "branding.js": false
           },
           "years": {
+            "branding.js": false
+          },
+          "blank": {
+            "branding.js": false
+          },
+          "days": {
+            "branding.js": false
+          },
+          "hours": {
+            "branding.js": false
+          },
+          "microseconds": {
+            "branding.js": false
+          },
+          "milliseconds": {
+            "branding.js": false
+          },
+          "minutes": {
+            "branding.js": false
+          },
+          "months": {
+            "branding.js": false
+          },
+          "negated": {
+            "branding.js": false
+          },
+          "round": {
+            "branding.js": false
+          },
+          "seconds": {
+            "branding.js": false
+          },
+          "sign": {
+            "branding.js": false
+          },
+          "subtract": {
+            "branding.js": false
+          },
+          "toJSON": {
+            "branding.js": false
+          },
+          "toLocaleString": {
+            "branding.js": false
+          },
+          "total": {
+            "branding.js": false
+          },
+          "valueOf": {
+            "branding.js": false
+          },
+          "with": {
             "branding.js": false
           }
         }
@@ -1454,6 +1542,22 @@
             "branding.js": false
           },
           "year": {
+            "branding.js": false
+          }
+        }
+      },
+      "PlainTime": {
+        "prototype": {
+          "add": {
+            "branding.js": false
+          },
+          "hour": {
+            "branding.js": false
+          },
+          "toZonedDateTime": {
+            "branding.js": false
+          },
+          "until": {
             "branding.js": false
           }
         }
