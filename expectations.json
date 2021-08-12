@@ -1225,8 +1225,15 @@
             "throw-type-error-from-RequireInternalSlot.js": false
           },
           "day": {
+            "branding.js": false,
             "date-time.js": false,
             "date.js": false,
+            "month-day.js": false,
+            "string.js": false,
+            "throw-range-error-ToTemporalDate.js": false,
+            "throw-type-error-RequireInternalSlot.js": false
+          },
+          "dayOfWeek": {
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false
           },
@@ -1245,6 +1252,31 @@
             "branding.js": false
           },
           "weekOfYear": {
+            "branding.js": false
+          },
+          "yearMonthFromFields": {
+            "branding.js": false
+          }
+        }
+      },
+      "Duration": {
+        "prototype": {
+          "abs": {
+            "branding.js": false
+          },
+          "add": {
+            "branding.js": false
+          },
+          "nanoseconds": {
+            "branding.js": false
+          },
+          "toString": {
+            "branding.js": false
+          },
+          "weeks": {
+            "branding.js": false
+          },
+          "years": {
             "branding.js": false
           }
         }
@@ -1526,26 +1558,68 @@
           "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
+        "findLast": {
+          "BigInt": {
+            "detached-buffer.js": false,
+            "get-length-ignores-length-prop.js": false,
+            "predicate-call-changes-value.js": false,
+            "predicate-call-parameters.js": false,
+            "predicate-call-this-non-strict.js": false,
+            "predicate-call-this-strict.js": false,
+            "predicate-may-detach-buffer.js": false,
+            "predicate-not-called-on-empty-array.js": false,
+            "return-abrupt-from-predicate-call.js": false,
+            "return-found-value-predicate-result-is-true.js": false,
+            "return-undefined-if-predicate-returns-false-value.js": false
+          },
+          "detached-buffer.js": false,
+          "get-length-ignores-length-prop.js": false,
+          "invoked-as-func.js": false,
+          "invoked-as-method.js": false,
+          "length.js": false,
+          "name.js": false,
+          "predicate-call-changes-value.js": false,
+          "predicate-call-parameters.js": false,
+          "predicate-call-this-non-strict.js": false,
+          "predicate-call-this-strict.js": false,
+          "predicate-may-detach-buffer.js": false,
+          "predicate-not-called-on-empty-array.js": false,
+          "prop-desc.js": false,
+          "return-abrupt-from-predicate-call.js": false,
+          "return-abrupt-from-this-out-of-bounds.js": false,
+          "return-found-value-predicate-result-is-true.js": false,
+          "return-undefined-if-predicate-returns-false-value.js": false
+        },
         "findLastIndex": {
           "BigInt": {
             "detached-buffer.js": false,
             "get-length-ignores-length-prop.js": false,
+            "predicate-call-changes-value.js": false,
+            "predicate-call-parameters.js": false,
+            "predicate-call-this-non-strict.js": false,
+            "predicate-call-this-strict.js": false,
+            "predicate-may-detach-buffer.js": false,
             "predicate-not-called-on-empty-array.js": false,
             "return-abrupt-from-predicate-call.js": false,
+            "return-index-predicate-result-is-true.js": false,
             "return-negative-one-if-predicate-returns-false-value.js": false
           },
           "detached-buffer.js": false,
           "get-length-ignores-length-prop.js": false,
           "invoked-as-func.js": false,
           "invoked-as-method.js": false,
+          "length.js": false,
           "name.js": false,
           "predicate-call-changes-value.js": false,
           "predicate-call-parameters.js": false,
+          "predicate-call-this-non-strict.js": false,
           "predicate-call-this-strict.js": false,
           "predicate-may-detach-buffer.js": false,
           "predicate-not-called-on-empty-array.js": false,
+          "prop-desc.js": false,
           "return-abrupt-from-predicate-call.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false,
+          "return-index-predicate-result-is-true.js": false,
           "return-negative-one-if-predicate-returns-false-value.js": false
         },
         "forEach": {
