@@ -1,16 +1,6 @@
 {
   "annexB": {
     "built-ins": {
-      "Array": {
-        "from": {
-          "iterator-method-emulates-undefined.js": false
-        }
-      },
-      "Object": {
-        "is": {
-          "emulates-undefined.js": false
-        }
-      },
       "RegExp": {
         "legacy-accessors": {
           "index": {
@@ -55,83 +45,9 @@
             "this-subclass-instance.js": false
           }
         }
-      },
-      "String": {
-        "prototype": {
-          "match": {
-            "custom-matcher-emulates-undefined.js": false
-          },
-          "matchAll": {
-            "custom-matcher-emulates-undefined.js": false
-          },
-          "replace": {
-            "custom-replacer-emulates-undefined.js": false
-          },
-          "replaceAll": {
-            "custom-replacer-emulates-undefined.js": false
-          },
-          "search": {
-            "custom-searcher-emulates-undefined.js": false
-          },
-          "split": {
-            "custom-splitter-emulates-undefined.js": false
-          }
-        }
-      },
-      "TypedArrayConstructors": {
-        "from": {
-          "iterator-method-emulates-undefined.js": false
-        }
       }
     },
     "language": {
-      "expressions": {
-        "assignment": {
-          "dstr": {
-            "array-pattern-emulates-undefined.js": false,
-            "object-pattern-emulates-undefined.js": false
-          }
-        },
-        "coalesce": {
-          "emulates-undefined.js": false
-        },
-        "conditional": {
-          "emulates-undefined.js": false
-        },
-        "does-not-equals": {
-          "emulates-undefined.js": false
-        },
-        "equals": {
-          "emulates-undefined.js": false
-        },
-        "logical-and": {
-          "emulates-undefined.js": false
-        },
-        "logical-assignment": {
-          "emulates-undefined-and.js": false,
-          "emulates-undefined-coalesce.js": false,
-          "emulates-undefined-or.js": false
-        },
-        "logical-not": {
-          "emulates-undefined.js": false
-        },
-        "logical-or": {
-          "emulates-undefined.js": false
-        },
-        "strict-does-not-equals": {
-          "emulates-undefined.js": false
-        },
-        "strict-equals": {
-          "emulates-undefined.js": false
-        },
-        "typeof": {
-          "emulates-undefined.js": false
-        },
-        "yield": {
-          "star-iterable-return-emulates-undefined-throws-when-called.js": false,
-          "star-iterable-throw-emulates-undefined-throws-when-called.js": false
-        }
-      },
       "function-code": {
         "block-decl-func-skip-arguments.js": false
       },
@@ -152,35 +68,6 @@
         "switch-case-global-existing-non-enumerable-global-init.js": false,
         "switch-dflt-global-existing-global-init.js": false,
         "switch-dflt-global-existing-non-enumerable-global-init.js": false
-      },
-      "statements": {
-        "class": {
-          "subclass": {
-            "superclass-emulates-undefined.js": false,
-            "superclass-prototype-emulates-undefined.js": false
-          }
-        },
-        "const": {
-          "dstr": {
-            "array-pattern-emulates-undefined.js": false,
-            "object-pattern-emulates-undefined.js": false
-          }
-        },
-        "for-await-of": {
-          "iterator-close-return-emulates-undefined-throws-when-called.js": false
-        },
-        "for-of": {
-          "iterator-close-return-emulates-undefined-throws-when-called.js": false
-        },
-        "function": {
-          "default-parameters-emulates-undefined.js": false
-        },
-        "if": {
-          "emulated-undefined.js": false
-        },
-        "switch": {
-          "emulates-undefined.js": false
-        }
       }
     }
   },
