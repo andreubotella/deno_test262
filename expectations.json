@@ -675,9 +675,6 @@
       "proto-from-ctor-realm-zero.js": false
     },
     "Error": {
-      "cause_abrupt.js": false,
-      "cause_property.js": false,
-      "constructor.js": false,
       "proto-from-ctor-realm.js": false
     },
     "FinalizationRegistry": {
@@ -749,7 +746,6 @@
     },
     "NativeErrors": {
       "AggregateError": {
-        "cause-property.js": false,
         "proto-from-ctor-realm.js": false
       },
       "EvalError": {
@@ -769,8 +765,7 @@
       },
       "URIError": {
         "proto-from-ctor-realm.js": false
-      },
-      "cause_property_native_error.js": false
+      }
     },
     "Number": {
       "proto-from-ctor-realm.js": false
@@ -799,66 +794,6 @@
       },
       "fromEntries": {
         "uses-keys-not-iterator.js": false
-      },
-      "hasOwn": {
-        "descriptor.js": false,
-        "hasown.js": false,
-        "hasown_inherited_exists.js": false,
-        "hasown_inherited_getter.js": false,
-        "hasown_inherited_getter_and_setter.js": false,
-        "hasown_inherited_getter_and_setter_configurable_enumerable.js": false,
-        "hasown_inherited_getter_and_setter_configurable_nonenumerable.js": false,
-        "hasown_inherited_getter_and_setter_nonconfigurable_enumerable.js": false,
-        "hasown_inherited_getter_and_setter_nonconfigurable_nonenumerable.js": false,
-        "hasown_inherited_getter_configurable_enumerable.js": false,
-        "hasown_inherited_getter_configurable_nonenumerable.js": false,
-        "hasown_inherited_getter_nonconfigurable_enumerable.js": false,
-        "hasown_inherited_getter_nonconfigurable_nonenumerable.js": false,
-        "hasown_inherited_nonwritable_configurable_enumerable.js": false,
-        "hasown_inherited_nonwritable_configurable_nonenumerable.js": false,
-        "hasown_inherited_nonwritable_nonconfigurable_enumerable.js": false,
-        "hasown_inherited_nonwritable_nonconfigurable_nonenumerable.js": false,
-        "hasown_inherited_setter.js": false,
-        "hasown_inherited_setter_configurable_enumerable.js": false,
-        "hasown_inherited_setter_configurable_nonenumerable.js": false,
-        "hasown_inherited_setter_nonconfigurable_enumerable.js": false,
-        "hasown_inherited_setter_nonconfigurable_nonenumerable.js": false,
-        "hasown_inherited_writable_configurable_enumerable.js": false,
-        "hasown_inherited_writable_configurable_nonenumerable.js": false,
-        "hasown_inherited_writable_nonconfigurable_enumerable.js": false,
-        "hasown_inherited_writable_nonconfigurable_nonenumerable.js": false,
-        "hasown_nonexistent.js": false,
-        "hasown_own_getter.js": false,
-        "hasown_own_getter_and_setter.js": false,
-        "hasown_own_getter_and_setter_configurable_enumerable.js": false,
-        "hasown_own_getter_and_setter_configurable_nonenumerable.js": false,
-        "hasown_own_getter_and_setter_nonconfigurable_enumerable.js": false,
-        "hasown_own_getter_and_setter_nonconfigurable_nonenumerable.js": false,
-        "hasown_own_getter_configurable_enumerable.js": false,
-        "hasown_own_getter_configurable_nonenumerable.js": false,
-        "hasown_own_getter_nonconfigurable_enumerable.js": false,
-        "hasown_own_getter_nonconfigurable_nonenumerable.js": false,
-        "hasown_own_nonwritable_configurable_enumerable.js": false,
-        "hasown_own_nonwritable_nonconfigurable_enumerable.js": false,
-        "hasown_own_nonwriteable_configurable_nonenumerable.js": false,
-        "hasown_own_nonwriteable_nonconfigurable_nonenumerable.js": false,
-        "hasown_own_property_exists.js": false,
-        "hasown_own_setter.js": false,
-        "hasown_own_setter_configurable_enumerable.js": false,
-        "hasown_own_setter_configurable_nonenumerable.js": false,
-        "hasown_own_setter_nonconfigurable_enumerable.js": false,
-        "hasown_own_setter_nonconfigurable_nonenumerable.js": false,
-        "hasown_own_writable_configurable_enumerable.js": false,
-        "hasown_own_writable_configurable_nonenumerable.js": false,
-        "hasown_own_writable_nonconfigurable_enumerable.js": false,
-        "hasown_own_writable_nonconfigurable_nonenumerable.js": false,
-        "length.js": false,
-        "name.js": false,
-        "prototype.js": false,
-        "symbol_own_property.js": false,
-        "symbol_property_toPrimitive.js": false,
-        "symbol_property_toString.js": false,
-        "symbol_property_valueOf.js": false
       },
       "internals": {
         "DefineOwnProperty": {
@@ -1959,15 +1894,6 @@
         "Symbol.iterator.js": false
       }
     },
-    "computed-property-names": {
-      "class": {
-        "static": {
-          "method-number.js": false,
-          "method-string.js": false,
-          "method-symbol.js": false
-        }
-      }
-    },
     "eval-code": {
       "direct": {
         "async-func-decl-fn-body-cntns-arguments-func-decl-declare-arguments-and-assign.js": false,
@@ -2125,8 +2051,7 @@
         "destructuring": {
           "iterator-destructuring-property-reference-target-evaluation-order.js": false,
           "keyed-destructuring-property-reference-target-evaluation-order.js": false
-        },
-        "fn-name-lhs-cover.js": false
+        }
       },
       "assignmenttargettype": {
         "direct-callexpression-arguments.js": false,
@@ -2791,10 +2716,6 @@
       "class": {
         "class-name-ident-await-escaped-module.js": false,
         "class-name-ident-await-module.js": false,
-        "definition": {
-          "fn-length-static-precedence.js": false,
-          "fn-name-static-precedence.js": false
-        },
         "dstr": {
           "async-gen-meth-ary-init-iter-get-err-array-prototype.js": false,
           "async-gen-meth-dflt-ary-init-iter-get-err-array-prototype.js": false,
