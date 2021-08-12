@@ -87,10 +87,10 @@
       "proto-from-ctor-realm-two.js": false,
       "proto-from-ctor-realm-zero.js": false,
       "prototype": {
+        "Symbol.iterator.js": false,
         "Symbol.unscopables": {
           "value.js": false
         },
-        "Symbol.iterator.js": false,
         "concat": {
           "15.4.4.4-5-b-iii-3-b-1.js": false,
           "15.4.4.4-5-c-i-1.js": false,
