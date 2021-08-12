@@ -87,6 +87,9 @@
       "proto-from-ctor-realm-two.js": false,
       "proto-from-ctor-realm-zero.js": false,
       "prototype": {
+        "Symbol.unscopables": {
+          "value.js": false
+        },
         "Symbol.iterator.js": false,
         "concat": {
           "15.4.4.4-5-b-iii-3-b-1.js": false,
@@ -110,7 +113,21 @@
           "create-proto-from-ctor-realm-non-array.js": false
         },
         "findLast": {
-          "name.js": false
+          "array-altered-during-loop.js": false,
+          "call-with-boolean.js": false,
+          "length.js": false,
+          "name.js": false,
+          "predicate-call-parameters.js": false,
+          "predicate-call-this-non-strict.js": false,
+          "predicate-call-this-strict.js": false,
+          "predicate-called-for-each-array-property.js": false,
+          "predicate-not-called-on-empty-array.js": false,
+          "prop-desc.js": false,
+          "return-abrupt-from-predicate-call.js": false,
+          "return-abrupt-from-property.js": false,
+          "return-abrupt-from-this-length.js": false,
+          "return-found-value-predicate-result-is-true.js": false,
+          "return-undefined-if-predicate-returns-false-value.js": false
         },
         "findLastIndex": {
           "array-altered-during-loop.js": false,
@@ -1194,16 +1211,41 @@
             "add-days.js": false,
             "add-months-weeks.js": false,
             "add-months.js": false,
+            "add-weeks-days.js": false,
+            "add-weeks.js": false,
             "add-years-months-days.js": false,
             "add-years-months.js": false,
             "add-years-weeks.js": false,
             "add-years.js": false,
+            "branding.js": false,
             "throw-range-error-from-ToTemporalDate.js": false,
+            "throw-range-error-from-ToTemporalDuration.js": false,
             "throw-range-error-from-ToTemporalOverflow.js": false,
-            "throw-type-error-from-GetOptionsObject.js": false
+            "throw-type-error-from-GetOptionsObject.js": false,
+            "throw-type-error-from-RequireInternalSlot.js": false
+          },
+          "day": {
+            "date-time.js": false,
+            "date.js": false,
+            "string.js": false,
+            "throw-range-error-ToTemporalDate.js": false
+          },
+          "daysInWeek": {
+            "branding.js": false,
+            "date-time.js": false,
+            "date.js": false,
+            "string.js": false,
+            "throw-range-error-ToTemporalDate.js": false,
+            "throw-type-error-RequireInternalSlot.js": false
           },
           "fields": {
             "long-input.js": false
+          },
+          "mergeFields": {
+            "branding.js": false
+          },
+          "weekOfYear": {
+            "branding.js": false
           }
         }
       },
@@ -1483,6 +1525,28 @@
           "detached-buffer.js": false,
           "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
+        },
+        "findLastIndex": {
+          "BigInt": {
+            "detached-buffer.js": false,
+            "get-length-ignores-length-prop.js": false,
+            "predicate-not-called-on-empty-array.js": false,
+            "return-abrupt-from-predicate-call.js": false,
+            "return-negative-one-if-predicate-returns-false-value.js": false
+          },
+          "detached-buffer.js": false,
+          "get-length-ignores-length-prop.js": false,
+          "invoked-as-func.js": false,
+          "invoked-as-method.js": false,
+          "name.js": false,
+          "predicate-call-changes-value.js": false,
+          "predicate-call-parameters.js": false,
+          "predicate-call-this-strict.js": false,
+          "predicate-may-detach-buffer.js": false,
+          "predicate-not-called-on-empty-array.js": false,
+          "return-abrupt-from-predicate-call.js": false,
+          "return-abrupt-from-this-out-of-bounds.js": false,
+          "return-negative-one-if-predicate-returns-false-value.js": false
         },
         "forEach": {
           "BigInt": {
