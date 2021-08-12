@@ -1246,11 +1246,11 @@
             "throw-type-error-RequireInternalSlot.js": false
           },
           "dayOfWeek": {
-            "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false,
             "branding.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
+            "string.js": false,
+            "throw-range-error-ToTemporalDate.js": false,
             "throw-type-error-RequireInternalSlot.js": false
           },
           "daysInMonth": {
@@ -1304,18 +1304,6 @@
           "add": {
             "branding.js": false
           },
-          "nanoseconds": {
-            "branding.js": false
-          },
-          "toString": {
-            "branding.js": false
-          },
-          "weeks": {
-            "branding.js": false
-          },
-          "years": {
-            "branding.js": false
-          },
           "blank": {
             "branding.js": false
           },
@@ -1335,6 +1323,9 @@
             "branding.js": false
           },
           "months": {
+            "branding.js": false
+          },
+          "nanoseconds": {
             "branding.js": false
           },
           "negated": {
@@ -1358,13 +1349,22 @@
           "toLocaleString": {
             "branding.js": false
           },
+          "toString": {
+            "branding.js": false
+          },
           "total": {
             "branding.js": false
           },
           "valueOf": {
             "branding.js": false
           },
+          "weeks": {
+            "branding.js": false
+          },
           "with": {
+            "branding.js": false
+          },
+          "years": {
             "branding.js": false
           }
         }
