@@ -1182,6 +1182,9 @@
           "round": {
             "branding.js": false
           },
+          "since": {
+            "branding.js": false
+          },
           "subtract": {
             "branding.js": false
           },
@@ -1586,6 +1589,76 @@
           }
         }
       },
+      "PlainYearMonth": {
+        "prototype": {
+          "add": {
+            "branding.js": false
+          },
+          "calendar": {
+            "branding.js": false
+          },
+          "daysInMonth": {
+            "branding.js": false
+          },
+          "daysInYear": {
+            "branding.js": false
+          },
+          "equals": {
+            "branding.js": false
+          },
+          "era": {
+            "branding.js": false
+          },
+          "eraYear": {
+            "branding.js": false
+          },
+          "getISOFields": {
+            "branding.js": false
+          },
+          "inLeapYear": {
+            "branding.js": false
+          },
+          "month": {
+            "branding.js": false
+          },
+          "monthCode": {
+            "branding.js": false
+          },
+          "monthsInYear": {
+            "branding.js": false
+          },
+          "since": {
+            "branding.js": false
+          },
+          "subtract": {
+            "branding.js": false
+          },
+          "toJSON": {
+            "branding.js": false
+          },
+          "toLocaleString": {
+            "branding.js": false
+          },
+          "toPlainDate": {
+            "branding.js": false
+          },
+          "toString": {
+            "branding.js": false
+          },
+          "until": {
+            "branding.js": false
+          },
+          "valueOf": {
+            "branding.js": false
+          },
+          "with": {
+            "branding.js": false
+          },
+          "year": {
+            "branding.js": false
+          }
+        }
+      },
       "TimeZone": {
         "prototype": {
           "getInstantFor": {
@@ -1613,6 +1686,9 @@
       },
       "ZonedDateTime": {
         "prototype": {
+          "add": {
+            "branding.js": false
+          },
           "calendar": {
             "branding.js": false
           },
@@ -1622,25 +1698,73 @@
           "dayOfWeek": {
             "branding.js": false
           },
+          "dayOfYear": {
+            "branding.js": false
+          },
           "daysInMonth": {
             "branding.js": false
           },
           "daysInWeek": {
             "branding.js": false
           },
+          "daysInYear": {
+            "branding.js": false
+          },
+          "epochMicroseconds": {
+            "branding.js": false
+          },
           "epochMilliseconds": {
+            "branding.js": false
+          },
+          "epochNanoseconds": {
+            "branding.js": false
+          },
+          "epochSeconds": {
+            "branding.js": false
+          },
+          "equals": {
+            "branding.js": false
+          },
+          "era": {
+            "branding.js": false
+          },
+          "eraYear": {
+            "branding.js": false
+          },
+          "getISOFields": {
+            "branding.js": false
+          },
+          "hour": {
             "branding.js": false
           },
           "hoursInDay": {
             "branding.js": false
           },
+          "inLeapYear": {
+            "branding.js": false
+          },
           "microsecond": {
+            "branding.js": false
+          },
+          "millisecond": {
             "branding.js": false
           },
           "minute": {
             "branding.js": false
           },
+          "month": {
+            "branding.js": false
+          },
           "monthCode": {
+            "branding.js": false
+          },
+          "monthsInYear": {
+            "branding.js": false
+          },
+          "nanosecond": {
+            "branding.js": false
+          },
+          "offset": {
             "branding.js": false
           },
           "offsetNanoseconds": {
@@ -1649,10 +1773,28 @@
           "round": {
             "branding.js": false
           },
+          "second": {
+            "branding.js": false
+          },
           "since": {
             "branding.js": false
           },
+          "startOfDay": {
+            "branding.js": false
+          },
+          "subtract": {
+            "branding.js": false
+          },
+          "timeZone": {
+            "branding.js": false
+          },
           "toInstant": {
+            "branding.js": false
+          },
+          "toJSON": {
+            "branding.js": false
+          },
+          "toLocaleString": {
             "branding.js": false
           },
           "toPlainDate": {
@@ -1668,6 +1810,15 @@
             "branding.js": false
           },
           "toPlainYearMonth": {
+            "branding.js": false
+          },
+          "toString": {
+            "branding.js": false
+          },
+          "until": {
+            "branding.js": false
+          },
+          "valueOf": {
             "branding.js": false
           },
           "weekOfYear": {
@@ -1686,6 +1837,9 @@
             "branding.js": false
           },
           "withTimeZone": {
+            "branding.js": false
+          },
+          "year": {
             "branding.js": false
           }
         }
