@@ -102,6 +102,7 @@ async function processTest(
   const flags = frontMatter.flags ?? [];
 
   const ignore = features.includes("IsHTMLDDA") ||
+    features.includes("cross-realm") ||
     flags.includes("CanBlockIsFalse");
   if (ignore) {
     let testName = test;

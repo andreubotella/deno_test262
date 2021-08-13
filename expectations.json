@@ -5,43 +5,36 @@
         "legacy-accessors": {
           "index": {
             "prop-desc.js": false,
-            "this-cross-realm-constructor.js": false,
             "this-not-regexp-constructor.js": false,
             "this-subclass-constructor.js": false
           },
           "input": {
-            "this-cross-realm-constructor.js": false,
             "this-not-regexp-constructor.js": false,
             "this-subclass-constructor.js": false
           },
           "lastMatch": {
             "prop-desc.js": false,
-            "this-cross-realm-constructor.js": false,
             "this-not-regexp-constructor.js": false,
             "this-subclass-constructor.js": false
           },
           "lastParen": {
             "prop-desc.js": false,
-            "this-cross-realm-constructor.js": false,
             "this-not-regexp-constructor.js": false,
             "this-subclass-constructor.js": false
           },
           "leftContext": {
             "prop-desc.js": false,
-            "this-cross-realm-constructor.js": false,
             "this-not-regexp-constructor.js": false,
             "this-subclass-constructor.js": false
           },
           "rightContext": {
             "prop-desc.js": false,
-            "this-cross-realm-constructor.js": false,
             "this-not-regexp-constructor.js": false,
             "this-subclass-constructor.js": false
           }
         },
         "prototype": {
           "compile": {
-            "this-cross-realm-instance.js": false,
             "this-subclass-instance.js": false
           }
         }
@@ -73,19 +66,9 @@
   },
   "built-ins": {
     "Array": {
-      "from": {
-        "proto-from-ctor-realm.js": false
-      },
-      "length": {
-        "define-own-prop-length-overflow-realm.js": false
-      },
       "of": {
-        "does-not-use-prototype-properties.js": false,
-        "proto-from-ctor-realm.js": false
+        "does-not-use-prototype-properties.js": false
       },
-      "proto-from-ctor-realm-one.js": false,
-      "proto-from-ctor-realm-two.js": false,
-      "proto-from-ctor-realm-zero.js": false,
       "prototype": {
         "Symbol.iterator.js": false,
         "Symbol.unscopables": {
@@ -94,9 +77,7 @@
         "concat": {
           "15.4.4.4-5-b-iii-3-b-1.js": false,
           "15.4.4.4-5-c-i-1.js": false,
-          "arg-length-near-integer-limit.js": false,
-          "create-proto-from-ctor-realm-array.js": false,
-          "create-proto-from-ctor-realm-non-array.js": false
+          "arg-length-near-integer-limit.js": false
         },
         "every": {
           "15.4.4.16-7-c-i-14.js": false,
@@ -108,9 +89,7 @@
           "15.4.4.20-9-c-i-14.js": false,
           "15.4.4.20-9-c-i-16.js": false,
           "15.4.4.20-9-c-i-22.js": false,
-          "15.4.4.20-9-c-i-6.js": false,
-          "create-proto-from-ctor-realm-array.js": false,
-          "create-proto-from-ctor-realm-non-array.js": false
+          "15.4.4.20-9-c-i-6.js": false
         },
         "findLast": {
           "array-altered-during-loop.js": false,
@@ -181,9 +160,7 @@
           "15.4.4.19-8-c-i-16.js": false,
           "15.4.4.19-8-c-i-19.js": false,
           "15.4.4.19-8-c-i-22.js": false,
-          "15.4.4.19-8-c-i-6.js": false,
-          "create-proto-from-ctor-realm-array.js": false,
-          "create-proto-from-ctor-realm-non-array.js": false
+          "15.4.4.19-8-c-i-6.js": false
         },
         "reduce": {
           "15.4.4.21-8-b-iii-1-14.js": false,
@@ -192,17 +169,11 @@
           "15.4.4.21-8-b-iii-1-6.js": false
         },
         "slice": {
-          "15.4.4.10-10-c-ii-1.js": false,
-          "create-proto-from-ctor-realm-array.js": false,
-          "create-proto-from-ctor-realm-non-array.js": false
+          "15.4.4.10-10-c-ii-1.js": false
         },
         "some": {
           "15.4.4.17-7-c-i-22.js": false,
           "15.4.4.17-7-c-i-6.js": false
-        },
-        "splice": {
-          "create-proto-from-ctor-realm-array.js": false,
-          "create-proto-from-ctor-realm-non-array.js": false
         }
       }
     },
@@ -214,7 +185,6 @@
       "options-maxbytelength-poisoned.js": false,
       "options-maxbytelength-undefined.js": false,
       "options-non-object.js": false,
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "byteLength": {
           "detached-buffer.js": false
@@ -292,13 +262,6 @@
         "detach-typedarray-in-progress.js": false,
         "property-descriptor.js": false
       }
-    },
-    "AsyncFunction": {
-      "proto-from-ctor-realm.js": false
-    },
-    "AsyncGeneratorFunction": {
-      "proto-from-ctor-realm-prototype.js": false,
-      "proto-from-ctor-realm.js": false
     },
     "Atomics": {
       "notify": {
@@ -433,21 +396,11 @@
       }
     },
     "BigInt": {
-      "prototype": {
-        "valueOf": {
-          "cross-realm.js": false
-        }
-      },
       "wrapper-object-ordinary-toprimitive.js": false
-    },
-    "Boolean": {
-      "proto-from-ctor-realm.js": false
     },
     "DataView": {
       "custom-proto-access-detaches-buffer.js": false,
       "detached-buffer.js": false,
-      "proto-from-ctor-realm-sab.js": false,
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "buffer": {
           "detached-buffer.js": false
@@ -591,17 +544,8 @@
         }
       }
     },
-    "Date": {
-      "proto-from-ctor-realm-one.js": false,
-      "proto-from-ctor-realm-two.js": false,
-      "proto-from-ctor-realm-zero.js": false
-    },
-    "Error": {
-      "proto-from-ctor-realm.js": false
-    },
     "FinalizationRegistry": {
       "gc-has-one-chance-to-call-cleanupCallback.js": false,
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "cleanupSome": {
           "callback-not-callable-throws.js": false,
@@ -624,73 +568,11 @@
       }
     },
     "Function": {
-      "call-bind-this-realm-undef.js": false,
-      "call-bind-this-realm-value.js": false,
-      "internals": {
-        "Call": {
-          "class-ctor-realm.js": false
-        },
-        "Construct": {
-          "base-ctor-revoked-proxy-realm.js": false,
-          "derived-return-val-realm.js": false,
-          "derived-this-uninitialized-realm.js": false
-        }
-      },
-      "proto-from-ctor-realm-prototype.js": false,
-      "proto-from-ctor-realm.js": false,
       "prototype": {
-        "apply": {
-          "argarray-not-object-realm.js": false,
-          "this-not-callable-realm.js": false
-        },
-        "bind": {
-          "get-fn-realm-recursive.js": false,
-          "get-fn-realm.js": false,
-          "proto-from-ctor-realm.js": false
-        },
         "toString": {
           "built-in-function-object.js": false
         }
       }
-    },
-    "GeneratorFunction": {
-      "proto-from-ctor-realm-prototype.js": false,
-      "proto-from-ctor-realm.js": false
-    },
-    "JSON": {
-      "stringify": {
-        "replacer-array-proxy-revoked-realm.js": false,
-        "value-bigint-cross-realm.js": false
-      }
-    },
-    "Map": {
-      "proto-from-ctor-realm.js": false
-    },
-    "NativeErrors": {
-      "AggregateError": {
-        "proto-from-ctor-realm.js": false
-      },
-      "EvalError": {
-        "proto-from-ctor-realm.js": false
-      },
-      "RangeError": {
-        "proto-from-ctor-realm.js": false
-      },
-      "ReferenceError": {
-        "proto-from-ctor-realm.js": false
-      },
-      "SyntaxError": {
-        "proto-from-ctor-realm.js": false
-      },
-      "TypeError": {
-        "proto-from-ctor-realm.js": false
-      },
-      "URIError": {
-        "proto-from-ctor-realm.js": false
-      }
-    },
-    "Number": {
-      "proto-from-ctor-realm.js": false
     },
     "Object": {
       "defineProperties": {
@@ -723,7 +605,6 @@
           "consistent-value-function-caller.js": "strict"
         }
       },
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "__proto__": {
           "get-abrupt.js": false,
@@ -768,7 +649,6 @@
         "ctx-ctor.js": false,
         "returns-promise.js": false
       },
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "finally": {
           "subclass-species-constructor-reject-count.js": false
@@ -791,70 +671,6 @@
       },
       "resolve": {
         "arg-uniq-ctor.js": false
-      }
-    },
-    "Proxy": {
-      "apply": {
-        "arguments-realm.js": false,
-        "null-handler-realm.js": false,
-        "trap-is-not-callable-realm.js": false
-      },
-      "construct": {
-        "arguments-realm.js": false,
-        "null-handler-realm.js": false,
-        "return-not-object-throws-boolean-realm.js": false,
-        "return-not-object-throws-null-realm.js": false,
-        "return-not-object-throws-number-realm.js": false,
-        "return-not-object-throws-string-realm.js": false,
-        "return-not-object-throws-symbol-realm.js": false,
-        "return-not-object-throws-undefined-realm.js": false,
-        "trap-is-not-callable-realm.js": false,
-        "trap-is-undefined-proto-from-cross-realm-newtarget.js": false,
-        "trap-is-undefined-proto-from-newtarget-realm.js": false
-      },
-      "defineProperty": {
-        "desc-realm.js": false,
-        "null-handler-realm.js": false,
-        "targetdesc-configurable-desc-not-configurable-realm.js": false,
-        "targetdesc-not-compatible-descriptor-not-configurable-target-realm.js": false,
-        "targetdesc-not-compatible-descriptor-realm.js": false,
-        "targetdesc-undefined-not-configurable-descriptor-realm.js": false,
-        "targetdesc-undefined-target-is-not-extensible-realm.js": false,
-        "trap-is-not-callable-realm.js": false
-      },
-      "deleteProperty": {
-        "trap-is-not-callable-realm.js": false
-      },
-      "get": {
-        "trap-is-not-callable-realm.js": false
-      },
-      "get-fn-realm-recursive.js": false,
-      "get-fn-realm.js": false,
-      "getOwnPropertyDescriptor": {
-        "result-type-is-not-object-nor-undefined-realm.js": false,
-        "trap-is-not-callable-realm.js": false
-      },
-      "getPrototypeOf": {
-        "trap-is-not-callable-realm.js": false
-      },
-      "has": {
-        "trap-is-not-callable-realm.js": false
-      },
-      "isExtensible": {
-        "trap-is-not-callable-realm.js": false
-      },
-      "ownKeys": {
-        "return-not-list-object-throws-realm.js": false,
-        "trap-is-not-callable-realm.js": false
-      },
-      "preventExtensions": {
-        "trap-is-not-callable-realm.js": false
-      },
-      "set": {
-        "trap-is-not-callable-realm.js": false
-      },
-      "setPrototypeOf": {
-        "trap-is-not-callable-realm.js": false
       }
     },
     "Realm": {
@@ -1053,47 +869,16 @@
         "unsupported-property-Line_Break-with-value.js": false,
         "unsupported-property-Line_Break.js": false
       },
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "Symbol.replace": {
           "coerce-global.js": false,
           "fn-invoke-args-empty-result.js": false,
           "poisoned-stdlib.js": false
         },
-        "Symbol.split": {
-          "splitter-proto-from-ctor-realm.js": false
-        },
-        "dotAll": {
-          "cross-realm.js": false
-        },
         "flags": {
           "get-order.js": false
-        },
-        "global": {
-          "cross-realm.js": false
-        },
-        "hasIndices": {
-          "cross-realm.js": false
-        },
-        "ignoreCase": {
-          "cross-realm.js": false
-        },
-        "multiline": {
-          "cross-realm.js": false
-        },
-        "source": {
-          "cross-realm.js": false
-        },
-        "sticky": {
-          "cross-realm.js": false
-        },
-        "unicode": {
-          "cross-realm.js": false
         }
       }
-    },
-    "Set": {
-      "proto-from-ctor-realm.js": false
     },
     "SharedArrayBuffer": {
       "options-maxbytelength-diminuitive.js": false,
@@ -1103,7 +888,6 @@
       "options-maxbytelength-poisoned.js": false,
       "options-maxbytelength-undefined.js": false,
       "options-non-object.js": false,
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "grow": {
           "descriptor.js": false,
@@ -1144,64 +928,6 @@
           "this-is-arraybuffer.js": false,
           "this-is-not-object.js": false
         }
-      }
-    },
-    "String": {
-      "proto-from-ctor-realm.js": false,
-      "prototype": {
-        "toString": {
-          "non-generic-realm.js": false
-        },
-        "valueOf": {
-          "non-generic-realm.js": false
-        }
-      }
-    },
-    "Symbol": {
-      "asyncIterator": {
-        "cross-realm.js": false
-      },
-      "for": {
-        "cross-realm.js": false
-      },
-      "hasInstance": {
-        "cross-realm.js": false
-      },
-      "isConcatSpreadable": {
-        "cross-realm.js": false
-      },
-      "iterator": {
-        "cross-realm.js": false
-      },
-      "keyFor": {
-        "cross-realm.js": false
-      },
-      "match": {
-        "cross-realm.js": false
-      },
-      "matchAll": {
-        "cross-realm.js": false
-      },
-      "replace": {
-        "cross-realm.js": false
-      },
-      "search": {
-        "cross-realm.js": false
-      },
-      "species": {
-        "cross-realm.js": false
-      },
-      "split": {
-        "cross-realm.js": false
-      },
-      "toPrimitive": {
-        "cross-realm.js": false
-      },
-      "toStringTag": {
-        "cross-realm.js": false
-      },
-      "unscopables": {
-        "cross-realm.js": false
       }
     },
     "Temporal": {
@@ -1965,9 +1691,6 @@
         }
       }
     },
-    "ThrowTypeError": {
-      "distinct-cross-realm.js": false
-    },
     "TypedArray": {
       "prototype": {
         "Symbol.toStringTag": {
@@ -2318,52 +2041,24 @@
         "buffer-arg": {
           "byteoffset-to-number-detachbuffer.js": false,
           "detachedbuffer.js": false,
-          "length-to-number-detachbuffer.js": false,
-          "proto-from-ctor-realm-sab.js": false,
-          "proto-from-ctor-realm.js": false
-        },
-        "length-arg": {
-          "proto-from-ctor-realm.js": false
-        },
-        "no-args": {
-          "proto-from-ctor-realm.js": false
-        },
-        "object-arg": {
-          "proto-from-ctor-realm.js": false
+          "length-to-number-detachbuffer.js": false
         },
         "typedarray-arg": {
           "detached-when-species-retrieved-different-type.js": false,
           "detached-when-species-retrieved-same-type.js": false,
-          "other-ctor-buffer-ctor-custom-species-proto-from-ctor-realm.js": false,
           "out-of-bounds-when-species-retrieved-different-type.js": false,
-          "out-of-bounds-when-species-retrieved-same-type.js": false,
-          "proto-from-ctor-realm.js": false,
-          "same-ctor-buffer-ctor-species-custom-proto-from-ctor-realm.js": false
+          "out-of-bounds-when-species-retrieved-same-type.js": false
         }
       },
       "ctors-bigint": {
         "buffer-arg": {
           "byteoffset-to-number-detachbuffer.js": false,
           "detachedbuffer.js": false,
-          "length-to-number-detachbuffer.js": false,
-          "proto-from-ctor-realm-sab.js": false,
-          "proto-from-ctor-realm.js": false
-        },
-        "length-arg": {
-          "proto-from-ctor-realm.js": false
-        },
-        "no-args": {
-          "proto-from-ctor-realm.js": false
-        },
-        "object-arg": {
-          "proto-from-ctor-realm.js": false
+          "length-to-number-detachbuffer.js": false
         },
         "typedarray-arg": {
           "detached-when-species-retrieved-different-type.js": false,
-          "detached-when-species-retrieved-same-type.js": false,
-          "other-ctor-buffer-ctor-custom-species-proto-from-ctor-realm.js": false,
-          "proto-from-ctor-realm.js": false,
-          "same-ctor-buffer-ctor-species-custom-proto-from-ctor-realm.js": false
+          "detached-when-species-retrieved-same-type.js": false
         }
       },
       "internals": {
@@ -2383,13 +2078,11 @@
           "BigInt": {
             "detached-buffer-key-is-not-numeric-index.js": false,
             "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer-realm.js": false,
             "detached-buffer.js": false,
             "infinity-detached-buffer.js": false
           },
           "detached-buffer-key-is-not-numeric-index.js": false,
           "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer-realm.js": false,
           "detached-buffer.js": false,
           "infinity-detached-buffer.js": false
         },
@@ -2397,13 +2090,11 @@
           "BigInt": {
             "detached-buffer-key-is-not-numeric-index.js": false,
             "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer-realm.js": false,
             "detached-buffer.js": false,
             "infinity-detached-buffer.js": false
           },
           "detached-buffer-key-is-not-numeric-index.js": false,
           "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer-realm.js": false,
           "detached-buffer.js": false,
           "infinity-detached-buffer.js": false
         },
@@ -2411,13 +2102,11 @@
           "BigInt": {
             "detached-buffer-key-is-not-number.js": false,
             "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer-realm.js": false,
             "detached-buffer.js": false,
             "enumerate-detached-buffer.js": false
           },
           "detached-buffer-key-is-not-number.js": false,
           "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer-realm.js": false,
           "detached-buffer.js": false,
           "enumerate-detached-buffer.js": false
         },
@@ -2425,13 +2114,11 @@
           "BigInt": {
             "detached-buffer-key-is-not-number.js": false,
             "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer-realm.js": false,
             "detached-buffer.js": false,
             "infinity-with-detached-buffer.js": false
           },
           "detached-buffer-key-is-not-number.js": false,
           "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer-realm.js": false,
           "detached-buffer.js": false,
           "infinity-with-detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
@@ -2445,46 +2132,32 @@
           "BigInt": {
             "detached-buffer-key-is-not-numeric-index.js": false,
             "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer-realm.js": false,
             "detached-buffer.js": false,
             "tonumber-value-detached-buffer.js": false
           },
           "detached-buffer-key-is-not-numeric-index.js": false,
           "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer-realm.js": false,
           "detached-buffer.js": false,
           "tonumber-value-detached-buffer.js": false
         }
       }
     },
-    "WeakMap": {
-      "proto-from-ctor-realm.js": false
-    },
     "WeakRef": {
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "deref": {
           "gc-cleanup-not-prevented-with-wr-deref.js": false
         }
       }
-    },
-    "WeakSet": {
-      "proto-from-ctor-realm.js": false
     }
   },
   "intl402": {
-    "Collator": {
-      "proto-from-ctor-realm.js": false
-    },
     "DateTimeFormat": {
-      "constructor-options-timeZoneName-valid.js": false,
-      "proto-from-ctor-realm.js": false
+      "constructor-options-timeZoneName-valid.js": false
     },
     "DisplayNames": {
       "options-languagedisplay-abrupt-throws.js": false,
       "options-languagedisplay-invalid-throws.js": false,
       "options-languagedisplay-toString-abrupt-throws.js": false,
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "of": {
           "type-calendar-invalid.js": false,
@@ -2503,15 +2176,7 @@
         "unicode-ext-canonicalize-yes-to-true.js": false
       }
     },
-    "ListFormat": {
-      "constructor": {
-        "constructor": {
-          "proto-from-ctor-realm.js": false
-        }
-      }
-    },
     "Locale": {
-      "proto-from-ctor-realm.js": false,
       "prototype": {
         "calendars": {
           "branding.js": false,
@@ -2564,26 +2229,7 @@
       }
     },
     "NumberFormat": {
-      "currency-digits.js": false,
-      "proto-from-ctor-realm.js": false
-    },
-    "PluralRules": {
-      "proto-from-ctor-realm.js": false
-    },
-    "RelativeTimeFormat": {
-      "constructor": {
-        "constructor": {
-          "proto-from-ctor-realm.js": false
-        }
-      }
-    },
-    "Segmenter": {
-      "constructor": {
-        "constructor": {
-          "proto-from-ctor-realm.js": false
-        }
-      },
-      "proto-from-ctor-realm.js": false
+      "currency-digits.js": false
     },
     "supportedLocalesOf-taint-Array-2.js": false,
     "supportedLocalesOf-taint-Array.js": false
@@ -2724,8 +2370,7 @@
       },
       "indirect": {
         "non-definable-function-with-function.js": false,
-        "non-definable-function-with-variable.js": false,
-        "realm.js": false
+        "non-definable-function-with-variable.js": false
       }
     },
     "export": {
@@ -2769,17 +2414,11 @@
           "named-ary-init-iter-get-err-array-prototype.js": false,
           "named-dflt-ary-init-iter-get-err-array-prototype.js": false
         },
-        "eval-body-proto-realm.js": false,
         "generator-created-after-decl-inst.js": false
       },
       "call": {
-        "eval-realm-indirect.js": false,
         "eval-spread.js": false,
         "tco-call-args.js": false,
-        "tco-cross-realm-class-construct.js": false,
-        "tco-cross-realm-class-derived-construct.js": false,
-        "tco-cross-realm-fun-call.js": false,
-        "tco-cross-realm-fun-construct.js": false,
         "tco-member-args.js": false,
         "tco-non-eval-function-dynamic.js": false,
         "tco-non-eval-function.js": false,
@@ -2803,16 +2442,6 @@
           "meth-static-ary-init-iter-get-err-array-prototype.js": false,
           "meth-static-dflt-ary-init-iter-get-err-array-prototype.js": false
         },
-        "private-getter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js": false,
-        "private-getter-brand-check-multiple-evaluations-of-class-realm.js": false,
-        "private-method-brand-check-multiple-evaluations-of-class-realm-function-ctor.js": false,
-        "private-method-brand-check-multiple-evaluations-of-class-realm.js": false,
-        "private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js": false,
-        "private-setter-brand-check-multiple-evaluations-of-class-realm.js": false,
-        "private-static-field-multiple-evaluations-of-class-realm.js": false,
-        "private-static-getter-multiple-evaluations-of-class-realm.js": false,
-        "private-static-method-brand-check-multiple-evaluations-of-class-realm.js": false,
-        "private-static-setter-multiple-evaluations-of-class-realm.js": false,
         "static-init-await-reference.js": false
       },
       "coalesce": {
@@ -2978,7 +2607,6 @@
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
         },
-        "eval-body-proto-realm.js": false,
         "generator-created-after-decl-inst.js": false,
         "static-init-await-binding.js": false,
         "static-init-await-reference.js": false
@@ -3007,9 +2635,6 @@
       },
       "logical-or": {
         "tco-right.js": false
-      },
-      "new": {
-        "non-ctor-err-realm.js": false
       },
       "object": {
         "__proto__-fn-name.js": false,
@@ -3060,11 +2685,7 @@
         "S11.4.4_A5_T3.js": false,
         "S11.4.4_A6_T3.js": false
       },
-      "super": {
-        "realm.js": false
-      },
       "tagged-template": {
-        "cache-realm.js": false,
         "tco-call.js": false,
         "tco-member.js": false
       },
@@ -3555,12 +3176,6 @@
       },
       "with": {
         "unscopables-inc-dec.js": false
-      }
-    },
-    "types": {
-      "reference": {
-        "get-value-prop-base-primitive-realm.js": false,
-        "put-value-prop-base-primitive-realm.js": false
       }
     }
   }
