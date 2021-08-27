@@ -3,7 +3,7 @@ name: update-test262
 on:
   schedule:
     # Every Monday at 12 AM UTC.
-    - 0 0 * * 1
+    - cron: 0 0 * * 1
 
 jobs:
   update-test262:
