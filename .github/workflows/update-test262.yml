@@ -1,0 +1,53 @@
+name: update-test262
+
+on:
+  schedule:
+    # Every Monday at 12 AM UTC.
+    - cron: 0 0 * * 1
+
+jobs:
+  update-test262:
+    name: Update test262
+    timeout-minutes: 20
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      # Needed to run ./scripts/cleanup_expectations.ts. We're fine with the
+      # latest release.
+      - name: Setup Deno
+        uses: maximousblk/setup-deno@v1
+
+      - name: Update and commit
+        id: run
+        run: |
+          cd test262
+          OLD_SHA="$(git rev-parse HEAD)"
+          git pull
+          NEW_SHA="$(git rev-parse HEAD)"
+          cd ..
+          if [ "$OLD_SHA" != "$NEW_SHA" ]; then
+            git checkout -b "update-test262-$(date -u +%d-%m-%y)"
+            git add test262
+            git commit -m "Update test262 ($(date -u "+%h %d %Y"))"
+            ./scripts/cleanup_expectations.ts
+            if [ "$(git diff --name-only)" != "" ]; then
+              git add expectations.json
+              git commit -m "Clean up expectations"
+            fi
+
+            echo "::set-output name=open_pr::true"
+          else
+            echo "::set-output name=open_pr::false"
+          fi
+
+      - name: Open pull request
+        if: ${{ steps.run.outputs.open_pr == 'true' }}
+        uses: repo-sync/pull-request@v2
+        with:
+          destination_branch: main
+          pr_draft: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
