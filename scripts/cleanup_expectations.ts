@@ -34,11 +34,12 @@ function cleanupExpectation<
     return Promise.resolve(expectation);
   }
 
-  const ret: FolderExpectation = {};
-  const promises = [];
+  type Entry = [string, FolderExpectation | FileExpectation];
+
+  const promises: Promise<Entry | undefined>[] = [];
   for (const [key, value] of Object.entries(expectation)) {
     const path = prefix === null ? key : join(prefix, key);
-    const promise = (async () => {
+    const promise = (async (): Promise<Entry | undefined> => {
       // Does the path exist?
       if (!await exists(join(TEST262_DIR, path))) {
         // Log all the tests that we're removing.
@@ -56,12 +57,16 @@ function cleanupExpectation<
         newValue = value;
       }
 
-      ret[key] = newValue;
+      return [key, newValue];
     })();
     promises.push(promise);
   }
 
-  return Promise.all(promises).then(() => ret as T);
+  return Promise.all(promises).then((entries) =>
+    Object.fromEntries(
+      entries.filter((entry): entry is Entry => entry !== undefined),
+    ) as T
+  );
 }
 
 async function main() {
