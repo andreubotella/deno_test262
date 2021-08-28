@@ -18,11 +18,11 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup Deno (latest)
-        uses: maximousblk/setup-deno@v1
-
-      - name: Print Deno version (for the record)
-        run: deno --version
+      - name: Setup Deno
+        run: |
+          DENO_VERSION="$(cat DENO_VERSION)"
+          curl -fsSL https://deno.land/x/install/install.sh | sh -s "$DENO_VERSION"
+          echo "PATH=$HOME/.deno/bin:$PATH" >> "$GITHUB_ENV"
 
       - name: Check the expectations file is sorted
         run: ./scripts/sort_expectations.ts --check

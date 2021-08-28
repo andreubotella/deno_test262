@@ -1,0 +1,55 @@
+name: update-deno
+
+on:
+  schedule:
+    # Every day at 12 AM UTC.
+    - cron: 0 0 * * *
+
+jobs:
+  update-deno:
+    name: Update Deno
+    timeout-minutes: 20
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Setup Deno (previous version)
+        run: |
+          DENO_VERSION="$(cat DENO_VERSION)"
+          curl -fsSL https://deno.land/x/install/install.sh | sh -s "$DENO_VERSION"
+          echo "PATH=$HOME/.deno/bin:$PATH" >> "$GITHUB_ENV"
+
+      - name: Update if needed
+        id: update
+        shell: deno run --allow-read=. --allow-write=. --allow-net {0}
+        run: |
+          const VERSION_FILE = "./DENO_VERSION";
+          const VERSIONS_URL = "https://raw.githubusercontent.com/denoland/deno_website2/main/versions.json";
+
+          const versions = await fetch(VERSIONS_URL).then(res => res.json());
+          const currentVersion = (await Deno.readTextFile(VERSION_FILE)).trim();
+          const latestVersion = versions.cli[0].trim();
+
+          if (currentVersion !== latestVersion) {
+            await Deno.writeTextFile(VERSION_FILE, latestVersion);
+            console.log("::set-output name=updated::true");
+          } else {
+            console.log("::set-output name=updated::false");
+          }
+
+      - name: Commit update
+        if: ${{ steps.update.outputs.updated == 'true' }}
+        run: |
+          git add ./DENO_VERSION
+          git commit -m "Update Deno to $(cat ./DENO_VERSION)"
+
+      - name: Open pull request
+        if: ${{ steps.update.outputs.updated == 'true' }}
+        uses: repo-sync/pull-request@v2
+        with:
+          destination_branch: main
+          pr_draft: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
