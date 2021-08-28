@@ -16,10 +16,11 @@ jobs:
         with:
           submodules: recursive
 
-      # Needed to run ./scripts/cleanup_expectations.ts. We're fine with the
-      # latest release.
+      # Needed to run ./scripts/cleanup_expectations.ts
       - name: Setup Deno
-        uses: maximousblk/setup-deno@v1
+        run: |
+          DENO_VERSION="$(cat DENO_VERSION)"
+          curl -fsSL https://deno.land/x/install/install.sh | sh -s "$DENO_VERSION"
 
       - name: Update and commit
         id: run
