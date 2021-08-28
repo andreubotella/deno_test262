@@ -43,24 +43,6 @@
     "language": {
       "function-code": {
         "block-decl-func-skip-arguments.js": false
-      },
-      "global-code": {
-        "block-decl-global-existing-global-init.js": false,
-        "block-decl-global-existing-non-enumerable-global-init.js": false,
-        "if-decl-else-decl-a-global-existing-global-init.js": false,
-        "if-decl-else-decl-a-global-existing-non-enumerable-global-init.js": false,
-        "if-decl-else-decl-b-global-existing-global-init.js": false,
-        "if-decl-else-decl-b-global-existing-non-enumerable-global-init.js": false,
-        "if-decl-else-stmt-global-existing-global-init.js": false,
-        "if-decl-else-stmt-global-existing-non-enumerable-global-init.js": false,
-        "if-decl-no-else-global-existing-global-init.js": false,
-        "if-decl-no-else-global-existing-non-enumerable-global-init.js": false,
-        "if-stmt-else-decl-global-existing-global-init.js": false,
-        "if-stmt-else-decl-global-existing-non-enumerable-global-init.js": false,
-        "switch-case-global-existing-global-init.js": false,
-        "switch-case-global-existing-non-enumerable-global-init.js": false,
-        "switch-dflt-global-existing-global-init.js": false,
-        "switch-dflt-global-existing-non-enumerable-global-init.js": false
       }
     }
   },
@@ -2846,18 +2828,8 @@
       "tco-pos.js": false
     },
     "global-code": {
-      "script-decl-func-dups.js": false,
       "script-decl-func-err-non-configurable.js": false,
-      "script-decl-func-err-non-extensible.js": false,
-      "script-decl-func.js": false,
-      "script-decl-lex-deletion.js": false,
-      "script-decl-lex-lex.js": false,
-      "script-decl-lex-restricted-global.js": false,
-      "script-decl-lex-var.js": false,
-      "script-decl-lex.js": false,
-      "script-decl-var-collision.js": false,
-      "script-decl-var-err.js": false,
-      "script-decl-var.js": false
+      "script-decl-var-collision.js": false
     },
     "identifier-resolution": {
       "assign-to-global-undefined.js": false

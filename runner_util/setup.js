@@ -2,7 +2,7 @@
   // Make sure we control the only output.
   const { Deno, console, URL } = globalThis;
   delete globalThis.Deno;
-  delete globalThis.console;
+  //delete globalThis.console;
   delete globalThis.URL;
 
   const liftThis = (fn) => fn.call.bind(fn);
@@ -77,6 +77,16 @@
       };
     });
   }
+
+  globalThis.$262 = {
+    evalScript(script) {
+      const [ret, err] = Deno.core.evalContext(script);
+      if (err !== null) {
+        throw err.thrown;
+      }
+      return ret;
+    },
+  };
 
   const test262Root = new URL("../test262/", import.meta.url);
 
