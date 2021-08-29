@@ -8,6 +8,7 @@ on:
 jobs:
   update-test262:
     name: Update test262
+    runs-on: ubuntu-latest
     timeout-minutes: 20
 
     steps:
