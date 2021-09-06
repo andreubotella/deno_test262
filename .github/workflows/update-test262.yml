@@ -26,7 +26,6 @@ jobs:
           echo "$HOME/.deno/bin" >> "$GITHUB_PATH"
 
       - name: Update and commit
-        id: run
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
@@ -38,8 +37,7 @@ jobs:
           NEW_SHA="$(git rev-parse HEAD)"
           cd ..
           if [ "$OLD_SHA" != "$NEW_SHA" ]; then
-            BRANCH_NAME="update-test262-$(date -u +%d-%m-%y)"
-            git checkout -b "$BRANCH_NAME"
+            git checkout -b "update-test262/$(date -u +%d-%m-%y)"
             git add test262
             git commit -m "Update test262 ($(date -u "+%h %d %Y"))"
             ./scripts/cleanup_expectations.ts
@@ -48,14 +46,6 @@ jobs:
               git commit -m "Clean up expectations"
             fi
 
-            echo "::set-output name=open_pr::$BRANCH_NAME"
+            gh pr create --fill --draft --label update-test262 \
+              --assignee andreubotella --reviewer andreubotella
           fi
-
-      - name: Open pull request
-        if: ${{ steps.run.outputs.open_pr != null }}
-        uses: repo-sync/pull-request@v2
-        with:
-          source_branch: ${{ steps.run.outputs.open_pr }}
-          destination_branch: main
-          pr_draft: true
-          github_token: ${{ secrets.GITHUB_TOKEN }}
