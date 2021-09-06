@@ -46,8 +46,12 @@ jobs:
         id: commit
         if: ${{ steps.update.outputs.updated == 'true' }}
         run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+
           BRANCH_NAME="update-deno-$(cat ./DENO_VERSION)"
           git checkout -b "$BRANCH_NAME"
+
           git add ./DENO_VERSION
           git commit -m "Update Deno to $(cat ./DENO_VERSION)"
           echo "::set-output name=branch::$BRANCH_NAME"
