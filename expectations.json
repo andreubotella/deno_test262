@@ -655,54 +655,6 @@
         "arg-uniq-ctor.js": false
       }
     },
-    "Realm": {
-      "constructor.js": false,
-      "descriptor.js": false,
-      "extensibility.js": false,
-      "instance-extensibility.js": false,
-      "instance.js": false,
-      "length.js": false,
-      "name.js": false,
-      "proto.js": false,
-      "prototype": {
-        "Symbol.toStringTag.js": false,
-        "evaluate": {
-          "descriptor.js": false,
-          "errors-from-the-other-realm-is-wrapped-into-a-typeerror.js": false,
-          "length.js": false,
-          "name.js": false,
-          "not-constructor.js": false,
-          "proto.js": false,
-          "returns-primitive-values.js": false,
-          "returns-symbol-values.js": false,
-          "throws-typeerror-if-evaluation-resolves-to-non-primitive.js": false,
-          "throws-when-argument-is-not-a-string.js": false,
-          "validates-realm-object.js": false,
-          "wrapped-function-arguments-are-wrapped-into-the-inner-realm-extended.js": false,
-          "wrapped-function-arguments-are-wrapped-into-the-inner-realm.js": false,
-          "wrapped-function-from-return-values-share-no-identity.js": false,
-          "wrapped-function-observing-their-scopes.js": false,
-          "wrapped-functions-accepts-callable-objects.js": false,
-          "wrapped-functions-can-resolve-callable-returns.js": false,
-          "wrapped-functions-new-wrapping-on-each-evaluation.js": false,
-          "wrapped-functions-share-no-properties-extended.js": false,
-          "wrapped-functions-share-no-properties.js": false
-        },
-        "importValue": {
-          "descriptor.js": false,
-          "exportName-tostring.js": false,
-          "import-value.js": false,
-          "length.js": false,
-          "name.js": false,
-          "not-constructor.js": false,
-          "proto.js": false,
-          "specifier-tostring.js": false,
-          "throws-if-import-value-does-not-exist.js": false,
-          "validates-realm-object.js": false
-        },
-        "proto.js": false
-      }
-    },
     "RegExp": {
       "named-groups": {
         "non-unicode-property-names-valid.js": false
@@ -1006,12 +958,6 @@
             "throw-range-error-ToTemporalDate.js": false,
             "throw-type-error-RequireInternalSlot.js": false
           },
-          "era": {
-            "branding.js": false
-          },
-          "eraYear": {
-            "branding.js": false
-          },
           "fields": {
             "branding.js": false,
             "long-input.js": false
@@ -1272,12 +1218,6 @@
           "equals": {
             "branding.js": false
           },
-          "era": {
-            "branding.js": false
-          },
-          "eraYear": {
-            "branding.js": false
-          },
           "getISOFields": {
             "branding.js": false
           },
@@ -1367,12 +1307,6 @@
             "branding.js": false
           },
           "equals": {
-            "branding.js": false
-          },
-          "era": {
-            "branding.js": false
-          },
-          "eraYear": {
             "branding.js": false
           },
           "getISOFields": {
@@ -1588,12 +1522,6 @@
           "equals": {
             "branding.js": false
           },
-          "era": {
-            "branding.js": false
-          },
-          "eraYear": {
-            "branding.js": false
-          },
           "getISOFields": {
             "branding.js": false
           },
@@ -1705,12 +1633,6 @@
             "branding.js": false
           },
           "equals": {
-            "branding.js": false
-          },
-          "era": {
-            "branding.js": false
-          },
-          "eraYear": {
             "branding.js": false
           },
           "getISOFields": {
