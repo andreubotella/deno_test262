@@ -38,7 +38,8 @@ jobs:
           NEW_SHA="$(git rev-parse HEAD)"
           cd ..
           if [ "$OLD_SHA" != "$NEW_SHA" ]; then
-            git checkout -b "update-test262-$(date -u +%d-%m-%y)"
+            BRANCH_NAME="update-test262-$(date -u +%d-%m-%y)"
+            git checkout -b "$BRANCH_NAME"
             git add test262
             git commit -m "Update test262 ($(date -u "+%h %d %Y"))"
             ./scripts/cleanup_expectations.ts
@@ -47,15 +48,14 @@ jobs:
               git commit -m "Clean up expectations"
             fi
 
-            echo "::set-output name=open_pr::true"
-          else
-            echo "::set-output name=open_pr::false"
+            echo "::set-output name=open_pr::$BRANCH_NAME"
           fi
 
       - name: Open pull request
-        if: ${{ steps.run.outputs.open_pr == 'true' }}
+        if: ${{ steps.run.outputs.open_pr != null }}
         uses: repo-sync/pull-request@v2
         with:
+          source_branch: ${{ steps.run.outputs.open_pr }}
           destination_branch: main
           pr_draft: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
