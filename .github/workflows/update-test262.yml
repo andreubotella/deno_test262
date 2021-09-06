@@ -29,7 +29,8 @@ jobs:
         run: |
           cd test262
           OLD_SHA="$(git rev-parse HEAD)"
-          git pull
+          git fetch
+          git reset --hard origin/main
           NEW_SHA="$(git rev-parse HEAD)"
           cd ..
           if [ "$OLD_SHA" != "$NEW_SHA" ]; then
