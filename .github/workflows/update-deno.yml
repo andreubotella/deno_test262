@@ -48,11 +48,13 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions"
 
-          git checkout -b "update-deno-$(cat ./DENO_VERSION)"
+          BRANCH_NAME="update-deno/$(cat ./DENO_VERSION)"
+          git checkout -b "$BRANCH_NAME"
           git add ./DENO_VERSION
           git commit -m "Update Deno to $(cat ./DENO_VERSION)"
 
-          gh pr create --fill --draft --label update-deno \
+          gh pr create --fill --draft \
+            --head "$BRANCH_NAME" --label update-deno \
             --assignee andreubotella --reviewer andreubotella
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
