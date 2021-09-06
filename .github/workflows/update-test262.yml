@@ -4,6 +4,7 @@ on:
   schedule:
     # Every Monday at 12 AM UTC.
     - cron: 0 0 * * 1
+  workflow_dispatch:
 
 jobs:
   update-test262:
