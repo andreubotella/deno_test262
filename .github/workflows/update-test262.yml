@@ -49,3 +49,5 @@ jobs:
             gh pr create --fill --draft --label update-test262 \
               --assignee andreubotella --reviewer andreubotella
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

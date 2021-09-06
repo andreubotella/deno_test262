@@ -54,3 +54,5 @@ jobs:
 
           gh pr create --fill --draft --label update-deno \
             --assignee andreubotella --reviewer andreubotella
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
