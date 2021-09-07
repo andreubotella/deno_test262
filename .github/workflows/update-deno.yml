@@ -49,12 +49,14 @@ jobs:
           git config --global user.name "github-actions"
 
           BRANCH_NAME="update-deno/$(cat ./DENO_VERSION)"
+          PR_TITLE="Update Deno to $(cat ./DENO_VERSION)"
           git checkout -b "$BRANCH_NAME"
           git add ./DENO_VERSION
-          git commit -m "Update Deno to $(cat ./DENO_VERSION)"
+          git commit -m "$PR_TITLE"
 
-          gh pr create --fill --draft \
-            --head "$BRANCH_NAME" --label update-deno \
-            --assignee andreubotella --reviewer andreubotella
+          git push -u origin "$BRANCH_NAME"
+          gh pr create --title "$PR_TITLE" --body "" --draft \
+            --assignee andreubotella --label update-deno
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}

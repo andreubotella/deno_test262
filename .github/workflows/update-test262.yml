@@ -38,18 +38,20 @@ jobs:
           cd ..
           if [ "$OLD_SHA" != "$NEW_SHA" ]; then
             BRANCH_NAME="update-test262/$(date -u +%d-%m-%y)"
+            PR_TITLE="Update test262 ($(date -u "+%h %d %Y"))"
             git checkout -b "$BRANCH_NAME"
             git add test262
-            git commit -m "Update test262 ($(date -u "+%h %d %Y"))"
+            git commit -m "$PR_TITLE"
             ./scripts/cleanup_expectations.ts
             if [ "$(git diff --name-only)" != "" ]; then
               git add expectations.json
               git commit -m "Clean up expectations"
             fi
 
-            gh pr create --fill --draft \
-              --head "$BRANCH_NAME" --label update-test262 \
-              --assignee andreubotella --reviewer andreubotella
+            git push -u origin "$BRANCH_NAME"
+            gh pr create --title "$PR_TITLE" --body "" --draft \
+              --assignee andreubotella --label update-test262
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
