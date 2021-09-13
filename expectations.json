@@ -526,6 +526,14 @@
         }
       }
     },
+    "Date": {
+      "prototype": {
+        "valueOf": {
+          "S9.4_A3_T1.js": false,
+          "S9.4_A3_T2.js": false
+        }
+      }
+    },
     "FinalizationRegistry": {
       "gc-has-one-chance-to-call-cleanupCallback.js": false,
       "prototype": {
@@ -653,6 +661,11 @@
       },
       "resolve": {
         "arg-uniq-ctor.js": false
+      }
+    },
+    "Proxy": {
+      "revocable": {
+        "tco-fn-realm.js": false
       }
     },
     "RegExp": {
@@ -812,6 +825,54 @@
         "flags": {
           "get-order.js": false
         }
+      }
+    },
+    "ShadowRealm": {
+      "constructor.js": false,
+      "descriptor.js": false,
+      "extensibility.js": false,
+      "instance-extensibility.js": false,
+      "instance.js": false,
+      "length.js": false,
+      "name.js": false,
+      "proto.js": false,
+      "prototype": {
+        "Symbol.toStringTag.js": false,
+        "evaluate": {
+          "descriptor.js": false,
+          "errors-from-the-other-realm-is-wrapped-into-a-typeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-constructor.js": false,
+          "proto.js": false,
+          "returns-primitive-values.js": false,
+          "returns-symbol-values.js": false,
+          "throws-typeerror-if-evaluation-resolves-to-non-primitive.js": false,
+          "throws-when-argument-is-not-a-string.js": false,
+          "validates-realm-object.js": false,
+          "wrapped-function-arguments-are-wrapped-into-the-inner-realm-extended.js": false,
+          "wrapped-function-arguments-are-wrapped-into-the-inner-realm.js": false,
+          "wrapped-function-from-return-values-share-no-identity.js": false,
+          "wrapped-function-observing-their-scopes.js": false,
+          "wrapped-functions-accepts-callable-objects.js": false,
+          "wrapped-functions-can-resolve-callable-returns.js": false,
+          "wrapped-functions-new-wrapping-on-each-evaluation.js": false,
+          "wrapped-functions-share-no-properties-extended.js": false,
+          "wrapped-functions-share-no-properties.js": false
+        },
+        "importValue": {
+          "descriptor.js": false,
+          "exportName-tostring.js": false,
+          "import-value.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-constructor.js": false,
+          "proto.js": false,
+          "specifier-tostring.js": false,
+          "throws-if-import-value-does-not-exist.js": false,
+          "validates-realm-object.js": false
+        },
+        "proto.js": false
       }
     },
     "SharedArrayBuffer": {
@@ -1179,6 +1240,29 @@
           "timezone-object-fail-has-timezone.js": false,
           "timezone-object.js": false
         },
+        "plainDateTimeISO": {
+          "extensible.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "return-value.js": false,
+          "time-zone-undefined.js": false,
+          "timezone-getoffsetnanosecondsfor-invocation.js": false,
+          "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "timezone-getoffsetnanosecondsfor-non-method.js": false,
+          "timezone-getoffsetnanosecondsfor-not-a-number.js": false,
+          "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "timezone-getoffsetnanosecondsfor-poisoned.js": false,
+          "timezone-getoffsetnanosecondsfor-throws.js": false,
+          "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "timezone-object-fail-call-tostring.js": false,
+          "timezone-object-fail-get-timezone.js": false,
+          "timezone-object-fail-has-nested-timezone.js": false,
+          "timezone-object-fail-has-timezone.js": false,
+          "timezone-object.js": false,
+          "timezone-string-datetime.js": false
+        },
         "timeZone": {
           "extensible.js": false,
           "length.js": false,
@@ -1187,6 +1271,41 @@
           "not-a-constructor.js": false,
           "prop-desc.js": false,
           "return-value.js": false
+        },
+        "zonedDateTime": {
+          "calendar-function.js": false,
+          "calendar-object-fail-call-tostring.js": false,
+          "calendar-object-fail-get-calendar.js": false,
+          "calendar-object-fail-has-calendar.js": false,
+          "calendar-object-fail-has-nested-calendar.js": false,
+          "calendar-object.js": false,
+          "calendar-temporal-object.js": false,
+          "extensible.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "time-zone-undefined.js": false,
+          "timezone-object-fail-call-tostring.js": false,
+          "timezone-object-fail-get-timezone.js": false,
+          "timezone-object-fail-has-nested-timezone.js": false,
+          "timezone-object-fail-has-timezone.js": false,
+          "timezone-object.js": false,
+          "timezone-string-datetime.js": false
+        },
+        "zonedDateTimeISO": {
+          "extensible.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "time-zone-undefined.js": false,
+          "timezone-object-fail-call-tostring.js": false,
+          "timezone-object-fail-get-timezone.js": false,
+          "timezone-object-fail-has-nested-timezone.js": false,
+          "timezone-object-fail-has-timezone.js": false,
+          "timezone-object.js": false,
+          "timezone-string-datetime.js": false
         }
       },
       "PlainDate": {
@@ -1758,6 +1877,9 @@
           "detached-buffer.js": false
         },
         "at": {
+          "BigInt": {
+            "return-abrupt-from-this-out-of-bounds.js": false
+          },
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "buffer": {
@@ -1768,7 +1890,9 @@
         },
         "byteLength": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "resizable-array-buffer-auto.js": false,
+            "resizable-array-buffer-fixed.js": false
           },
           "detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
@@ -1776,7 +1900,9 @@
         },
         "byteOffset": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "resizable-array-buffer-auto.js": false,
+            "resizable-array-buffer-fixed.js": false
           },
           "detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
@@ -1784,7 +1910,8 @@
         },
         "copyWithin": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "coerced-values-end-detached-prototype.js": false,
           "coerced-values-end-detached.js": false,
@@ -1794,7 +1921,8 @@
         },
         "entries": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
@@ -1802,7 +1930,8 @@
         "every": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
           "detached-buffer.js": false,
@@ -1810,7 +1939,8 @@
         },
         "fill": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "coerced-end-detach.js": false,
           "coerced-start-detach.js": false,
@@ -1821,7 +1951,8 @@
         "filter": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
           "detached-buffer.js": false,
@@ -1830,7 +1961,8 @@
         "find": {
           "BigInt": {
             "detached-buffer.js": false,
-            "predicate-may-detach-buffer.js": false
+            "predicate-may-detach-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer.js": false,
           "predicate-may-detach-buffer.js": false,
@@ -1839,7 +1971,8 @@
         "findIndex": {
           "BigInt": {
             "detached-buffer.js": false,
-            "predicate-may-detach-buffer.js": false
+            "predicate-may-detach-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer.js": false,
           "predicate-may-detach-buffer.js": false,
@@ -1856,6 +1989,7 @@
             "predicate-may-detach-buffer.js": false,
             "predicate-not-called-on-empty-array.js": false,
             "return-abrupt-from-predicate-call.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false,
             "return-found-value-predicate-result-is-true.js": false,
             "return-undefined-if-predicate-returns-false-value.js": false
           },
@@ -1888,6 +2022,7 @@
             "predicate-may-detach-buffer.js": false,
             "predicate-not-called-on-empty-array.js": false,
             "return-abrupt-from-predicate-call.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false,
             "return-index-predicate-result-is-true.js": false,
             "return-negative-one-if-predicate-returns-false-value.js": false
           },
@@ -1912,7 +2047,8 @@
         "forEach": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
           "detached-buffer.js": false,
@@ -1922,7 +2058,8 @@
           "BigInt": {
             "detached-buffer-during-fromIndex-returns-false-for-zero.js": false,
             "detached-buffer-during-fromIndex-returns-true-for-undefined.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer-during-fromIndex-returns-false-for-zero.js": false,
           "detached-buffer-during-fromIndex-returns-true-for-undefined.js": false,
@@ -1933,7 +2070,8 @@
           "BigInt": {
             "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
             "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
           "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
@@ -1943,7 +2081,8 @@
         "join": {
           "BigInt": {
             "detached-buffer-during-fromIndex-returns-single-comma.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer-during-fromIndex-returns-single-comma.js": false,
           "detached-buffer.js": false,
@@ -1951,7 +2090,8 @@
         },
         "keys": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
@@ -1960,7 +2100,8 @@
           "BigInt": {
             "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
             "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
           "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
@@ -1969,7 +2110,9 @@
         },
         "length": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "resizable-array-buffer-auto.js": false,
+            "resizable-array-buffer-fixed.js": false
           },
           "detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
@@ -1978,7 +2121,8 @@
         "map": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
           "detached-buffer.js": false,
@@ -1987,7 +2131,8 @@
         "reduce": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
           "detached-buffer.js": false,
@@ -1996,7 +2141,8 @@
         "reduceRight": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
           "detached-buffer.js": false,
@@ -2004,7 +2150,8 @@
         },
         "reverse": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
@@ -2015,7 +2162,9 @@
             "array-arg-targetbuffer-detached-on-get-src-value-throws.js": false,
             "array-arg-targetbuffer-detached-on-tointeger-offset-throws.js": false,
             "array-arg-targetbuffer-detached-throws.js": false,
+            "typedarray-arg-set-values-same-buffer-same-type-resized.js": false,
             "typedarray-arg-srcbuffer-detached-during-tointeger-offset-throws.js": false,
+            "typedarray-arg-target-out-of-bounds.js": false,
             "typedarray-arg-targetbuffer-detached-during-tointeger-offset-throws.js": false
           },
           "array-arg-primitive-toobject.js": false,
@@ -2035,7 +2184,8 @@
             "detached-buffer-speciesctor-get-species-custom-ctor-throws.js": false,
             "detached-buffer-zero-count-custom-ctor-other-targettype.js": false,
             "detached-buffer-zero-count-custom-ctor-same-targettype.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer-custom-ctor-other-targettype.js": false,
           "detached-buffer-custom-ctor-same-targettype.js": false,
@@ -2049,7 +2199,8 @@
         "some": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
           "detached-buffer.js": false,
@@ -2058,7 +2209,8 @@
         "sort": {
           "BigInt": {
             "detached-buffer-comparefn.js": false,
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer-comparefn-coerce.js": false,
           "detached-buffer-comparefn.js": false,
@@ -2074,7 +2226,8 @@
         },
         "toLocaleString": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
@@ -2087,7 +2240,8 @@
         },
         "values": {
           "BigInt": {
-            "detached-buffer.js": false
+            "detached-buffer.js": false,
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
           "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
@@ -2232,6 +2386,31 @@
     "Intl": {
       "getCanonicalLocales": {
         "unicode-ext-canonicalize-yes-to-true.js": false
+      },
+      "supportedValuesOf": {
+        "builtin.js": false,
+        "calendars-accepted-by-DateTimeFormat.js": false,
+        "calendars-accepted-by-DisplayNames.js": false,
+        "calendars.js": false,
+        "coerced-to-string.js": false,
+        "collations-accepted-by-Collator.js": false,
+        "collations.js": false,
+        "currencies-accepted-by-DisplayNames.js": false,
+        "currencies-accepted-by-NumberFormat.js": false,
+        "currencies.js": false,
+        "invalid-key.js": false,
+        "length.js": false,
+        "name.js": false,
+        "numberingSystems-accepted-by-DateTimeFormat.js": false,
+        "numberingSystems-accepted-by-NumberFormat.js": false,
+        "numberingSystems-accepted-by-RelativeTimeFormat.js": false,
+        "numberingSystems-with-simple-digit-mappings.js": false,
+        "numberingSystems.js": false,
+        "prop-desc.js": false,
+        "timeZones-accepted-by-DateTimeFormat.js": false,
+        "timeZones.js": false,
+        "units-accepted-by-NumberFormat.js": false,
+        "units.js": false
       }
     },
     "Locale": {
@@ -2288,6 +2467,58 @@
     },
     "NumberFormat": {
       "currency-digits.js": false
+    },
+    "Temporal": {
+      "Calendar": {
+        "prototype": {
+          "era": {
+            "branding.js": false
+          },
+          "eraYear": {
+            "branding.js": false
+          }
+        }
+      },
+      "PlainDate": {
+        "prototype": {
+          "era": {
+            "branding.js": false
+          },
+          "eraYear": {
+            "branding.js": false
+          }
+        }
+      },
+      "PlainDateTime": {
+        "prototype": {
+          "era": {
+            "branding.js": false
+          },
+          "eraYear": {
+            "branding.js": false
+          }
+        }
+      },
+      "PlainYearMonth": {
+        "prototype": {
+          "era": {
+            "branding.js": false
+          },
+          "eraYear": {
+            "branding.js": false
+          }
+        }
+      },
+      "ZonedDateTime": {
+        "prototype": {
+          "era": {
+            "branding.js": false
+          },
+          "eraYear": {
+            "branding.js": false
+          }
+        }
+      }
     },
     "supportedLocalesOf-taint-Array-2.js": false,
     "supportedLocalesOf-taint-Array.js": false
