@@ -45,8 +45,10 @@ jobs:
       - name: Commit update
         if: ${{ steps.update.outputs.updated == 'true' }}
         run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions"
+          echo -n "$GPG_SIGNING_KEY" | base64 --decode | gpg --import
+          git config --global user.email "90636620+andreubot@users.noreply.github.com"
+          git config --global user.name "andreubot"
+          git config --global user.signingkey "1D165DD908A9C331"
 
           BRANCH_NAME="update-deno/$(cat ./DENO_VERSION)"
           PR_TITLE="Update Deno to $(cat ./DENO_VERSION)"
@@ -58,5 +60,6 @@ jobs:
           gh pr create --title "$PR_TITLE" --body "" --draft \
             --assignee andreubotella --label update-deno
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
+          GPG_SIGNING_KEY: ${{ secrets.BOT_GPG_SIGNING_KEY }}
