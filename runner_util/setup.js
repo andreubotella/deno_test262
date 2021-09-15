@@ -12,13 +12,13 @@
   const PromiseReject = Promise.reject.bind(Promise);
   const PromiseResolve = Promise.resolve.bind(Promise);
   const PromisePrototypeThen = liftThis(Promise.prototype.then);
+  const structuredClone = globalThis.structuredClone;
 
   // ---------------------------------------------------------------------------
 
   // Parse environment variables
 
   /**
-   *
    * @param {string} key
    * @param {boolean} canBeNull
    * @returns {string | null}
@@ -79,6 +79,9 @@
   }
 
   globalThis.$262 = {
+    detachArrayBuffer(buffer) {
+      structuredClone(undefined, { transfer: [buffer] });
+    },
     evalScript(script) {
       const [ret, err] = Deno.core.evalContext(script);
       if (err !== null) {
