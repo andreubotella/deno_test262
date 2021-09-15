@@ -2730,8 +2730,7 @@
           "meth-dflt-ary-init-iter-get-err-array-prototype.js": false,
           "meth-static-ary-init-iter-get-err-array-prototype.js": false,
           "meth-static-dflt-ary-init-iter-get-err-array-prototype.js": false
-        },
-        "static-init-await-reference.js": false
+        }
       },
       "coalesce": {
         "tco-pos-null.js": false,
@@ -2887,18 +2886,14 @@
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
-        },
-        "static-init-await-binding.js": false,
-        "static-init-await-reference.js": false
+        }
       },
       "generators": {
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
         },
-        "generator-created-after-decl-inst.js": false,
-        "static-init-await-binding.js": false,
-        "static-init-await-reference.js": false
+        "generator-created-after-decl-inst.js": false
       },
       "import.meta": {
         "syntax": {
@@ -2933,18 +2928,7 @@
           "gen-meth-ary-init-iter-get-err-array-prototype.js": false,
           "gen-meth-dflt-ary-init-iter-get-err-array-prototype.js": false,
           "meth-ary-init-iter-get-err-array-prototype.js": false,
-          "meth-dflt-ary-init-iter-get-err-array-prototype.js": false,
-          "object-rest-proxy-gopd-not-called-on-excluded-keys.js": false
-        },
-        "ident-name-prop-name-literal-await-static-init.js": false,
-        "identifier-shorthand-static-init-await-valid.js": false,
-        "method-definition": {
-          "static-init-await-binding-accessor.js": false,
-          "static-init-await-binding-generator.js": false,
-          "static-init-await-binding-normal.js": false,
-          "static-init-await-reference-accessor.js": false,
-          "static-init-await-reference-generator.js": false,
-          "static-init-await-reference-normal.js": false
+          "meth-dflt-ary-init-iter-get-err-array-prototype.js": false
         }
       },
       "optional-chaining": {
@@ -3341,22 +3325,6 @@
           "meth-static-ary-init-iter-get-err-array-prototype.js": false,
           "meth-static-dflt-ary-init-iter-get-err-array-prototype.js": false
         },
-        "static-init-abrupt.js": false,
-        "static-init-arguments-functions.js": false,
-        "static-init-arguments-methods.js": false,
-        "static-init-await-binding-valid.js": false,
-        "static-init-expr-new-target.js": false,
-        "static-init-expr-this.js": false,
-        "static-init-scope-lex-close.js": false,
-        "static-init-scope-lex-derived.js": false,
-        "static-init-scope-lex-open.js": false,
-        "static-init-scope-private.js": false,
-        "static-init-scope-var-close.js": false,
-        "static-init-scope-var-derived.js": false,
-        "static-init-scope-var-open.js": false,
-        "static-init-sequence.js": false,
-        "static-init-statement-list-optional.js": false,
-        "static-init-super-property.js": false,
         "subclass": {
           "default-constructor-spread-override.js": false,
           "derived-class-return-override-catch-finally-arrow.js": false,
@@ -3369,8 +3337,7 @@
       "const": {
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false
-        },
-        "static-init-await-binding-valid.js": false
+        }
       },
       "do-while": {
         "tco-body.js": false
@@ -3403,8 +3370,7 @@
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
-        },
-        "static-init-await-binding-valid.js": false
+        }
       },
       "generators": {
         "dstr": {
@@ -3425,8 +3391,7 @@
       "let": {
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false
-        },
-        "static-init-await-binding-valid.js": false
+        }
       },
       "return": {
         "tco.js": false
@@ -3440,7 +3405,6 @@
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false
         },
-        "static-init-await-binding-valid.js": false,
         "tco-catch-finally.js": false,
         "tco-catch.js": false,
         "tco-finally.js": false
@@ -3448,11 +3412,8 @@
       "variable": {
         "binding-resolution.js": false,
         "dstr": {
-          "ary-init-iter-get-err-array-prototype.js": false,
-          "ary-ptrn-elem-id-static-init-await-valid.js": false,
-          "obj-ptrn-elem-id-static-init-await-valid.js": false
-        },
-        "static-init-await-binding-valid.js": false
+          "ary-init-iter-get-err-array-prototype.js": false
+        }
       },
       "while": {
         "tco-body.js": false
