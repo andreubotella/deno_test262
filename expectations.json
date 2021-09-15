@@ -168,9 +168,6 @@
       "options-maxbytelength-undefined.js": false,
       "options-non-object.js": false,
       "prototype": {
-        "byteLength": {
-          "detached-buffer.js": false
-        },
         "maxByteLength": {
           "detached-buffer.js": false,
           "invoked-as-accessor.js": false,
@@ -241,15 +238,13 @@
     },
     "ArrayIteratorPrototype": {
       "next": {
-        "detach-typedarray-in-progress.js": false,
         "property-descriptor.js": false
       }
     },
     "Atomics": {
       "notify": {
         "bigint": {
-          "notify-all-on-loc.js": false,
-          "null-bufferdata-throws.js": false
+          "notify-all-on-loc.js": false
         },
         "count-defaults-to-infinity-missing.js": false,
         "count-defaults-to-infinity-undefined.js": false,
@@ -265,7 +260,6 @@
         "notify-with-no-agents-waiting.js": false,
         "notify-with-no-matching-agents-waiting.js": false,
         "notify-zero.js": false,
-        "null-bufferdata-throws.js": false,
         "undefined-index-defaults-to-zero.js": false
       },
       "wait": {
@@ -282,7 +276,6 @@
           "no-spurious-wakeup-on-store.js": false,
           "no-spurious-wakeup-on-sub.js": false,
           "no-spurious-wakeup-on-xor.js": false,
-          "null-bufferdata-throws.js": false,
           "value-not-equal.js": false,
           "waiterlist-block-indexedposition-wake.js": false,
           "waiterlist-order-of-operations-is-fifo.js": false,
@@ -301,7 +294,6 @@
         "no-spurious-wakeup-on-store.js": false,
         "no-spurious-wakeup-on-sub.js": false,
         "no-spurious-wakeup-on-xor.js": false,
-        "null-bufferdata-throws.js": false,
         "null-for-timeout-agent.js": false,
         "object-for-timeout-agent.js": false,
         "poisoned-object-for-timeout-throws-agent.js": false,
@@ -332,7 +324,6 @@
           "no-spurious-wakeup-on-store.js": false,
           "no-spurious-wakeup-on-sub.js": false,
           "no-spurious-wakeup-on-xor.js": false,
-          "null-bufferdata-throws.js": false,
           "null-for-timeout-agent.js": false,
           "object-for-timeout-agent.js": false,
           "poisoned-object-for-timeout-throws-agent.js": false,
@@ -360,7 +351,6 @@
         "no-spurious-wakeup-on-store.js": false,
         "no-spurious-wakeup-on-sub.js": false,
         "no-spurious-wakeup-on-xor.js": false,
-        "null-bufferdata-throws.js": false,
         "null-for-timeout-agent.js": false,
         "object-for-timeout-agent.js": false,
         "poisoned-object-for-timeout-throws-agent.js": false,
@@ -384,9 +374,6 @@
       "custom-proto-access-detaches-buffer.js": false,
       "detached-buffer.js": false,
       "prototype": {
-        "buffer": {
-          "detached-buffer.js": false
-        },
         "byteLength": {
           "detached-buffer.js": false,
           "instance-has-detached-buffer.js": false,
@@ -399,129 +386,63 @@
           "resizable-array-buffer-fixed.js": false
         },
         "getBigInt64": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getBigUint64": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getFloat32": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getFloat64": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getInt16": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getInt32": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getInt8": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getUint16": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getUint32": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "getUint8": {
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setBigInt64": {
-          "detached-buffer-after-bigint-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setBigUint64": {
           "resizable-buffer.js": false
         },
         "setFloat32": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setFloat64": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setInt16": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setInt32": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setInt8": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setUint16": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setUint32": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         },
         "setUint8": {
-          "detached-buffer-after-number-value.js": false,
-          "detached-buffer-after-toindex-byteoffset.js": false,
-          "detached-buffer-before-outofrange-byteoffset.js": false,
-          "detached-buffer.js": false,
           "resizable-buffer.js": false
         }
       }
@@ -1870,117 +1791,86 @@
     },
     "TypedArray": {
       "prototype": {
-        "Symbol.toStringTag": {
-          "BigInt": {
-            "detached-buffer.js": false
-          },
-          "detached-buffer.js": false
-        },
         "at": {
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "return-abrupt-from-this-out-of-bounds.js": false
         },
-        "buffer": {
-          "BigInt": {
-            "detached-buffer.js": false
-          },
-          "detached-buffer.js": false
-        },
         "byteLength": {
           "BigInt": {
-            "detached-buffer.js": false,
             "resizable-array-buffer-auto.js": false,
             "resizable-array-buffer-fixed.js": false
           },
-          "detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
           "resizable-array-buffer-fixed.js": false
         },
         "byteOffset": {
           "BigInt": {
-            "detached-buffer.js": false,
             "resizable-array-buffer-auto.js": false,
             "resizable-array-buffer-fixed.js": false
           },
-          "detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
           "resizable-array-buffer-fixed.js": false
         },
         "copyWithin": {
           "BigInt": {
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "coerced-values-end-detached-prototype.js": false,
           "coerced-values-end-detached.js": false,
           "coerced-values-start-detached.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "entries": {
           "BigInt": {
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "every": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "fill": {
           "BigInt": {
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "coerced-end-detach.js": false,
           "coerced-start-detach.js": false,
           "coerced-value-detach.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "filter": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "find": {
           "BigInt": {
-            "detached-buffer.js": false,
             "predicate-may-detach-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer.js": false,
           "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findIndex": {
           "BigInt": {
-            "detached-buffer.js": false,
             "predicate-may-detach-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer.js": false,
           "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findLast": {
           "BigInt": {
-            "detached-buffer.js": false,
             "get-length-ignores-length-prop.js": false,
             "predicate-call-changes-value.js": false,
             "predicate-call-parameters.js": false,
@@ -1993,7 +1883,6 @@
             "return-found-value-predicate-result-is-true.js": false,
             "return-undefined-if-predicate-returns-false-value.js": false
           },
-          "detached-buffer.js": false,
           "get-length-ignores-length-prop.js": false,
           "invoked-as-func.js": false,
           "invoked-as-method.js": false,
@@ -2013,7 +1902,6 @@
         },
         "findLastIndex": {
           "BigInt": {
-            "detached-buffer.js": false,
             "get-length-ignores-length-prop.js": false,
             "predicate-call-changes-value.js": false,
             "predicate-call-parameters.js": false,
@@ -2026,7 +1914,6 @@
             "return-index-predicate-result-is-true.js": false,
             "return-negative-one-if-predicate-returns-false-value.js": false
           },
-          "detached-buffer.js": false,
           "get-length-ignores-length-prop.js": false,
           "invoked-as-func.js": false,
           "invoked-as-method.js": false,
@@ -2047,310 +1934,146 @@
         "forEach": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "includes": {
           "BigInt": {
-            "detached-buffer-during-fromIndex-returns-false-for-zero.js": false,
             "detached-buffer-during-fromIndex-returns-true-for-undefined.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer-during-fromIndex-returns-false-for-zero.js": false,
           "detached-buffer-during-fromIndex-returns-true-for-undefined.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "indexOf": {
           "BigInt": {
-            "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
-            "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
-          "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "join": {
           "BigInt": {
-            "detached-buffer-during-fromIndex-returns-single-comma.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer-during-fromIndex-returns-single-comma.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "keys": {
           "BigInt": {
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "lastIndexOf": {
           "BigInt": {
-            "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
-            "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer-during-fromIndex-returns-minus-one-for-undefined.js": false,
-          "detached-buffer-during-fromIndex-returns-minus-one-for-zero.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "length": {
           "BigInt": {
-            "detached-buffer.js": false,
             "resizable-array-buffer-auto.js": false,
             "resizable-array-buffer-fixed.js": false
           },
-          "detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
           "resizable-array-buffer-fixed.js": false
         },
         "map": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "reduce": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "reduceRight": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "reverse": {
           "BigInt": {
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "set": {
           "BigInt": {
             "array-arg-primitive-toobject.js": false,
-            "array-arg-targetbuffer-detached-on-get-src-value-throws.js": false,
-            "array-arg-targetbuffer-detached-on-tointeger-offset-throws.js": false,
-            "array-arg-targetbuffer-detached-throws.js": false,
             "typedarray-arg-set-values-same-buffer-same-type-resized.js": false,
-            "typedarray-arg-srcbuffer-detached-during-tointeger-offset-throws.js": false,
-            "typedarray-arg-target-out-of-bounds.js": false,
-            "typedarray-arg-targetbuffer-detached-during-tointeger-offset-throws.js": false
+            "typedarray-arg-target-out-of-bounds.js": false
           },
           "array-arg-primitive-toobject.js": false,
-          "array-arg-targetbuffer-detached-on-get-src-value-throws.js": false,
-          "array-arg-targetbuffer-detached-on-tointeger-offset-throws.js": false,
-          "array-arg-targetbuffer-detached-throws.js": false,
           "typedarray-arg-set-values-same-buffer-same-type-resized.js": false,
-          "typedarray-arg-srcbuffer-detached-during-tointeger-offset-throws.js": false,
-          "typedarray-arg-target-out-of-bounds.js": false,
-          "typedarray-arg-targetbuffer-detached-during-tointeger-offset-throws.js": false
+          "typedarray-arg-target-out-of-bounds.js": false
         },
         "slice": {
           "BigInt": {
-            "detached-buffer-custom-ctor-other-targettype.js": false,
-            "detached-buffer-custom-ctor-same-targettype.js": false,
-            "detached-buffer-get-ctor.js": false,
-            "detached-buffer-speciesctor-get-species-custom-ctor-throws.js": false,
-            "detached-buffer-zero-count-custom-ctor-other-targettype.js": false,
-            "detached-buffer-zero-count-custom-ctor-same-targettype.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer-custom-ctor-other-targettype.js": false,
-          "detached-buffer-custom-ctor-same-targettype.js": false,
-          "detached-buffer-get-ctor.js": false,
-          "detached-buffer-speciesctor-get-species-custom-ctor-throws.js": false,
-          "detached-buffer-zero-count-custom-ctor-other-targettype.js": false,
-          "detached-buffer-zero-count-custom-ctor-same-targettype.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "some": {
           "BigInt": {
             "callbackfn-detachbuffer.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
           "callbackfn-detachbuffer.js": false,
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "sort": {
           "BigInt": {
-            "detached-buffer-comparefn.js": false,
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer-comparefn-coerce.js": false,
-          "detached-buffer-comparefn.js": false,
-          "detached-buffer.js": false,
-          "return-abrupt-from-this-out-of-bounds.js": false,
-          "sort-tonumber.js": false
-        },
-        "subarray": {
-          "BigInt": {
-            "detached-buffer.js": false
-          },
-          "detached-buffer.js": false
+          "return-abrupt-from-this-out-of-bounds.js": false
         },
         "toLocaleString": {
           "BigInt": {
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
-        },
-        "toString": {
-          "BigInt": {
-            "detached-buffer.js": false
-          },
-          "detached-buffer.js": false
         },
         "values": {
           "BigInt": {
-            "detached-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         }
       }
     },
     "TypedArrayConstructors": {
       "ctors": {
-        "buffer-arg": {
-          "byteoffset-to-number-detachbuffer.js": false,
-          "detachedbuffer.js": false,
-          "length-to-number-detachbuffer.js": false
-        },
         "typedarray-arg": {
-          "detached-when-species-retrieved-different-type.js": false,
-          "detached-when-species-retrieved-same-type.js": false,
           "out-of-bounds-when-species-retrieved-different-type.js": false,
           "out-of-bounds-when-species-retrieved-same-type.js": false
-        }
-      },
-      "ctors-bigint": {
-        "buffer-arg": {
-          "byteoffset-to-number-detachbuffer.js": false,
-          "detachedbuffer.js": false,
-          "length-to-number-detachbuffer.js": false
-        },
-        "typedarray-arg": {
-          "detached-when-species-retrieved-different-type.js": false,
-          "detached-when-species-retrieved-same-type.js": false
         }
       },
       "internals": {
         "DefineOwnProperty": {
           "BigInt": {
-            "detached-buffer-throws-realm.js": false,
-            "detached-buffer-throws.js": false,
-            "detached-buffer.js": false,
-            "tonumber-value-detached-buffer.js": false
+            "detached-buffer-throws-realm.js": false
           },
-          "detached-buffer-throws-realm.js": false,
-          "detached-buffer-throws.js": false,
-          "detached-buffer.js": false,
-          "tonumber-value-detached-buffer.js": false
-        },
-        "Delete": {
-          "BigInt": {
-            "detached-buffer-key-is-not-numeric-index.js": false,
-            "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer.js": false,
-            "infinity-detached-buffer.js": false
-          },
-          "detached-buffer-key-is-not-numeric-index.js": false,
-          "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer.js": false,
-          "infinity-detached-buffer.js": false
-        },
-        "Get": {
-          "BigInt": {
-            "detached-buffer-key-is-not-numeric-index.js": false,
-            "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer.js": false,
-            "infinity-detached-buffer.js": false
-          },
-          "detached-buffer-key-is-not-numeric-index.js": false,
-          "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer.js": false,
-          "infinity-detached-buffer.js": false
-        },
-        "GetOwnProperty": {
-          "BigInt": {
-            "detached-buffer-key-is-not-number.js": false,
-            "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer.js": false,
-            "enumerate-detached-buffer.js": false
-          },
-          "detached-buffer-key-is-not-number.js": false,
-          "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer.js": false,
-          "enumerate-detached-buffer.js": false
+          "detached-buffer-throws-realm.js": false
         },
         "HasProperty": {
-          "BigInt": {
-            "detached-buffer-key-is-not-number.js": false,
-            "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer.js": false,
-            "infinity-with-detached-buffer.js": false
-          },
-          "detached-buffer-key-is-not-number.js": false,
-          "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer.js": false,
-          "infinity-with-detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
           "resizable-array-buffer-fixed.js": false
         },
         "OwnPropertyKeys": {
           "integer-indexes-resizable-array-buffer-auto.js": false,
           "integer-indexes-resizable-array-buffer-fixed.js": false
-        },
-        "Set": {
-          "BigInt": {
-            "detached-buffer-key-is-not-numeric-index.js": false,
-            "detached-buffer-key-is-symbol.js": false,
-            "detached-buffer.js": false,
-            "tonumber-value-detached-buffer.js": false
-          },
-          "detached-buffer-key-is-not-numeric-index.js": false,
-          "detached-buffer-key-is-symbol.js": false,
-          "detached-buffer.js": false,
-          "tonumber-value-detached-buffer.js": false
         }
       }
     },
