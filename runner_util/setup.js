@@ -2,7 +2,7 @@
   // Make sure we control the only output.
   const { Deno, console, URL } = globalThis;
   delete globalThis.Deno;
-  //delete globalThis.console;
+  delete globalThis.console;
   delete globalThis.URL;
 
   const liftThis = (fn) => fn.call.bind(fn);
