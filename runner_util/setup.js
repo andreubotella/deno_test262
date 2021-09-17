@@ -89,6 +89,20 @@
       }
       return ret;
     },
+    agent: {
+      start(script) {
+        const worker = new Worker(
+          new URL("./agent-setup.js", import.meta.url),
+          { type: "module", deno: true },
+        );
+        const lock = new Int32Array(new SharedArrayBuffer(4));
+        worker.postMessage({
+          script: String(script),
+          lock,
+        });
+        Atomics.wait(lock, 0, 0);
+      },
+    },
   };
 
   const test262Root = new URL("../test262/", import.meta.url);

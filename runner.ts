@@ -43,6 +43,7 @@ async function runTest(
     cmd: [
       "deno",
       "run",
+      "--unstable",
       "--allow-read",
       "--allow-env",
       fromFileUrl(SETUP_SCRIPT),
