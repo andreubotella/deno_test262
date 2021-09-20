@@ -447,14 +447,6 @@
         }
       }
     },
-    "Date": {
-      "prototype": {
-        "valueOf": {
-          "S9.4_A3_T1.js": false,
-          "S9.4_A3_T2.js": false
-        }
-      }
-    },
     "FinalizationRegistry": {
       "gc-has-one-chance-to-call-cleanupCallback.js": false,
       "prototype": {
@@ -764,6 +756,7 @@
           "errors-from-the-other-realm-is-wrapped-into-a-typeerror.js": false,
           "length.js": false,
           "name.js": false,
+          "nested-realms.js": false,
           "not-constructor.js": false,
           "proto.js": false,
           "returns-primitive-values.js": false,
@@ -774,6 +767,8 @@
           "wrapped-function-arguments-are-wrapped-into-the-inner-realm-extended.js": false,
           "wrapped-function-arguments-are-wrapped-into-the-inner-realm.js": false,
           "wrapped-function-from-return-values-share-no-identity.js": false,
+          "wrapped-function-multiple-different-realms-nested.js": false,
+          "wrapped-function-multiple-different-realms.js": false,
           "wrapped-function-observing-their-scopes.js": false,
           "wrapped-functions-accepts-callable-objects.js": false,
           "wrapped-functions-can-resolve-callable-returns.js": false,
