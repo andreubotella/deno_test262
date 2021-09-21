@@ -1,6 +1,6 @@
 (() => {
   // Make sure we control the only output.
-  const { Deno, console, URL } = globalThis;
+  const { Deno, console, URL, setTimeout } = globalThis;
   delete globalThis.Deno;
   delete globalThis.console;
   delete globalThis.URL;
@@ -78,6 +78,8 @@
     });
   }
 
+  const agents = [];
+
   globalThis.$262 = {
     detachArrayBuffer(buffer) {
       structuredClone(undefined, { transfer: [buffer] });
@@ -95,12 +97,30 @@
           new URL("./agent-setup.js", import.meta.url),
           { type: "module", deno: true },
         );
+        agents.push(worker);
+
         const lock = new Int32Array(new SharedArrayBuffer(4));
         worker.postMessage({
+          type: "start",
           script: String(script),
           lock,
         });
         Atomics.wait(lock, 0, 0);
+      },
+      broadcast(sab, number) {
+        const semaphore = new Int32Array(new SharedArrayBuffer(4));
+
+        for (const agent of agents) {
+          agent.postMessage({ type: "broadcast", semaphore, sab, number });
+        }
+
+        Atomics.wait(semaphore, 0, 0);
+
+        while (true) {
+          const load = Atomics.load(semaphore, 0);
+          if (load >= agents.length) break;
+          Atomics.wait(semaphore, 0, load);
+        }
       },
     },
   };
