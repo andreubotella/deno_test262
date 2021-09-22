@@ -29,8 +29,9 @@ jobs:
         id: update
         shell: deno run --allow-read=. --allow-write=. --allow-net {0}
         run: |
-          const VERSION_FILE = "./DENO_VERSION";
           const VERSIONS_URL = "https://raw.githubusercontent.com/denoland/deno_website2/main/versions.json";
+          const VERSION_FILE = "./DENO_VERSION";
+          const IMPORT_MAP_FILE = "./import_map.json";
 
           const versions = await fetch(VERSIONS_URL).then(res => res.json());
           const currentVersion = (await Deno.readTextFile(VERSION_FILE)).trim();
@@ -38,6 +39,16 @@ jobs:
 
           if (currentVersion !== latestVersion) {
             await Deno.writeTextFile(VERSION_FILE, latestVersion);
+
+            // Update the import map file with the latest std version.
+            const stdVersion = versions.std[0].trim();
+            const importMap = JSON.parse(await Deno.readTextFile(IMPORT_MAP_FILE));
+            importMap.imports["std/"] = `https://deno.land/std@${stdVersion}/`;
+            await Deno.writeTextFile(
+              IMPORT_MAP_FILE,
+              JSON.stringify(importMap, null, 2) + "\n"
+            );
+
             console.log("::set-output name=updated::true");
           } else {
             console.log("::set-output name=updated::false");
