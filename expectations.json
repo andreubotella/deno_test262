@@ -757,10 +757,13 @@
           "length.js": false,
           "name.js": false,
           "nested-realms.js": false,
+          "no-conditional-strict-mode.js": false,
           "not-constructor.js": false,
           "proto.js": false,
           "returns-primitive-values.js": false,
+          "returns-proxy-callable-object.js": false,
           "returns-symbol-values.js": false,
+          "throws-syntaxerror-on-bad-syntax.js": false,
           "throws-typeerror-if-evaluation-resolves-to-non-primitive.js": false,
           "throws-when-argument-is-not-a-string.js": false,
           "validates-realm-object.js": false,
@@ -2079,6 +2082,9 @@
         }
       }
     }
+  },
+  "harness": {
+    "assert-throws-same-realm.js": false
   },
   "intl402": {
     "DateTimeFormat": {
