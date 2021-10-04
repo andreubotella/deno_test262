@@ -860,16 +860,11 @@
             "branding.js": false,
             "throw-range-error-from-ToTemporalDate.js": false,
             "throw-range-error-from-ToTemporalDuration.js": false,
-            "throw-range-error-from-ToTemporalOverflow.js": false,
-            "throw-type-error-from-GetOptionsObject.js": false,
-            "throw-type-error-from-RequireInternalSlot.js": false
+            "throw-type-error-from-GetOptionsObject.js": false
           },
           "dateFromFields": {
             "branding.js": false,
-            "throw-range-error-from-ISODateFromFields.js": false,
-            "throw-type-error-fields-is-not-object.js": false,
             "throw-type-error-from-GetOptionsObject.js": false,
-            "throw-type-error-from-RequireInternalSlot.js": false,
             "throws-range-error.js": false,
             "throws-type-error.js": false,
             "with-year-month-day-need-constrain.js": false,
@@ -886,8 +881,7 @@
             "no-options.js": false,
             "throws-range-error-ToLargestTemporalUnit.js": false,
             "throws-range-error-ToTemporalDate.js": false,
-            "throws-type-error-GetOptionsObject.js": false,
-            "throws-type-error-RequireInternalSlot.js": false
+            "throws-type-error-GetOptionsObject.js": false
           },
           "day": {
             "branding.js": false,
@@ -895,48 +889,42 @@
             "date.js": false,
             "month-day.js": false,
             "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false
+            "throw-range-error-ToTemporalDate.js": false
           },
           "dayOfWeek": {
             "branding.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
             "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false
+            "throw-range-error-ToTemporalDate.js": false
           },
           "dayOfYear": {
             "branding.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
             "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false
+            "throw-range-error-ToTemporalDate.js": false
           },
           "daysInMonth": {
             "branding.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
             "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false
+            "throw-range-error-ToTemporalDate.js": false
           },
           "daysInWeek": {
             "branding.js": false,
             "date-time.js": false,
             "date.js": false,
             "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false
+            "throw-range-error-ToTemporalDate.js": false
           },
           "daysInYear": {
             "branding.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
             "string.js": false,
-            "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false
+            "throw-range-error-ToTemporalDate.js": false
           },
           "fields": {
             "branding.js": false,
@@ -955,7 +943,6 @@
             "month-day-throw-type-error.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false,
             "year-month.js": false
           },
           "monthCode": {
@@ -965,7 +952,6 @@
             "month-day.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false,
             "year-month.js": false
           },
           "monthDayFromFields": {
@@ -986,7 +972,6 @@
             "date.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false,
-            "throw-type-error-RequireInternalSlot.js": false,
             "year-month.js": false
           },
           "yearMonthFromFields": {
