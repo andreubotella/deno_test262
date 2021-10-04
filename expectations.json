@@ -604,6 +604,114 @@
         "character-class-range-no-dash-end.js": false,
         "character-class-range-no-dash-start.js": false,
         "character-class-range-start.js": false,
+        "generated": {
+          "Alphabetic.js": false,
+          "Assigned.js": false,
+          "Bidi_Mirrored.js": false,
+          "Case_Ignorable.js": false,
+          "Cased.js": false,
+          "Changes_When_Casefolded.js": false,
+          "Changes_When_Casemapped.js": false,
+          "Changes_When_Lowercased.js": false,
+          "Changes_When_NFKC_Casefolded.js": false,
+          "Changes_When_Titlecased.js": false,
+          "Changes_When_Uppercased.js": false,
+          "Dash.js": false,
+          "Default_Ignorable_Code_Point.js": false,
+          "Diacritic.js": false,
+          "Emoji.js": false,
+          "Emoji_Modifier_Base.js": false,
+          "Emoji_Presentation.js": false,
+          "Extender.js": false,
+          "General_Category_-_Cased_Letter.js": false,
+          "General_Category_-_Close_Punctuation.js": false,
+          "General_Category_-_Currency_Symbol.js": false,
+          "General_Category_-_Dash_Punctuation.js": false,
+          "General_Category_-_Decimal_Number.js": false,
+          "General_Category_-_Format.js": false,
+          "General_Category_-_Letter.js": false,
+          "General_Category_-_Lowercase_Letter.js": false,
+          "General_Category_-_Mark.js": false,
+          "General_Category_-_Modifier_Letter.js": false,
+          "General_Category_-_Modifier_Symbol.js": false,
+          "General_Category_-_Nonspacing_Mark.js": false,
+          "General_Category_-_Number.js": false,
+          "General_Category_-_Open_Punctuation.js": false,
+          "General_Category_-_Other.js": false,
+          "General_Category_-_Other_Letter.js": false,
+          "General_Category_-_Other_Punctuation.js": false,
+          "General_Category_-_Other_Symbol.js": false,
+          "General_Category_-_Punctuation.js": false,
+          "General_Category_-_Spacing_Mark.js": false,
+          "General_Category_-_Symbol.js": false,
+          "General_Category_-_Unassigned.js": false,
+          "General_Category_-_Uppercase_Letter.js": false,
+          "Grapheme_Base.js": false,
+          "Grapheme_Extend.js": false,
+          "ID_Continue.js": false,
+          "ID_Start.js": false,
+          "Ideographic.js": false,
+          "Lowercase.js": false,
+          "Script_-_Ahom.js": false,
+          "Script_-_Arabic.js": false,
+          "Script_-_Balinese.js": false,
+          "Script_-_Brahmi.js": false,
+          "Script_-_Canadian_Aboriginal.js": false,
+          "Script_-_Common.js": false,
+          "Script_-_Cypro_Minoan.js": false,
+          "Script_-_Ethiopic.js": false,
+          "Script_-_Glagolitic.js": false,
+          "Script_-_Han.js": false,
+          "Script_-_Hiragana.js": false,
+          "Script_-_Inherited.js": false,
+          "Script_-_Kaithi.js": false,
+          "Script_-_Kannada.js": false,
+          "Script_-_Katakana.js": false,
+          "Script_-_Latin.js": false,
+          "Script_-_Mongolian.js": false,
+          "Script_-_Old_Uyghur.js": false,
+          "Script_-_Tagalog.js": false,
+          "Script_-_Takri.js": false,
+          "Script_-_Tangsa.js": false,
+          "Script_-_Telugu.js": false,
+          "Script_-_Toto.js": false,
+          "Script_-_Vithkuqi.js": false,
+          "Script_Extensions_-_Adlam.js": false,
+          "Script_Extensions_-_Ahom.js": false,
+          "Script_Extensions_-_Arabic.js": false,
+          "Script_Extensions_-_Balinese.js": false,
+          "Script_Extensions_-_Brahmi.js": false,
+          "Script_Extensions_-_Canadian_Aboriginal.js": false,
+          "Script_Extensions_-_Common.js": false,
+          "Script_Extensions_-_Cypro_Minoan.js": false,
+          "Script_Extensions_-_Ethiopic.js": false,
+          "Script_Extensions_-_Glagolitic.js": false,
+          "Script_Extensions_-_Han.js": false,
+          "Script_Extensions_-_Hiragana.js": false,
+          "Script_Extensions_-_Inherited.js": false,
+          "Script_Extensions_-_Kaithi.js": false,
+          "Script_Extensions_-_Kannada.js": false,
+          "Script_Extensions_-_Katakana.js": false,
+          "Script_Extensions_-_Latin.js": false,
+          "Script_Extensions_-_Mongolian.js": false,
+          "Script_Extensions_-_Nko.js": false,
+          "Script_Extensions_-_Old_Uyghur.js": false,
+          "Script_Extensions_-_Syriac.js": false,
+          "Script_Extensions_-_Tagalog.js": false,
+          "Script_Extensions_-_Takri.js": false,
+          "Script_Extensions_-_Tangsa.js": false,
+          "Script_Extensions_-_Telugu.js": false,
+          "Script_Extensions_-_Toto.js": false,
+          "Script_Extensions_-_Vithkuqi.js": false,
+          "Sentence_Terminal.js": false,
+          "Soft_Dotted.js": false,
+          "Terminal_Punctuation.js": false,
+          "Unified_Ideograph.js": false,
+          "Uppercase.js": false,
+          "Variation_Selector.js": false,
+          "XID_Continue.js": false,
+          "XID_Start.js": false
+        },
         "grammar-extension-In-prefix-Block-implicit-negated.js": false,
         "grammar-extension-In-prefix-Block-implicit.js": false,
         "grammar-extension-In-prefix-Script-implicit-negated.js": false,
@@ -773,6 +881,7 @@
           "wrapped-function-multiple-different-realms-nested.js": false,
           "wrapped-function-multiple-different-realms.js": false,
           "wrapped-function-observing-their-scopes.js": false,
+          "wrapped-function-proxied-observes-boundary.js": false,
           "wrapped-functions-accepts-callable-objects.js": false,
           "wrapped-functions-can-resolve-callable-returns.js": false,
           "wrapped-functions-new-wrapping-on-each-evaluation.js": false,
@@ -846,6 +955,26 @@
     },
     "Temporal": {
       "Calendar": {
+        "builtin.js": false,
+        "constructor.js": false,
+        "from": {
+          "builtin.js": false,
+          "calendar-object-invalid.js": false,
+          "calendar-object-operations.js": false,
+          "calendar-object.js": false,
+          "calendar-string-builtin.js": false,
+          "calendar-string-not-builtin.js": false,
+          "calendar-temporal-object.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "length.js": false,
+        "missing-arguments.js": false,
+        "name.js": false,
+        "prop-desc.js": false,
         "prototype": {
           "dateAdd": {
             "add-days.js": false,
@@ -857,13 +986,41 @@
             "add-years-months.js": false,
             "add-years-weeks.js": false,
             "add-years.js": false,
+            "argument-plaindatetime.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "balance-smaller-units.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "date-infinity-throws-rangeerror.js": false,
+            "duration-argument-string-negative-fractional-units.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
             "throw-range-error-from-ToTemporalDate.js": false,
             "throw-range-error-from-ToTemporalDuration.js": false,
             "throw-type-error-from-GetOptionsObject.js": false
           },
           "dateFromFields": {
             "branding.js": false,
+            "builtin.js": false,
+            "fields-not-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
             "throw-type-error-from-GetOptionsObject.js": false,
             "throws-range-error.js": false,
             "throws-type-error.js": false,
@@ -873,234 +1030,950 @@
             "with-year-monthCode-day.js": false
           },
           "dateUntil": {
+            "argument-infinity-throws-rangeerror.js": false,
+            "argument-plaindatetime.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
             "largest-unit-day.js": false,
             "largest-unit-month.js": false,
             "largest-unit-week.js": false,
             "largest-unit-year.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "length.js": false,
+            "name.js": false,
             "no-options.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
             "throws-range-error-ToLargestTemporalUnit.js": false,
             "throws-range-error-ToTemporalDate.js": false,
             "throws-type-error-GetOptionsObject.js": false
           },
           "day": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
             "date-time.js": false,
             "date.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
             "month-day.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false
           },
           "dayOfWeek": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false
           },
           "dayOfYear": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false
           },
           "daysInMonth": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false
           },
           "daysInWeek": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
             "date-time.js": false,
             "date.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false
           },
           "daysInYear": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
             "plain-date-time.js": false,
             "plain-date.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false
           },
           "fields": {
+            "argument-iterable-not-array.js": false,
+            "argument-throws-duplicate-keys.js": false,
+            "argument-throws-invalid-keys.js": false,
             "branding.js": false,
-            "long-input.js": false
+            "builtin.js": false,
+            "length.js": false,
+            "long-input.js": false,
+            "name.js": false,
+            "non-string-element-throws.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "id": {
+            "prop-desc.js": false
           },
           "inLeapYear": {
-            "branding.js": false
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "mergeFields": {
-            "branding.js": false
+            "arguments-empty-object.js": false,
+            "arguments-not-object.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "month": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
             "date-time.js": false,
             "date.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
             "month-day-throw-type-error.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false,
             "year-month.js": false
           },
           "monthCode": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
             "date-time.js": false,
             "date.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
             "month-day.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false,
             "year-month.js": false
           },
           "monthDayFromFields": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "fields-not-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false
           },
           "monthsInYear": {
-            "branding.js": false
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "toJSON": {
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "weekOfYear": {
-            "branding.js": false
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "cross-year.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "year": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
             "date-time.js": false,
             "date.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
             "string.js": false,
             "throw-range-error-ToTemporalDate.js": false,
             "year-month.js": false
           },
           "yearMonthFromFields": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "fields-not-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false
           }
         }
       },
       "Duration": {
+        "builtin.js": false,
+        "compare": {
+          "argument-string-negative-fractional-units.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "options-undefined.js": false,
+          "prop-desc.js": false,
+          "read-time-fields-before-datefromfields.js": false,
+          "relativeto-propertybag-infinity-throws-rangeerror.js": false,
+          "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "relativeto-string-invalid.js": false,
+          "relativeto-string-plaindatetime.js": false,
+          "relativeto-string-zoneddatetime.js": false,
+          "relativeto-undefined-throw-on-calendar-units.js": false,
+          "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
+          "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "timezone-getpossibleinstantsfor-iterable.js": false,
+          "timezone-string-datetime.js": false
+        },
+        "constructor.js": false,
+        "days-undefined.js": false,
+        "from": {
+          "argument-existing-object.js": false,
+          "argument-non-string.js": false,
+          "argument-string-negative-fractional-units.js": false,
+          "builtin.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "negative-inifinity-throws-rangeerror.js": false,
+          "non-integer-throws-rangeerror.js": false,
+          "not-a-constructor.js": false,
+          "order-of-operations.js": false,
+          "prop-desc.js": false,
+          "string-with-skipped-units.js": false,
+          "subclassing-ignored.js": false
+        },
+        "hours-undefined.js": false,
+        "infinity-throws-rangeerror.js": false,
+        "length.js": false,
+        "microseconds-undefined.js": false,
+        "milliseconds-undefined.js": false,
+        "minutes-undefined.js": false,
+        "months-undefined.js": false,
+        "name.js": false,
+        "nanoseconds-undefined.js": false,
+        "negative-infinity-throws-rangeerror.js": false,
+        "prop-desc.js": false,
         "prototype": {
           "abs": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "add": {
-            "branding.js": false
+            "argument-string-negative-fractional-units.js": false,
+            "balance-negative-result.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "relativeto-string-datetime.js": false,
+            "relativeto-string-invalid.js": false,
+            "relativeto-string-plaindatetime.js": false,
+            "relativeto-string-zoneddatetime.js": false,
+            "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false
           },
           "blank": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "days": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "hours": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "microseconds": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "milliseconds": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "minutes": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "months": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "nanoseconds": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "negated": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "round": {
-            "branding.js": false
+            "balance-negative-result.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "dateuntil-field.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "relativeto-string-datetime.js": false,
+            "relativeto-string-invalid.js": false,
+            "relativeto-string-plaindatetime.js": false,
+            "relativeto-string-zoneddatetime.js": false,
+            "relativeto-undefined-throw-on-calendar-units.js": false,
+            "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "round-negative-result.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false
           },
           "seconds": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "sign": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "subtract": {
-            "branding.js": false
+            "argument-string-negative-fractional-units.js": false,
+            "balance-negative-result.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "relativeto-string-datetime.js": false,
+            "relativeto-string-invalid.js": false,
+            "relativeto-string-plaindatetime.js": false,
+            "relativeto-string-zoneddatetime.js": false,
+            "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false
           },
           "toJSON": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toLocaleString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toString": {
-            "branding.js": false
+            "blank-duration-precision.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "fractionalseconddigits-invalid-string.js": false,
+            "fractionalseconddigits-nan.js": false,
+            "fractionalseconddigits-non-integer.js": false,
+            "fractionalseconddigits-out-of-range.js": false,
+            "fractionalseconddigits-undefined.js": false,
+            "fractionalseconddigits-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "precision.js": false,
+            "prop-desc.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-valid-units.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "total": {
-            "branding.js": false
+            "balance-negative-result.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "dateuntil-field.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-wrong-type.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "relativeto-string-datetime.js": false,
+            "relativeto-string-invalid.js": false,
+            "relativeto-string-plaindatetime.js": false,
+            "relativeto-string-zoneddatetime.js": false,
+            "relativeto-undefined-throw-on-calendar-units.js": false,
+            "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false,
+            "unit-invalid-string.js": false,
+            "unit-plurals-accepted.js": false,
+            "unit-wrong-type.js": false
           },
           "valueOf": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "weeks": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "with": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "order-of-operations.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "years": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           }
-        }
+        },
+        "seconds-undefined.js": false,
+        "weeks-undefined.js": false,
+        "years-undefined.js": false
       },
       "Instant": {
+        "argument.js": false,
+        "basic.js": false,
+        "builtin.js": false,
+        "compare": {
+          "argument-zoneddatetime.js": false,
+          "builtin.js": false,
+          "instant-string.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false
+        },
+        "constructor.js": false,
+        "from": {
+          "argument-zoneddatetime.js": false,
+          "builtin.js": false,
+          "instant-string.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false,
+          "timezone-custom.js": false
+        },
+        "fromEpochMicroseconds": {
+          "basic.js": false,
+          "builtin.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "fromEpochMilliseconds": {
+          "basic.js": false,
+          "builtin.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "fromEpochNanoseconds": {
+          "basic.js": false,
+          "builtin.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "fromEpochSeconds": {
+          "basic.js": false,
+          "builtin.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "length.js": false,
+        "name.js": false,
+        "prop-desc.js": false,
         "prototype": {
           "add": {
-            "branding.js": false
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "order-of-operations.js": false,
+            "prop-desc.js": false,
+            "result-out-of-range.js": false,
+            "subclassing-ignored.js": false
           },
+          "builtin.js": false,
           "epochMicroseconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "epochMilliseconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "epochNanoseconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "epochSeconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "equals": {
-            "branding.js": false
+            "argument-wrong-type.js": false,
+            "argument-zoneddatetime.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "instant-string.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "round": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-wrong-type.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-wrong-type.js": false,
+            "subclassing-ignored.js": false
           },
           "since": {
-            "branding.js": false
+            "argument-zoneddatetime.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "instant-string.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "subtract": {
-            "branding.js": false
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "order-of-operations.js": false,
+            "prop-desc.js": false,
+            "result-out-of-range.js": false,
+            "subclassing-ignored.js": false
           },
           "toJSON": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toLocaleString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "locales-undefined.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-conflict.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
           },
           "toString": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "fractionalseconddigits-invalid-string.js": false,
+            "fractionalseconddigits-nan.js": false,
+            "fractionalseconddigits-non-integer.js": false,
+            "fractionalseconddigits-out-of-range.js": false,
+            "fractionalseconddigits-undefined.js": false,
+            "fractionalseconddigits-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "precision.js": false,
+            "prop-desc.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-valid-units.js": false,
+            "smallestunit-wrong-type.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-string-datetime.js": false,
+            "timezone.js": false
+          },
+          "toStringTag": {
+            "prop-desc.js": false
           },
           "toZonedDateTime": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "plain-custom-timezone.js": false,
+            "prop-desc.js": false,
+            "timezone-string-datetime.js": false
           },
           "toZonedDateTimeISO": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-string-datetime.js": false
           },
           "until": {
-            "branding.js": false
+            "argument-zoneddatetime.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "instant-string.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "valueOf": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           }
         }
       },
@@ -1114,6 +1987,22 @@
           "return-value-distinct.js": false,
           "return-value-prototype.js": false,
           "return-value-value.js": false
+        },
+        "plainDate": {
+          "calendar-temporal-object.js": false,
+          "length.js": false,
+          "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "timezone-string-datetime.js": false,
+          "toPlainDate-override.js": false
+        },
+        "plainDateISO": {
+          "length.js": false,
+          "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "timezone-string-datetime.js": false
         },
         "plainDateTime": {
           "calendar-function.js": false,
@@ -1142,7 +2031,9 @@
           "timezone-object-fail-get-timezone.js": false,
           "timezone-object-fail-has-nested-timezone.js": false,
           "timezone-object-fail-has-timezone.js": false,
-          "timezone-object.js": false
+          "timezone-object.js": false,
+          "timezone-string-datetime.js": false,
+          "timezone.js": false
         },
         "plainDateTimeISO": {
           "extensible.js": false,
@@ -1167,6 +2058,15 @@
           "timezone-object.js": false,
           "timezone-string-datetime.js": false
         },
+        "plainTimeISO": {
+          "length.js": false,
+          "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "timezone-string-datetime.js": false,
+          "timezone.js": false,
+          "toPlainTime-override.js": false
+        },
         "timeZone": {
           "extensible.js": false,
           "length.js": false,
@@ -1175,6 +2075,10 @@
           "not-a-constructor.js": false,
           "prop-desc.js": false,
           "return-value.js": false
+        },
+        "toStringTag": {
+          "prop-desc.js": false,
+          "string.js": false
         },
         "zonedDateTime": {
           "calendar-function.js": false,
@@ -1213,563 +2117,2492 @@
         }
       },
       "PlainDate": {
+        "basic.js": false,
+        "builtin.js": false,
+        "calendar-temporal-object.js": false,
+        "calendar-undefined.js": false,
+        "compare": {
+          "argument-plaindatetime.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "use-internal-slots.js": false
+        },
+        "constructor.js": false,
+        "from": {
+          "argument-object.js": false,
+          "argument-plaindate.js": false,
+          "argument-plaindatetime.js": false,
+          "argument-string.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "options-invalid.js": false,
+          "options-undefined.js": false,
+          "order-of-operations.js": false,
+          "overflow-invalid-string.js": false,
+          "overflow-undefined.js": false,
+          "overflow-wrong-type.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "infinity-throws-rangeerror.js": false,
+        "length.js": false,
+        "missing-arguments.js": false,
+        "name.js": false,
+        "negative-infinity-throws-rangeerror.js": false,
+        "prop-desc.js": false,
         "prototype": {
           "add": {
-            "branding.js": false
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "balance-smaller-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-invalid.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "calendar": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "day": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
           },
           "dayOfWeek": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "dayOfYear": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "daysInMonth": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "daysInWeek": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "daysInYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "equals": {
-            "branding.js": false
+            "argument-plaindatetime.js": false,
+            "argument-wrong-type.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "getISOFields": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "field-names.js": false,
+            "field-prop-desc.js": false,
+            "field-traversal-order.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "inLeapYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "month": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
           },
           "monthCode": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "monthsInYear": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "since": {
-            "branding.js": false
+            "argument-plaindatetime.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-id-match.js": false,
+            "calendar-mismatch.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-default.js": false,
+            "largestunit-higher-units.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-smallestunit-mismatch.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-invalid.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "subtract": {
-            "branding.js": false
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "balance-smaller-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-invalid.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "toJSON": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toLocaleString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "locales-undefined.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-conflict.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
           },
           "toPlainDateTime": {
-            "branding.js": false
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "time-invalid.js": false,
+            "time-undefined.js": false
           },
           "toPlainMonthDay": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toPlainYearMonth": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendarname-invalid-string.js": false,
+            "calendarname-undefined.js": false,
+            "calendarname-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
           },
           "toZonedDateTime": {
-            "branding.js": false
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "plaintime-argument-zoneddatetime-balance-negative-time-units.js": false,
+            "plaintime-argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "plaintime-argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "plaintime-argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false
           },
           "until": {
-            "branding.js": false
+            "argument-plaindatetime.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-id-match.js": false,
+            "calendar-mismatch.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-default.js": false,
+            "largestunit-higher-units.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-smallestunit-mismatch.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-invalid.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "valueOf": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "weekOfYear": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "with": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-merge-fields-returns-primitive.js": false,
+            "copies-merge-fields-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-invalid.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "plaindatelike-invalid.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "withCalendar": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "missing-argument.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "year": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
           }
         }
       },
       "PlainDateTime": {
+        "builtin.js": false,
+        "calendar-temporal-object.js": false,
+        "calendar-undefined.js": false,
+        "compare": {
+          "argument-plaindate.js": false,
+          "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "read-time-fields-before-datefromfields.js": false,
+          "use-internal-slots.js": false
+        },
+        "constructor.js": false,
+        "from": {
+          "argument-plaindate.js": false,
+          "argument-zoneddatetime-balance-negative-time-units.js": false,
+          "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "options-undefined.js": false,
+          "order-of-operations.js": false,
+          "overflow-invalid-string.js": false,
+          "overflow-undefined.js": false,
+          "overflow-wrong-type.js": false,
+          "parser.js": false,
+          "prop-desc.js": false,
+          "read-time-fields-before-datefromfields.js": false,
+          "subclassing-ignored.js": false
+        },
+        "hour-undefined.js": false,
+        "infinity-throws-rangeerror.js": false,
+        "length.js": false,
+        "microsecond-undefined.js": false,
+        "millisecond-undefined.js": false,
+        "minute-undefined.js": false,
+        "missing-arguments.js": false,
+        "name.js": false,
+        "nanosecond-undefined.js": false,
+        "negative-infinity-throws-rangeerror.js": false,
+        "order-of-operations.js": false,
+        "prop-desc.js": false,
         "prototype": {
           "add": {
-            "branding.js": false
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "calendar": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "day": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
           },
           "dayOfWeek": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "dayOfYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "daysInMonth": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "daysInWeek": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "daysInYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "equals": {
-            "branding.js": false
+            "argument-plaindate.js": false,
+            "argument-wrong-type.js": false,
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false
           },
           "getISOFields": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "field-names.js": false,
+            "field-prop-desc.js": false,
+            "field-traversal-order.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "hour": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "inLeapYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "microsecond": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "millisecond": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "minute": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "month": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
           },
           "monthCode": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "monthsInYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "nanosecond": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "round": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-wrong-type.js": false,
+            "subclassing-ignored.js": false
           },
           "second": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "since": {
-            "branding.js": false
+            "argument-plaindate.js": false,
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "balance-negative-duration.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-copy-of-options.js": false,
+            "calendar-dateuntil-called-with-plaindate-calendar.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "round-negative-duration.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "subtract": {
-            "branding.js": false
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "toJSON": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toLocaleString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "locales-undefined.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-conflict.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
           },
           "toPlainDate": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toPlainMonthDay": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toPlainTime": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toPlainYearMonth": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendarname-invalid-string.js": false,
+            "calendarname-undefined.js": false,
+            "calendarname-wrong-type.js": false,
+            "fractionalseconddigits-invalid-string.js": false,
+            "fractionalseconddigits-nan.js": false,
+            "fractionalseconddigits-non-integer.js": false,
+            "fractionalseconddigits-out-of-range.js": false,
+            "fractionalseconddigits-undefined.js": false,
+            "fractionalseconddigits-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-valid-units.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "toZonedDateTime": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "disambiguation-invalid-string.js": false,
+            "disambiguation-undefined.js": false,
+            "disambiguation-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "plain-custom-timezone.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false
           },
           "until": {
-            "branding.js": false
+            "argument-plaindate.js": false,
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "balance-negative-duration.js": false,
+            "balance-negative-time-units.js": false,
+            "balance.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-copy-of-options.js": false,
+            "calendar-dateuntil-called-with-plaindate-calendar.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "round-negative-duration.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
           },
           "valueOf": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "weekOfYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "with": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-merge-fields-returns-primitive.js": false,
+            "copies-merge-fields-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "subclassing-ignored.js": false
           },
           "withCalendar": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "missing-argument.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "withPlainDate": {
-            "branding.js": false
+            "argument-plaindatetime.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "withPlainTime": {
-            "branding.js": false
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false,
+            "time-undefined.js": false
           },
           "year": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
           }
-        }
+        },
+        "second-undefined.js": false
       },
       "PlainMonthDay": {
+        "basic.js": false,
+        "builtin.js": false,
+        "calendar-invalid.js": false,
+        "calendar-temporal-object.js": false,
+        "calendar-undefined.js": false,
+        "constructor.js": false,
+        "from": {
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "fields-leap-day.js": false,
+          "fields-missing-properties.js": false,
+          "fields-object.js": false,
+          "fields-plainmonthday.js": false,
+          "fields-string.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "options-invalid.js": false,
+          "options-undefined.js": false,
+          "order-of-operations.js": false,
+          "overflow-invalid-string.js": false,
+          "overflow-undefined.js": false,
+          "overflow-wrong-type.js": false,
+          "overflow.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "infinity-throws-rangeerror.js": false,
+        "length.js": false,
+        "missing-arguments.js": false,
+        "name.js": false,
+        "negative-infinity-throws-rangeerror.js": false,
+        "prop-desc.js": false,
         "prototype": {
           "calendar": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "day": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
           },
           "equals": {
-            "branding.js": false
+            "argument-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "calendars.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "getISOFields": {
-            "branding.js": false
-          },
-          "monthCode": {
-            "branding.js": false
-          },
-          "toJSON": {
-            "branding.js": false
-          },
-          "toLocaleString": {
-            "branding.js": false
-          },
-          "toPlainDate": {
-            "branding.js": false
-          },
-          "toString": {
-            "branding.js": false
-          },
-          "valueOf": {
-            "branding.js": false
-          },
-          "with": {
-            "branding.js": false
-          }
-        }
-      },
-      "PlainTime": {
-        "prototype": {
-          "add": {
-            "branding.js": false
-          },
-          "calendar": {
-            "branding.js": false
-          },
-          "equals": {
-            "branding.js": false
-          },
-          "getISOFields": {
-            "branding.js": false
-          },
-          "hour": {
-            "branding.js": false
-          },
-          "microsecond": {
-            "branding.js": false
-          },
-          "millisecond": {
-            "branding.js": false
-          },
-          "minute": {
-            "branding.js": false
-          },
-          "nanosecond": {
-            "branding.js": false
-          },
-          "round": {
-            "branding.js": false
-          },
-          "second": {
-            "branding.js": false
-          },
-          "since": {
-            "branding.js": false
-          },
-          "subtract": {
-            "branding.js": false
-          },
-          "toJSON": {
-            "branding.js": false
-          },
-          "toLocaleString": {
-            "branding.js": false
-          },
-          "toPlainDateTime": {
-            "branding.js": false
-          },
-          "toString": {
-            "branding.js": false
-          },
-          "toZonedDateTime": {
-            "branding.js": false
-          },
-          "until": {
-            "branding.js": false
-          },
-          "valueOf": {
-            "branding.js": false
-          },
-          "with": {
-            "branding.js": false
-          }
-        }
-      },
-      "PlainYearMonth": {
-        "prototype": {
-          "add": {
-            "branding.js": false
-          },
-          "calendar": {
-            "branding.js": false
-          },
-          "daysInMonth": {
-            "branding.js": false
-          },
-          "daysInYear": {
-            "branding.js": false
-          },
-          "equals": {
-            "branding.js": false
-          },
-          "getISOFields": {
-            "branding.js": false
-          },
-          "inLeapYear": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "field-names.js": false,
+            "field-prop-desc.js": false,
+            "field-traversal-order.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "month": {
-            "branding.js": false
+            "unsupported.js": false
           },
           "monthCode": {
-            "branding.js": false
-          },
-          "monthsInYear": {
-            "branding.js": false
-          },
-          "since": {
-            "branding.js": false
-          },
-          "subtract": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "toJSON": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendarname.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toLocaleString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "locales-undefined.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
           },
           "toPlainDate": {
-            "branding.js": false
+            "argument-not-object.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-merge-fields-returns-primitive.js": false,
+            "copies-merge-fields-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toString": {
-            "branding.js": false
-          },
-          "until": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendarname-always.js": false,
+            "calendarname-auto.js": false,
+            "calendarname-invalid-string.js": false,
+            "calendarname-never.js": false,
+            "calendarname-undefined.js": false,
+            "calendarname-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
           },
           "valueOf": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "with": {
-            "branding.js": false
-          },
-          "year": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-merge-fields-returns-primitive.js": false,
+            "copies-merge-fields-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-invalid.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           }
-        }
+        },
+        "refisoyear-undefined.js": false
       },
-      "TimeZone": {
+      "PlainTime": {
+        "basic.js": false,
+        "builtin.js": false,
+        "compare": {
+          "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "builtin.js": false,
+          "calendar-temporal-object.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "use-internal-slots.js": false
+        },
+        "constructor.js": false,
+        "from": {
+          "argument-string-with-calendar.js": false,
+          "argument-zoneddatetime-balance-negative-time-units.js": false,
+          "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "builtin.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "options-undefined.js": false,
+          "order-of-operations.js": false,
+          "overflow-invalid-string.js": false,
+          "overflow-undefined.js": false,
+          "overflow-wrong-type.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "hour-undefined.js": false,
+        "infinity-throws-rangeerror.js": false,
+        "length.js": false,
+        "microsecond-undefined.js": false,
+        "millisecond-undefined.js": false,
+        "minute-undefined.js": false,
+        "name.js": false,
+        "nanosecond-undefined.js": false,
+        "negative-infinity-throws-rangeerror.js": false,
+        "prop-desc.js": false,
         "prototype": {
-          "getInstantFor": {
-            "branding.js": false
+          "add": {
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "order-of-operations.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
-          "getNextTransition": {
-            "branding.js": false
+          "calendar": {
+            "branding.js": false,
+            "prop-desc.js": false
           },
-          "getOffsetNanosecondsFor": {
-            "branding.js": false
+          "equals": {
+            "argument-wrong-type.js": false,
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
-          "getOffsetStringFor": {
-            "branding.js": false
+          "getISOFields": {
+            "branding.js": false,
+            "builtin.js": false,
+            "field-names.js": false,
+            "field-prop-desc.js": false,
+            "field-traversal-order.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
-          "getPossibleInstantsFor": {
-            "branding.js": false
+          "hour": {
+            "branding.js": false,
+            "prop-desc.js": false
           },
-          "getPreviousTransition": {
-            "branding.js": false
+          "microsecond": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "millisecond": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "minute": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "nanosecond": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "round": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-wrong-type.js": false,
+            "subclassing-ignored.js": false
+          },
+          "second": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "since": {
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
+          },
+          "subtract": {
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "order-of-operations.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
+          },
+          "toJSON": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "toLocaleString": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "locales-undefined.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-conflict.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
+          },
+          "toPlainDateTime": {
+            "argument-plaindatetime.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "fractionalseconddigits-invalid-string.js": false,
+            "fractionalseconddigits-nan.js": false,
+            "fractionalseconddigits-non-integer.js": false,
+            "fractionalseconddigits-out-of-range.js": false,
+            "fractionalseconddigits-undefined.js": false,
+            "fractionalseconddigits-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-valid-units.js": false,
+            "smallestunit-wrong-type.js": false
+          },
+          "toZonedDateTime": {
+            "argument-plaindatetime.js": false,
+            "argument-primitive.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "plaindate-infinity-throws-rangeerror.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false
+          },
+          "until": {
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
+          },
+          "valueOf": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "with": {
+            "argument-not-object.js": false,
+            "basic.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-invalid.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "plaintimelike-invalid.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
+          }
+        },
+        "second-undefined.js": false
+      },
+      "PlainYearMonth": {
+        "builtin.js": false,
+        "calendar-invalid.js": false,
+        "calendar-temporal-object.js": false,
+        "calendar-undefined.js": false,
+        "compare": {
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "use-internal-slots.js": false
+        },
+        "constructor.js": false,
+        "from": {
+          "argument-string.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "options-undefined.js": false,
+          "order-of-operations.js": false,
+          "overflow-invalid-string.js": false,
+          "overflow-undefined.js": false,
+          "overflow-wrong-type.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false
+        },
+        "infinity-throws-rangeerror.js": false,
+        "length.js": false,
+        "missing-arguments.js": false,
+        "name.js": false,
+        "negative-infinity-throws-rangeerror.js": false,
+        "prop-desc.js": false,
+        "prototype": {
+          "add": {
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments-extra-options.js": false,
+            "calendar-arguments.js": false,
+            "calendar-daysinmonth-wrong-value.js": false,
+            "calendar-fields-iterable.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
+          },
+          "calendar": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "daysInMonth": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "daysInYear": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "equals": {
+            "argument-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "getISOFields": {
+            "branding.js": false,
+            "builtin.js": false,
+            "field-names.js": false,
+            "field-prop-desc.js": false,
+            "field-traversal-order.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "inLeapYear": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "month": {
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
+          },
+          "monthCode": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "monthsInYear": {
+            "branding.js": false,
+            "prop-desc.js": false
+          },
+          "since": {
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
+          },
+          "subtract": {
+            "argument-not-object.js": false,
+            "argument-string-negative-fractional-units.js": false,
+            "argument-string.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments-extra-options.js": false,
+            "calendar-arguments.js": false,
+            "calendar-daysinmonth-wrong-value.js": false,
+            "calendar-fields-iterable.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-infinity-throws-rangeerror.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
+          },
+          "toJSON": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "toLocaleString": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "locales-undefined.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
+          },
+          "toPlainDate": {
+            "argument-not-object.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-merge-fields-returns-primitive.js": false,
+            "copies-merge-fields-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "toString": {
+            "branding.js": false,
+            "builtin.js": false,
+            "calendarname-invalid-string.js": false,
+            "calendarname-undefined.js": false,
+            "calendarname-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
+          },
+          "until": {
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false
+          },
+          "valueOf": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "with": {
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-merge-fields-returns-primitive.js": false,
+            "copies-merge-fields-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "order-of-operations.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
+          },
+          "year": {
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
+          }
+        },
+        "refisoday-undefined.js": false
+      },
+      "TimeZone": {
+        "basic.js": false,
+        "builtin.js": false,
+        "constructor.js": false,
+        "from": {
+          "argument-object-invalid.js": false,
+          "argument-object.js": false,
+          "argument-primitive.js": false,
+          "argument-valid.js": false,
+          "builtin.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "subclassing-ignored.js": false,
+          "timezone-string-datetime.js": false
+        },
+        "length.js": false,
+        "missing-arguments.js": false,
+        "name.js": false,
+        "prop-desc.js": false,
+        "prototype": {
+          "getInstantFor": {
+            "argument-not-datetime.js": false,
+            "argument-plaindate.js": false,
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "disambiguation-invalid-string.js": false,
+            "disambiguation-undefined.js": false,
+            "disambiguation-wrong-type.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false
+          },
+          "getNextTransition": {
+            "argument-zoneddatetime.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "instant-string.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "getOffsetNanosecondsFor": {
+            "argument-not-absolute.js": false,
+            "argument-zoneddatetime.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "instant-string.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "getOffsetStringFor": {
+            "argument-not-absolute-getOffsetNanosecondsFor-override.js": false,
+            "argument-not-absolute.js": false,
+            "argument-zoneddatetime.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "getOffsetNanosecondsFor-undefined.js": false,
+            "instant-string.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
+          },
+          "getPlainDateTimeFor": {
+            "argument-negative-epochnanoseconds.js": false,
+            "argument-not-absolute-getOffsetNanosecondsFor-override.js": false,
+            "argument-not-absolute.js": false,
+            "argument-zoneddatetime.js": false,
+            "balance-negative-time-units.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "calendar-undefined.js": false,
+            "custom-timezone.js": false,
+            "getOffsetNanosecondsFor-undefined.js": false,
+            "instant-string.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "pre-epoch.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
+          },
+          "getPossibleInstantsFor": {
+            "argument-not-datetime.js": false,
+            "argument-plaindate.js": false,
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false
+          },
+          "getPreviousTransition": {
+            "argument-zoneddatetime.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "instant-string.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "id": {
+            "no-toString.js": false,
+            "plain-custom-timezone.js": false,
+            "prop-desc.js": false
+          },
+          "toJSON": {
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "tostring-call.js": false,
+            "tostring-undefined-custom.js": false,
+            "tostring-undefined.js": false
+          },
+          "toString": {
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           }
         }
       },
       "ZonedDateTime": {
+        "builtin.js": false,
+        "calendar-temporal-object.js": false,
+        "calendar-undefined.js": false,
+        "compare": {
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "prop-desc.js": false,
+          "read-time-fields-before-datefromfields.js": false,
+          "timezone-getpossibleinstantsfor-iterable.js": false,
+          "timezone-string-datetime.js": false,
+          "zoneddatetime-string.js": false
+        },
+        "constructor.js": false,
+        "from": {
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "balance-negative-time-units.js": false,
+          "builtin.js": false,
+          "calendar-fields-iterable.js": false,
+          "calendar-temporal-object.js": false,
+          "disambiguation-invalid-string.js": false,
+          "disambiguation-undefined.js": false,
+          "disambiguation-wrong-type.js": false,
+          "infinity-throws-rangeerror.js": false,
+          "length.js": false,
+          "name.js": false,
+          "not-a-constructor.js": false,
+          "offset-invalid-string.js": false,
+          "offset-undefined.js": false,
+          "offset-wrong-type.js": false,
+          "options-undefined.js": false,
+          "overflow-invalid-string.js": false,
+          "overflow-undefined.js": false,
+          "overflow-wrong-type.js": false,
+          "prop-desc.js": false,
+          "read-time-fields-before-datefromfields.js": false,
+          "subclassing-ignored.js": false,
+          "timezone-getpossibleinstantsfor-iterable.js": false,
+          "timezone-string-datetime.js": false,
+          "zoneddatetime-string.js": false
+        },
+        "length.js": false,
+        "missing-arguments.js": false,
+        "name.js": false,
+        "prop-desc.js": false,
         "prototype": {
           "add": {
-            "branding.js": false
+            "argument-string-negative-fractional-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "calendar": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "day": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "dayOfWeek": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "dayOfYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "daysInMonth": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "daysInWeek": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "daysInYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "epochMicroseconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "epochMilliseconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "epochNanoseconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "epochSeconds": {
-            "branding.js": false
+            "basic.js": false,
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "equals": {
-            "branding.js": false
+            "argument-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false,
+            "zoneddatetime-string.js": false
           },
           "getISOFields": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "field-names.js": false,
+            "field-prop-desc.js": false,
+            "field-traversal-order.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "hour": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "hoursInDay": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false
           },
           "inLeapYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "microsecond": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "negative-epochnanoseconds.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "millisecond": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "negative-epochnanoseconds.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "minute": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "month": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "monthCode": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "monthsInYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "nanosecond": {
-            "branding.js": false
+            "branding.js": false,
+            "negative-epochnanoseconds.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "offset": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "offsetNanoseconds": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "round": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "dateadd-options.js": false,
+            "div-zero.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-wrong-type.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false
           },
           "second": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "since": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-copy-of-options.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false,
+            "zoneddatetime-string.js": false
           },
           "startOfDay": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "subtract": {
-            "branding.js": false
+            "argument-string-negative-fractional-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "non-integer-throws-rangeerror.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "timeZone": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "toInstant": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "toJSON": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "toLocaleString": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "locales-undefined.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "options-conflict.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false
           },
           "toPlainDate": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "toPlainDateTime": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "plain-custom-timezone.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "toPlainMonthDay": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-result.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "toPlainTime": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "toPlainYearMonth": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-arguments.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-result.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "toString": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendarname-invalid-string.js": false,
+            "calendarname-undefined.js": false,
+            "calendarname-wrong-type.js": false,
+            "fractionalseconddigits-invalid-string.js": false,
+            "fractionalseconddigits-nan.js": false,
+            "fractionalseconddigits-non-integer.js": false,
+            "fractionalseconddigits-out-of-range.js": false,
+            "fractionalseconddigits-undefined.js": false,
+            "fractionalseconddigits-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "offset-invalid-string.js": false,
+            "offset-undefined.js": false,
+            "offset-wrong-type.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-valid-units.js": false,
+            "smallestunit-wrong-type.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezonename-invalid-string.js": false,
+            "timezonename-undefined.js": false,
+            "timezonename-wrong-type.js": false
           },
           "until": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateuntil-called-with-copy-of-options.js": false,
+            "calendar-dateuntil-called-with-singular-largestunit.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "largestunit-invalid-string.js": false,
+            "largestunit-plurals-accepted.js": false,
+            "largestunit-undefined.js": false,
+            "largestunit-wrong-type.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "options-undefined.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "roundingincrement-nan.js": false,
+            "roundingincrement-non-integer.js": false,
+            "roundingincrement-out-of-range.js": false,
+            "roundingincrement-undefined.js": false,
+            "roundingincrement-wrong-type.js": false,
+            "roundingmode-invalid-string.js": false,
+            "roundingmode-undefined.js": false,
+            "roundingmode-wrong-type.js": false,
+            "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted.js": false,
+            "smallestunit-undefined.js": false,
+            "smallestunit-wrong-type.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false,
+            "timezone-string-datetime.js": false,
+            "zoneddatetime-string.js": false
           },
           "valueOf": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "weekOfYear": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "with": {
-            "branding.js": false
+            "balance-negative-time-units.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-merge-fields-returns-primitive.js": false,
+            "copies-merge-fields-object.js": false,
+            "disambiguation-invalid-string.js": false,
+            "disambiguation-undefined.js": false,
+            "disambiguation-wrong-type.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "offset-invalid-string.js": false,
+            "offset-undefined.js": false,
+            "offset-wrong-type.js": false,
+            "options-undefined.js": false,
+            "overflow-invalid-string.js": false,
+            "overflow-undefined.js": false,
+            "overflow-wrong-type.js": false,
+            "prop-desc.js": false,
+            "read-time-fields-before-datefromfields.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "timezone-getpossibleinstantsfor-iterable.js": false
           },
           "withCalendar": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "missing-argument.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false
           },
           "withPlainDate": {
-            "branding.js": false
+            "argument-plaindatetime.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-fields-iterable.js": false,
+            "calendar-temporal-object.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "negative-epochnanoseconds.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "withPlainTime": {
-            "branding.js": false
+            "argument-zoneddatetime-balance-negative-time-units.js": false,
+            "argument-zoneddatetime-negative-epochnanoseconds.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "branding.js": false,
+            "builtin.js": false,
+            "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-temporal-object.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false,
+            "time-undefined.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "withTimeZone": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false,
+            "subclassing-ignored.js": false,
+            "timezone-string-datetime.js": false
           },
           "year": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           }
-        }
+        },
+        "timezone-string-datetime.js": false
+      },
+      "getOwnPropertyNames.js": false,
+      "keys.js": false,
+      "prop-desc.js": false,
+      "toStringTag": {
+        "prop-desc.js": false,
+        "string.js": false
       }
     },
     "TypedArray": {
@@ -2073,7 +4906,21 @@
   },
   "intl402": {
     "DateTimeFormat": {
-      "constructor-options-timeZoneName-valid.js": false
+      "constructor-options-timeZoneName-valid.js": false,
+      "prototype": {
+        "format": {
+          "temporal-objects-resolved-time-zone.js": false
+        },
+        "formatRange": {
+          "temporal-objects-resolved-time-zone.js": false
+        },
+        "formatRangeToParts": {
+          "temporal-objects-resolved-time-zone.js": false
+        },
+        "formatToParts": {
+          "temporal-objects-resolved-time-zone.js": false
+        }
+      }
     },
     "DisplayNames": {
       "options-languagedisplay-abrupt-throws.js": false,
@@ -2179,52 +5026,267 @@
     },
     "Temporal": {
       "Calendar": {
+        "from": {
+          "basic.js": false
+        },
         "prototype": {
+          "dateAdd": {
+            "date-infinity-throws-rangeerror.js": false
+          },
+          "dateFromFields": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "dateUntil": {
+            "argument-infinity-throws-rangeerror.js": false
+          },
+          "day": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "dayOfWeek": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "dayOfYear": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "daysInMonth": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "daysInWeek": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "daysInYear": {
+            "infinity-throws-rangeerror.js": false
+          },
           "era": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
           },
           "eraYear": {
-            "branding.js": false
+            "branding.js": false,
+            "builtin.js": false,
+            "infinity-throws-rangeerror.js": false,
+            "length.js": false,
+            "name.js": false,
+            "not-a-constructor.js": false,
+            "prop-desc.js": false
+          },
+          "inLeapYear": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "month": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "monthCode": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "monthDayFromFields": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "monthsInYear": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "weekOfYear": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "year": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "yearMonthFromFields": {
+            "infinity-throws-rangeerror.js": false
+          }
+        }
+      },
+      "Duration": {
+        "prototype": {
+          "add": {
+            "relativeto-infinity-throws-rangeerror.js": false
+          },
+          "round": {
+            "relativeto-infinity-throws-rangeerror.js": false
+          },
+          "subtract": {
+            "relativeto-infinity-throws-rangeerror.js": false
+          },
+          "total": {
+            "relativeto-infinity-throws-rangeerror.js": false
           }
         }
       },
       "PlainDate": {
+        "compare": {
+          "infinity-throws-rangeerror.js": false
+        },
+        "from": {
+          "basic.js": false,
+          "infinity-throws-rangeerror.js": false
+        },
         "prototype": {
+          "equals": {
+            "infinity-throws-rangeerror.js": false
+          },
           "era": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "eraYear": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
+          },
+          "since": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "until": {
+            "infinity-throws-rangeerror.js": false
           }
         }
       },
       "PlainDateTime": {
+        "compare": {
+          "infinity-throws-rangeerror.js": false
+        },
+        "from": {
+          "infinity-throws-rangeerror.js": false
+        },
         "prototype": {
+          "equals": {
+            "infinity-throws-rangeerror.js": false
+          },
           "era": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "eraYear": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
+          },
+          "since": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "until": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "withPlainDate": {
+            "infinity-throws-rangeerror.js": false
+          }
+        }
+      },
+      "PlainMonthDay": {
+        "from": {
+          "basic.js": false
+        },
+        "prototype": {
+          "equals": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "toPlainDate": {
+            "infinity-throws-rangeerror.js": false
+          }
+        }
+      },
+      "PlainTime": {
+        "prototype": {
+          "toPlainDateTime": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "toZonedDateTime": {
+            "plaindate-infinity-throws-rangeerror.js": false
           }
         }
       },
       "PlainYearMonth": {
+        "compare": {
+          "infinity-throws-rangeerror.js": false
+        },
+        "from": {
+          "infinity-throws-rangeerror.js": false
+        },
         "prototype": {
+          "equals": {
+            "infinity-throws-rangeerror.js": false
+          },
           "era": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false
           },
           "eraYear": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false
+          },
+          "since": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "until": {
+            "infinity-throws-rangeerror.js": false
+          }
+        }
+      },
+      "TimeZone": {
+        "basic.js": false,
+        "from": {
+          "argument-invalid.js": false,
+          "argument-object.js": false,
+          "argument-valid.js": false
+        },
+        "prototype": {
+          "getInstantFor": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "getOffsetNanosecondsFor": {
+            "instant-string.js": false
+          },
+          "getOffsetStringFor": {
+            "instant-string.js": false
+          },
+          "getPlainDateTimeFor": {
+            "instant-string.js": false
+          },
+          "getPossibleInstantsFor": {
+            "infinity-throws-rangeerror.js": false
           }
         }
       },
       "ZonedDateTime": {
+        "compare": {
+          "infinity-throws-rangeerror.js": false
+        },
+        "from": {
+          "infinity-throws-rangeerror.js": false
+        },
         "prototype": {
+          "equals": {
+            "infinity-throws-rangeerror.js": false
+          },
           "era": {
-            "branding.js": false
+            "branding.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "eraYear": {
-            "branding.js": false
+            "branding.js": false,
+            "calendar-returns-infinity.js": false,
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
+            "timezone-getoffsetnanosecondsfor-wrong-type.js": false
+          },
+          "since": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "until": {
+            "infinity-throws-rangeerror.js": false
+          },
+          "withPlainDate": {
+            "infinity-throws-rangeerror.js": false
           }
         }
       }
@@ -2874,6 +5936,11 @@
       "invalid-private-names-call-expression-this.js": false,
       "invalid-private-names-member-expression-bad-reference.js": false,
       "invalid-private-names-member-expression-this.js": false,
+      "namespace": {
+        "internals": {
+          "define-own-property.js": false
+        }
+      },
       "parse-err-decl-pos-export-arrow-function.js": false,
       "parse-err-decl-pos-export-block-stmt-list.js": false,
       "parse-err-decl-pos-export-block-stmt.js": false,
