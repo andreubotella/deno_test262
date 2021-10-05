@@ -156,6 +156,9 @@
         "some": {
           "15.4.4.17-7-c-i-22.js": false,
           "15.4.4.17-7-c-i-6.js": false
+        },
+        "toString": {
+          "non-callable-join-string-tag.js": false
         }
       }
     },
