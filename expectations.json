@@ -5143,6 +5143,9 @@
           },
           "until": {
             "infinity-throws-rangeerror.js": false
+          },
+          "toLocaleString": {
+            "resolved-time-zone.js": false
           }
         }
       },
@@ -5174,6 +5177,9 @@
           },
           "withPlainDate": {
             "infinity-throws-rangeerror.js": false
+          },
+          "toLocaleString": {
+            "resolved-time-zone.js": false
           }
         }
       },
@@ -5187,6 +5193,9 @@
           },
           "toPlainDate": {
             "infinity-throws-rangeerror.js": false
+          },
+          "toLocaleString": {
+            "resolved-time-zone.js": false
           }
         }
       },
@@ -5197,6 +5206,9 @@
           },
           "toZonedDateTime": {
             "plaindate-infinity-throws-rangeerror.js": false
+          },
+          "toLocaleString": {
+            "resolved-time-zone.js": false
           }
         }
       },
@@ -5225,6 +5237,9 @@
           },
           "until": {
             "infinity-throws-rangeerror.js": false
+          },
+          "toLocaleString": {
+            "resolved-time-zone.js": false
           }
         }
       },
