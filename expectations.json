@@ -5141,11 +5141,11 @@
           "since": {
             "infinity-throws-rangeerror.js": false
           },
-          "until": {
-            "infinity-throws-rangeerror.js": false
-          },
           "toLocaleString": {
             "resolved-time-zone.js": false
+          },
+          "until": {
+            "infinity-throws-rangeerror.js": false
           }
         }
       },
@@ -5172,14 +5172,14 @@
           "since": {
             "infinity-throws-rangeerror.js": false
           },
+          "toLocaleString": {
+            "resolved-time-zone.js": false
+          },
           "until": {
             "infinity-throws-rangeerror.js": false
           },
           "withPlainDate": {
             "infinity-throws-rangeerror.js": false
-          },
-          "toLocaleString": {
-            "resolved-time-zone.js": false
           }
         }
       },
@@ -5191,24 +5191,24 @@
           "equals": {
             "infinity-throws-rangeerror.js": false
           },
-          "toPlainDate": {
-            "infinity-throws-rangeerror.js": false
-          },
           "toLocaleString": {
             "resolved-time-zone.js": false
+          },
+          "toPlainDate": {
+            "infinity-throws-rangeerror.js": false
           }
         }
       },
       "PlainTime": {
         "prototype": {
+          "toLocaleString": {
+            "resolved-time-zone.js": false
+          },
           "toPlainDateTime": {
             "infinity-throws-rangeerror.js": false
           },
           "toZonedDateTime": {
             "plaindate-infinity-throws-rangeerror.js": false
-          },
-          "toLocaleString": {
-            "resolved-time-zone.js": false
           }
         }
       },
@@ -5235,11 +5235,11 @@
           "since": {
             "infinity-throws-rangeerror.js": false
           },
-          "until": {
-            "infinity-throws-rangeerror.js": false
-          },
           "toLocaleString": {
             "resolved-time-zone.js": false
+          },
+          "until": {
+            "infinity-throws-rangeerror.js": false
           }
         }
       },
