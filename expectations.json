@@ -1882,11 +1882,9 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
-            "locales-undefined.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "options-conflict.js": false,
-            "options-undefined.js": false,
             "prop-desc.js": false
           },
           "toString": {
@@ -2342,11 +2340,9 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
-            "locales-undefined.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "options-conflict.js": false,
-            "options-undefined.js": false,
             "prop-desc.js": false
           },
           "toPlainDateTime": {
@@ -2785,11 +2781,9 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
-            "locales-undefined.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "options-conflict.js": false,
-            "options-undefined.js": false,
             "prop-desc.js": false
           },
           "toPlainDate": {
@@ -3091,10 +3085,8 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
-            "locales-undefined.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "options-undefined.js": false,
             "prop-desc.js": false
           },
           "toPlainDate": {
@@ -3360,11 +3352,9 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
-            "locales-undefined.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "options-conflict.js": false,
-            "options-undefined.js": false,
             "prop-desc.js": false
           },
           "toPlainDateTime": {
@@ -3674,10 +3664,8 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
-            "locales-undefined.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "options-undefined.js": false,
             "prop-desc.js": false
           },
           "toPlainDate": {
@@ -4334,11 +4322,9 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
-            "locales-undefined.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "options-conflict.js": false,
-            "options-undefined.js": false,
             "prop-desc.js": false
           },
           "toPlainDate": {
