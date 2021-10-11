@@ -1183,7 +1183,9 @@
             "name.js": false,
             "non-string-element-throws.js": false,
             "not-a-constructor.js": false,
-            "prop-desc.js": false
+            "prop-desc.js": false,
+            "repeated-throw.js": false,
+            "reverse.js": false
           },
           "id": {
             "prop-desc.js": false
@@ -5106,6 +5108,14 @@
           }
         }
       },
+      "Instant": {
+        "prototype": {
+          "toLocaleString": {
+            "locales-undefined.js": false,
+            "options-undefined.js": false
+          }
+        }
+      },
       "PlainDate": {
         "compare": {
           "infinity-throws-rangeerror.js": false
@@ -5131,6 +5141,8 @@
             "infinity-throws-rangeerror.js": false
           },
           "toLocaleString": {
+            "locales-undefined.js": false,
+            "options-undefined.js": false,
             "resolved-time-zone.js": false
           },
           "until": {
@@ -5162,6 +5174,8 @@
             "infinity-throws-rangeerror.js": false
           },
           "toLocaleString": {
+            "locales-undefined.js": false,
+            "options-undefined.js": false,
             "resolved-time-zone.js": false
           },
           "until": {
@@ -5181,6 +5195,8 @@
             "infinity-throws-rangeerror.js": false
           },
           "toLocaleString": {
+            "locales-undefined.js": false,
+            "options-undefined.js": false,
             "resolved-time-zone.js": false
           },
           "toPlainDate": {
@@ -5191,6 +5207,8 @@
       "PlainTime": {
         "prototype": {
           "toLocaleString": {
+            "locales-undefined.js": false,
+            "options-undefined.js": false,
             "resolved-time-zone.js": false
           },
           "toPlainDateTime": {
@@ -5225,6 +5243,8 @@
             "infinity-throws-rangeerror.js": false
           },
           "toLocaleString": {
+            "locales-undefined.js": false,
+            "options-undefined.js": false,
             "resolved-time-zone.js": false
           },
           "until": {
@@ -5285,6 +5305,10 @@
           },
           "since": {
             "infinity-throws-rangeerror.js": false
+          },
+          "toLocaleString": {
+            "locales-undefined.js": false,
+            "options-undefined.js": false
           },
           "until": {
             "infinity-throws-rangeerror.js": false
