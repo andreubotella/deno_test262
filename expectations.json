@@ -370,9 +370,6 @@
         "was-woken-before-timeout.js": false
       }
     },
-    "BigInt": {
-      "wrapper-object-ordinary-toprimitive.js": false
-    },
     "DataView": {
       "custom-proto-access-detaches-buffer.js": false,
       "detached-buffer.js": false,
@@ -569,8 +566,7 @@
         "invoke-then-error-close.js": false,
         "invoke-then-get-error-close.js": false,
         "iter-next-val-err-no-close.js": false,
-        "iter-step-err-no-close.js": false,
-        "resolve-self.js": false
+        "iter-step-err-no-close.js": false
       },
       "reject": {
         "ctx-ctor.js": false
@@ -589,24 +585,6 @@
         "non-unicode-property-names-valid.js": false
       },
       "property-escapes": {
-        "binary-property-with-value-ASCII_-_F-negated.js": false,
-        "binary-property-with-value-ASCII_-_F.js": false,
-        "binary-property-with-value-ASCII_-_Invalid-negated.js": false,
-        "binary-property-with-value-ASCII_-_Invalid.js": false,
-        "binary-property-with-value-ASCII_-_N-negated.js": false,
-        "binary-property-with-value-ASCII_-_N.js": false,
-        "binary-property-with-value-ASCII_-_No-negated.js": false,
-        "binary-property-with-value-ASCII_-_No.js": false,
-        "binary-property-with-value-ASCII_-_T-negated.js": false,
-        "binary-property-with-value-ASCII_-_T.js": false,
-        "binary-property-with-value-ASCII_-_Y-negated.js": false,
-        "binary-property-with-value-ASCII_-_Y.js": false,
-        "binary-property-with-value-ASCII_-_Yes-negated.js": false,
-        "binary-property-with-value-ASCII_-_Yes.js": false,
-        "character-class-range-end.js": false,
-        "character-class-range-no-dash-end.js": false,
-        "character-class-range-no-dash-start.js": false,
-        "character-class-range-start.js": false,
         "generated": {
           "Alphabetic.js": false,
           "Assigned.js": false,
@@ -714,131 +692,7 @@
           "Variation_Selector.js": false,
           "XID_Continue.js": false,
           "XID_Start.js": false
-        },
-        "grammar-extension-In-prefix-Block-implicit-negated.js": false,
-        "grammar-extension-In-prefix-Block-implicit.js": false,
-        "grammar-extension-In-prefix-Script-implicit-negated.js": false,
-        "grammar-extension-In-prefix-Script-implicit.js": false,
-        "grammar-extension-In-prefix-Script-negated.js": false,
-        "grammar-extension-In-prefix-Script.js": false,
-        "grammar-extension-Is-prefix-Script-negated.js": false,
-        "grammar-extension-Is-prefix-Script.js": false,
-        "grammar-extension-circumflex-negation-negated.js": false,
-        "grammar-extension-circumflex-negation.js": false,
-        "grammar-extension-empty-negated.js": false,
-        "grammar-extension-empty.js": false,
-        "grammar-extension-invalid-negated.js": false,
-        "grammar-extension-invalid.js": false,
-        "grammar-extension-no-braces-negated.js": false,
-        "grammar-extension-no-braces-value-negated.js": false,
-        "grammar-extension-no-braces-value.js": false,
-        "grammar-extension-no-braces.js": false,
-        "grammar-extension-separator-and-value-only-negated.js": false,
-        "grammar-extension-separator-and-value-only.js": false,
-        "grammar-extension-separator-negated.js": false,
-        "grammar-extension-separator-only-negated.js": false,
-        "grammar-extension-separator-only.js": false,
-        "grammar-extension-separator.js": false,
-        "grammar-extension-unclosed-negated.js": false,
-        "grammar-extension-unclosed.js": false,
-        "grammar-extension-unopened-negated.js": false,
-        "grammar-extension-unopened.js": false,
-        "loose-matching-01-negated.js": false,
-        "loose-matching-01.js": false,
-        "loose-matching-02-negated.js": false,
-        "loose-matching-02.js": false,
-        "loose-matching-03-negated.js": false,
-        "loose-matching-03.js": false,
-        "loose-matching-04-negated.js": false,
-        "loose-matching-04.js": false,
-        "loose-matching-05-negated.js": false,
-        "loose-matching-05.js": false,
-        "loose-matching-06-negated.js": false,
-        "loose-matching-06.js": false,
-        "loose-matching-07-negated.js": false,
-        "loose-matching-07.js": false,
-        "loose-matching-08-negated.js": false,
-        "loose-matching-08.js": false,
-        "loose-matching-09-negated.js": false,
-        "loose-matching-09.js": false,
-        "loose-matching-10-negated.js": false,
-        "loose-matching-10.js": false,
-        "loose-matching-11-negated.js": false,
-        "loose-matching-11.js": false,
-        "loose-matching-12-negated.js": false,
-        "loose-matching-12.js": false,
-        "loose-matching-13-negated.js": false,
-        "loose-matching-13.js": false,
-        "loose-matching-14-negated.js": false,
-        "loose-matching-14.js": false,
-        "non-binary-property-without-value-General_Category-equals-negated.js": false,
-        "non-binary-property-without-value-General_Category-equals.js": false,
-        "non-binary-property-without-value-General_Category-negated.js": false,
-        "non-binary-property-without-value-General_Category.js": false,
-        "non-binary-property-without-value-Script-equals-negated.js": false,
-        "non-binary-property-without-value-Script-equals.js": false,
-        "non-binary-property-without-value-Script-negated.js": false,
-        "non-binary-property-without-value-Script.js": false,
-        "non-binary-property-without-value-Script_Extensions-equals-negated.js": false,
-        "non-binary-property-without-value-Script_Extensions-equals.js": false,
-        "non-binary-property-without-value-Script_Extensions-negated.js": false,
-        "non-binary-property-without-value-Script_Extensions.js": false,
-        "non-existent-binary-property-negated.js": false,
-        "non-existent-binary-property.js": false,
-        "non-existent-property-and-value-negated.js": false,
-        "non-existent-property-and-value.js": false,
-        "non-existent-property-existing-value-negated.js": false,
-        "non-existent-property-existing-value.js": false,
-        "non-existent-property-value-General_Category-negated.js": false,
-        "non-existent-property-value-Script-negated.js": false,
-        "non-existent-property-value-Script.js": false,
-        "non-existent-property-value-Script_Extensions-negated.js": false,
-        "non-existent-property-value-Script_Extensions.js": false,
-        "non-existent-property-value-general-category.js": false,
-        "unsupported-binary-property-Composition_Exclusion-negated.js": false,
-        "unsupported-binary-property-Composition_Exclusion.js": false,
-        "unsupported-binary-property-Expands_On_NFC-negated.js": false,
-        "unsupported-binary-property-Expands_On_NFC.js": false,
-        "unsupported-binary-property-Expands_On_NFD-negated.js": false,
-        "unsupported-binary-property-Expands_On_NFD.js": false,
-        "unsupported-binary-property-Expands_On_NFKC-negated.js": false,
-        "unsupported-binary-property-Expands_On_NFKC.js": false,
-        "unsupported-binary-property-Expands_On_NFKD-negated.js": false,
-        "unsupported-binary-property-Expands_On_NFKD.js": false,
-        "unsupported-binary-property-FC_NFKC_Closure-negated.js": false,
-        "unsupported-binary-property-FC_NFKC_Closure.js": false,
-        "unsupported-binary-property-Full_Composition_Exclusion-negated.js": false,
-        "unsupported-binary-property-Full_Composition_Exclusion.js": false,
-        "unsupported-binary-property-Grapheme_Link-negated.js": false,
-        "unsupported-binary-property-Grapheme_Link.js": false,
-        "unsupported-binary-property-Hyphen-negated.js": false,
-        "unsupported-binary-property-Hyphen.js": false,
-        "unsupported-binary-property-Other_Alphabetic-negated.js": false,
-        "unsupported-binary-property-Other_Alphabetic.js": false,
-        "unsupported-binary-property-Other_Default_Ignorable_Code_Point-negated.js": false,
-        "unsupported-binary-property-Other_Default_Ignorable_Code_Point.js": false,
-        "unsupported-binary-property-Other_Grapheme_Extend-negated.js": false,
-        "unsupported-binary-property-Other_Grapheme_Extend.js": false,
-        "unsupported-binary-property-Other_ID_Continue-negated.js": false,
-        "unsupported-binary-property-Other_ID_Continue.js": false,
-        "unsupported-binary-property-Other_ID_Start-negated.js": false,
-        "unsupported-binary-property-Other_ID_Start.js": false,
-        "unsupported-binary-property-Other_Lowercase-negated.js": false,
-        "unsupported-binary-property-Other_Lowercase.js": false,
-        "unsupported-binary-property-Other_Math-negated.js": false,
-        "unsupported-binary-property-Other_Math.js": false,
-        "unsupported-binary-property-Other_Uppercase-negated.js": false,
-        "unsupported-binary-property-Other_Uppercase.js": false,
-        "unsupported-binary-property-Prepended_Concatenation_Mark-negated.js": false,
-        "unsupported-binary-property-Prepended_Concatenation_Mark.js": false,
-        "unsupported-property-Block-with-value-negated.js": false,
-        "unsupported-property-Block-with-value.js": false,
-        "unsupported-property-FC_NFKC_Closure-negated.js": false,
-        "unsupported-property-FC_NFKC_Closure.js": false,
-        "unsupported-property-Line_Break-negated.js": false,
-        "unsupported-property-Line_Break-with-value-negated.js": false,
-        "unsupported-property-Line_Break-with-value.js": false,
-        "unsupported-property-Line_Break.js": false
+        }
       },
       "prototype": {
         "Symbol.replace": {
@@ -4637,10 +4491,8 @@
         },
         "every": {
           "BigInt": {
-            "callbackfn-detachbuffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "callbackfn-detachbuffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "fill": {
@@ -4654,26 +4506,20 @@
         },
         "filter": {
           "BigInt": {
-            "callbackfn-detachbuffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "callbackfn-detachbuffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "find": {
           "BigInt": {
-            "predicate-may-detach-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findIndex": {
           "BigInt": {
-            "predicate-may-detach-buffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "predicate-may-detach-buffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findLast": {
@@ -4740,10 +4586,8 @@
         },
         "forEach": {
           "BigInt": {
-            "callbackfn-detachbuffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "callbackfn-detachbuffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "includes": {
@@ -4788,26 +4632,20 @@
         },
         "map": {
           "BigInt": {
-            "callbackfn-detachbuffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "callbackfn-detachbuffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "reduce": {
           "BigInt": {
-            "callbackfn-detachbuffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "callbackfn-detachbuffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "reduceRight": {
           "BigInt": {
-            "callbackfn-detachbuffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "callbackfn-detachbuffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "reverse": {
@@ -4818,11 +4656,9 @@
         },
         "set": {
           "BigInt": {
-            "array-arg-primitive-toobject.js": false,
             "typedarray-arg-set-values-same-buffer-same-type-resized.js": false,
             "typedarray-arg-target-out-of-bounds.js": false
           },
-          "array-arg-primitive-toobject.js": false,
           "typedarray-arg-set-values-same-buffer-same-type-resized.js": false,
           "typedarray-arg-target-out-of-bounds.js": false
         },
@@ -4834,10 +4670,8 @@
         },
         "some": {
           "BigInt": {
-            "callbackfn-detachbuffer.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "callbackfn-detachbuffer.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "sort": {
@@ -4897,7 +4731,6 @@
   },
   "intl402": {
     "DateTimeFormat": {
-      "constructor-options-timeZoneName-valid.js": false,
       "prototype": {
         "format": {
           "temporal-objects-resolved-time-zone.js": false
@@ -4914,19 +4747,9 @@
       }
     },
     "DisplayNames": {
-      "options-languagedisplay-abrupt-throws.js": false,
-      "options-languagedisplay-invalid-throws.js": false,
-      "options-languagedisplay-toString-abrupt-throws.js": false,
       "prototype": {
         "of": {
-          "type-calendar-invalid.js": false,
-          "type-calendar-valid.js": false,
-          "type-datetimefield-invalid.js": false,
-          "type-datetimefield-valid.js": false
-        },
-        "resolvedOptions": {
-          "option-languagedisplay.js": false,
-          "return-object.js": false
+          "type-calendar-invalid.js": false
         }
       }
     },
@@ -5788,94 +5611,6 @@
       "json-value-string.js": false,
       "json-via-namespace.js": false
     },
-    "literals": {
-      "regexp": {
-        "early-err-pattern.js": false,
-        "invalid-braced-quantifier-exact.js": false,
-        "invalid-braced-quantifier-lower.js": false,
-        "invalid-braced-quantifier-range.js": false,
-        "invalid-optional-lookbehind.js": false,
-        "invalid-optional-negative-lookbehind.js": false,
-        "invalid-range-lookbehind.js": false,
-        "invalid-range-negative-lookbehind.js": false,
-        "named-groups": {
-          "invalid-dangling-groupname-2-u.js": false,
-          "invalid-dangling-groupname-2.js": false,
-          "invalid-dangling-groupname-3-u.js": false,
-          "invalid-dangling-groupname-3.js": false,
-          "invalid-dangling-groupname-4-u.js": false,
-          "invalid-dangling-groupname-4.js": false,
-          "invalid-dangling-groupname-5.js": false,
-          "invalid-dangling-groupname-u.js": false,
-          "invalid-dangling-groupname-without-group-u.js": false,
-          "invalid-dangling-groupname.js": false,
-          "invalid-duplicate-groupspecifier-2-u.js": false,
-          "invalid-duplicate-groupspecifier-2.js": false,
-          "invalid-duplicate-groupspecifier-u.js": false,
-          "invalid-duplicate-groupspecifier.js": false,
-          "invalid-empty-groupspecifier-u.js": false,
-          "invalid-empty-groupspecifier.js": false,
-          "invalid-identity-escape-in-capture-u.js": false,
-          "invalid-incomplete-groupname-2-u.js": false,
-          "invalid-incomplete-groupname-2.js": false,
-          "invalid-incomplete-groupname-3-u.js": false,
-          "invalid-incomplete-groupname-3.js": false,
-          "invalid-incomplete-groupname-4.js": false,
-          "invalid-incomplete-groupname-5.js": false,
-          "invalid-incomplete-groupname-6.js": false,
-          "invalid-incomplete-groupname-u.js": false,
-          "invalid-incomplete-groupname-without-group-2-u.js": false,
-          "invalid-incomplete-groupname-without-group-3-u.js": false,
-          "invalid-incomplete-groupname-without-group-u.js": false,
-          "invalid-incomplete-groupname.js": false,
-          "invalid-non-id-continue-groupspecifier-4-u.js": false,
-          "invalid-non-id-continue-groupspecifier-4.js": false,
-          "invalid-non-id-continue-groupspecifier.js": false,
-          "invalid-non-id-start-groupspecifier-2-u.js": false,
-          "invalid-non-id-start-groupspecifier-2.js": false,
-          "invalid-non-id-start-groupspecifier-3.js": false,
-          "invalid-non-id-start-groupspecifier-4-u.js": false,
-          "invalid-non-id-start-groupspecifier-4.js": false,
-          "invalid-non-id-start-groupspecifier-5-u.js": false,
-          "invalid-non-id-start-groupspecifier-5.js": false,
-          "invalid-non-id-start-groupspecifier-6.js": false,
-          "invalid-non-id-start-groupspecifier-7.js": false,
-          "invalid-non-id-start-groupspecifier-8-u.js": false,
-          "invalid-non-id-start-groupspecifier-8.js": false,
-          "invalid-non-id-start-groupspecifier-9-u.js": false,
-          "invalid-non-id-start-groupspecifier-u.js": false,
-          "invalid-non-id-start-groupspecifier.js": false,
-          "invalid-numeric-groupspecifier-u.js": false,
-          "invalid-numeric-groupspecifier.js": false,
-          "invalid-punctuator-starting-groupspecifier-u.js": false,
-          "invalid-punctuator-starting-groupspecifier.js": false,
-          "invalid-punctuator-within-groupspecifier-u.js": false,
-          "invalid-punctuator-within-groupspecifier.js": false,
-          "invalid-unterminated-groupspecifier-u.js": false,
-          "invalid-unterminated-groupspecifier.js": false
-        },
-        "u-invalid-class-escape.js": false,
-        "u-invalid-extended-pattern-char.js": false,
-        "u-invalid-identity-escape.js": false,
-        "u-invalid-legacy-octal-escape.js": false,
-        "u-invalid-non-empty-class-ranges-no-dash-a.js": false,
-        "u-invalid-non-empty-class-ranges-no-dash-ab.js": false,
-        "u-invalid-non-empty-class-ranges-no-dash-b.js": false,
-        "u-invalid-non-empty-class-ranges.js": false,
-        "u-invalid-oob-decimal-escape.js": false,
-        "u-invalid-optional-lookahead.js": false,
-        "u-invalid-optional-lookbehind.js": false,
-        "u-invalid-optional-negative-lookahead.js": false,
-        "u-invalid-optional-negative-lookbehind.js": false,
-        "u-invalid-range-lookahead.js": false,
-        "u-invalid-range-lookbehind.js": false,
-        "u-invalid-range-negative-lookahead.js": false,
-        "u-invalid-range-negative-lookbehind.js": false,
-        "u-unicode-esc-bounds.js": false,
-        "u-unicode-esc-non-hex.js": false,
-        "unicode-escape-nls-err.js": false
-      }
-    },
     "module-code": {
       "comment-multi-line-html-close.js": false,
       "comment-single-line-html-close.js": false,
@@ -6170,7 +5905,6 @@
         }
       },
       "function": {
-        "13.2-30-s.js": "non-strict",
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
