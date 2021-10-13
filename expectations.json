@@ -5905,7 +5905,6 @@
         }
       },
       "function": {
-        "13.2-30-s.js": false,
         "dstr": {
           "ary-init-iter-get-err-array-prototype.js": false,
           "dflt-ary-init-iter-get-err-array-prototype.js": false
