@@ -719,6 +719,9 @@
         "evaluate": {
           "descriptor.js": false,
           "errors-from-the-other-realm-is-wrapped-into-a-typeerror.js": false,
+          "globalthis-available-properties.js": false,
+          "globalthis-config-only-properties.js": false,
+          "globalthis-orginary-object.js": false,
           "length.js": false,
           "name.js": false,
           "nested-realms.js": false,
@@ -5592,6 +5595,12 @@
     },
     "identifier-resolution": {
       "assign-to-global-undefined.js": false
+    },
+    "identifiers": {
+      "part-unicode-14.0.0-escaped.js": false,
+      "part-unicode-14.0.0.js": false,
+      "start-unicode-14.0.0-escaped.js": false,
+      "start-unicode-14.0.0.js": false
     },
     "import": {
       "dup-bound-names.js": false,
