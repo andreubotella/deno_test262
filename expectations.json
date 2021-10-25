@@ -742,6 +742,8 @@
           "wrapped-function-multiple-different-realms.js": false,
           "wrapped-function-observing-their-scopes.js": false,
           "wrapped-function-proxied-observes-boundary.js": false,
+          "wrapped-function-throws-typeerror-on-non-primitive-arguments.js": false,
+          "wrapped-function-throws-typeerror-on-non-primitive-returns.js": false,
           "wrapped-functions-accepts-callable-objects.js": false,
           "wrapped-functions-can-resolve-callable-returns.js": false,
           "wrapped-functions-new-wrapping-on-each-evaluation.js": false,
