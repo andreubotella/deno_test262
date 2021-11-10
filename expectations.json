@@ -53,9 +53,6 @@
       },
       "prototype": {
         "Symbol.iterator.js": false,
-        "Symbol.unscopables": {
-          "value.js": false
-        },
         "concat": {
           "15.4.4.4-5-b-iii-3-b-1.js": false,
           "15.4.4.4-5-c-i-1.js": false,
@@ -72,40 +69,6 @@
           "15.4.4.20-9-c-i-16.js": false,
           "15.4.4.20-9-c-i-22.js": false,
           "15.4.4.20-9-c-i-6.js": false
-        },
-        "findLast": {
-          "array-altered-during-loop.js": false,
-          "call-with-boolean.js": false,
-          "length.js": false,
-          "name.js": false,
-          "predicate-call-parameters.js": false,
-          "predicate-call-this-non-strict.js": false,
-          "predicate-call-this-strict.js": false,
-          "predicate-called-for-each-array-property.js": false,
-          "predicate-not-called-on-empty-array.js": false,
-          "prop-desc.js": false,
-          "return-abrupt-from-predicate-call.js": false,
-          "return-abrupt-from-property.js": false,
-          "return-abrupt-from-this-length.js": false,
-          "return-found-value-predicate-result-is-true.js": false,
-          "return-undefined-if-predicate-returns-false-value.js": false
-        },
-        "findLastIndex": {
-          "array-altered-during-loop.js": false,
-          "call-with-boolean.js": false,
-          "length.js": false,
-          "name.js": false,
-          "predicate-call-parameters.js": false,
-          "predicate-call-this-non-strict.js": false,
-          "predicate-call-this-strict.js": false,
-          "predicate-called-for-each-array-property.js": false,
-          "predicate-not-called-on-empty-array.js": false,
-          "prop-desc.js": false,
-          "return-abrupt-from-predicate-call.js": false,
-          "return-abrupt-from-property.js": false,
-          "return-abrupt-from-this-length.js": false,
-          "return-index-predicate-result-is-true.js": false,
-          "return-negative-one-if-predicate-returns-false-value.js": false
         },
         "forEach": {
           "15.4.4.18-7-c-i-14.js": false,
@@ -371,17 +334,12 @@
       }
     },
     "DataView": {
-      "custom-proto-access-detaches-buffer.js": false,
-      "detached-buffer.js": false,
       "prototype": {
         "byteLength": {
-          "detached-buffer.js": false,
-          "instance-has-detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
           "resizable-array-buffer-fixed.js": false
         },
         "byteOffset": {
-          "detached-buffer.js": false,
           "resizable-array-buffer-auto.js": false,
           "resizable-array-buffer-fixed.js": false
         },
@@ -4518,9 +4476,6 @@
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "coerced-values-end-detached-prototype.js": false,
-          "coerced-values-end-detached.js": false,
-          "coerced-values-start-detached.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "entries": {
@@ -4539,9 +4494,6 @@
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "coerced-end-detach.js": false,
-          "coerced-start-detach.js": false,
-          "coerced-value-detach.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "filter": {
@@ -4564,65 +4516,15 @@
         },
         "findLast": {
           "BigInt": {
-            "get-length-ignores-length-prop.js": false,
-            "predicate-call-changes-value.js": false,
-            "predicate-call-parameters.js": false,
-            "predicate-call-this-non-strict.js": false,
-            "predicate-call-this-strict.js": false,
-            "predicate-may-detach-buffer.js": false,
-            "predicate-not-called-on-empty-array.js": false,
-            "return-abrupt-from-predicate-call.js": false,
-            "return-abrupt-from-this-out-of-bounds.js": false,
-            "return-found-value-predicate-result-is-true.js": false,
-            "return-undefined-if-predicate-returns-false-value.js": false
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "get-length-ignores-length-prop.js": false,
-          "invoked-as-func.js": false,
-          "invoked-as-method.js": false,
-          "length.js": false,
-          "name.js": false,
-          "predicate-call-changes-value.js": false,
-          "predicate-call-parameters.js": false,
-          "predicate-call-this-non-strict.js": false,
-          "predicate-call-this-strict.js": false,
-          "predicate-may-detach-buffer.js": false,
-          "predicate-not-called-on-empty-array.js": false,
-          "prop-desc.js": false,
-          "return-abrupt-from-predicate-call.js": false,
-          "return-abrupt-from-this-out-of-bounds.js": false,
-          "return-found-value-predicate-result-is-true.js": false,
-          "return-undefined-if-predicate-returns-false-value.js": false
+          "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findLastIndex": {
           "BigInt": {
-            "get-length-ignores-length-prop.js": false,
-            "predicate-call-changes-value.js": false,
-            "predicate-call-parameters.js": false,
-            "predicate-call-this-non-strict.js": false,
-            "predicate-call-this-strict.js": false,
-            "predicate-may-detach-buffer.js": false,
-            "predicate-not-called-on-empty-array.js": false,
-            "return-abrupt-from-predicate-call.js": false,
-            "return-abrupt-from-this-out-of-bounds.js": false,
-            "return-index-predicate-result-is-true.js": false,
-            "return-negative-one-if-predicate-returns-false-value.js": false
+            "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "get-length-ignores-length-prop.js": false,
-          "invoked-as-func.js": false,
-          "invoked-as-method.js": false,
-          "length.js": false,
-          "name.js": false,
-          "predicate-call-changes-value.js": false,
-          "predicate-call-parameters.js": false,
-          "predicate-call-this-non-strict.js": false,
-          "predicate-call-this-strict.js": false,
-          "predicate-may-detach-buffer.js": false,
-          "predicate-not-called-on-empty-array.js": false,
-          "prop-desc.js": false,
-          "return-abrupt-from-predicate-call.js": false,
-          "return-abrupt-from-this-out-of-bounds.js": false,
-          "return-index-predicate-result-is-true.js": false,
-          "return-negative-one-if-predicate-returns-false-value.js": false
+          "return-abrupt-from-this-out-of-bounds.js": false
         },
         "forEach": {
           "BigInt": {
@@ -4632,10 +4534,8 @@
         },
         "includes": {
           "BigInt": {
-            "detached-buffer-during-fromIndex-returns-true-for-undefined.js": false,
             "return-abrupt-from-this-out-of-bounds.js": false
           },
-          "detached-buffer-during-fromIndex-returns-true-for-undefined.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "indexOf": {
@@ -4783,13 +4683,6 @@
         },
         "formatToParts": {
           "temporal-objects-resolved-time-zone.js": false
-        }
-      }
-    },
-    "DisplayNames": {
-      "prototype": {
-        "of": {
-          "type-calendar-invalid.js": false
         }
       }
     },
@@ -5589,10 +5482,6 @@
           "invalid-assignment-target-update-expr.js": false
         }
       },
-      "in": {
-        "private-field-in-nested.js": false,
-        "private-field-invalid-assignment-reference.js": false
-      },
       "logical-and": {
         "tco-right.js": false
       },
@@ -5762,11 +5651,6 @@
       "invalid-private-names-call-expression-this.js": false,
       "invalid-private-names-member-expression-bad-reference.js": false,
       "invalid-private-names-member-expression-this.js": false,
-      "namespace": {
-        "internals": {
-          "define-own-property.js": false
-        }
-      },
       "parse-err-decl-pos-export-arrow-function.js": false,
       "parse-err-decl-pos-export-block-stmt-list.js": false,
       "parse-err-decl-pos-export-block-stmt.js": false,
