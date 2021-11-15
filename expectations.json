@@ -62,20 +62,35 @@
           "15.4.4.16-7-c-i-14.js": false,
           "15.4.4.16-7-c-i-16.js": false,
           "15.4.4.16-7-c-i-22.js": false,
-          "15.4.4.16-7-c-i-6.js": false
+          "15.4.4.16-7-c-i-6.js": false,
+          "callbackfn-resize-arraybuffer.js": false
         },
         "filter": {
           "15.4.4.20-9-c-i-14.js": false,
           "15.4.4.20-9-c-i-16.js": false,
           "15.4.4.20-9-c-i-22.js": false,
-          "15.4.4.20-9-c-i-6.js": false
+          "15.4.4.20-9-c-i-6.js": false,
+          "callbackfn-resize-arraybuffer.js": false
+        },
+        "find": {
+          "callbackfn-resize-arraybuffer.js": false
+        },
+        "findIndex": {
+          "callbackfn-resize-arraybuffer.js": false
+        },
+        "findLast": {
+          "callbackfn-resize-arraybuffer.js": false
+        },
+        "findLastIndex": {
+          "callbackfn-resize-arraybuffer.js": false
         },
         "forEach": {
           "15.4.4.18-7-c-i-14.js": false,
           "15.4.4.18-7-c-i-16.js": false,
           "15.4.4.18-7-c-i-20.js": false,
           "15.4.4.18-7-c-i-22.js": false,
-          "15.4.4.18-7-c-i-6.js": false
+          "15.4.4.18-7-c-i-6.js": false,
+          "callbackfn-resize-arraybuffer.js": false
         },
         "indexOf": {
           "15.4.4.14-9-b-i-13.js": false,
@@ -105,7 +120,8 @@
           "15.4.4.19-8-c-i-16.js": false,
           "15.4.4.19-8-c-i-19.js": false,
           "15.4.4.19-8-c-i-22.js": false,
-          "15.4.4.19-8-c-i-6.js": false
+          "15.4.4.19-8-c-i-6.js": false,
+          "callbackfn-resize-arraybuffer.js": false
         },
         "reduce": {
           "15.4.4.21-8-b-iii-1-14.js": false,
@@ -118,7 +134,8 @@
         },
         "some": {
           "15.4.4.17-7-c-i-22.js": false,
-          "15.4.4.17-7-c-i-6.js": false
+          "15.4.4.17-7-c-i-6.js": false,
+          "callbackfn-resize-arraybuffer.js": false
         },
         "toString": {
           "non-callable-join-string-tag.js": false
@@ -4488,6 +4505,7 @@
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "fill": {
@@ -4500,36 +4518,42 @@
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "find": {
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findIndex": {
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findLast": {
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "findLastIndex": {
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "forEach": {
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "includes": {
@@ -4574,6 +4598,7 @@
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "reduce": {
@@ -4612,6 +4637,7 @@
           "BigInt": {
             "return-abrupt-from-this-out-of-bounds.js": false
           },
+          "callbackfn-resize.js": false,
           "return-abrupt-from-this-out-of-bounds.js": false
         },
         "sort": {
@@ -4771,6 +4797,7 @@
     "NumberFormat": {
       "constructor-options-roundingMode-invalid.js": false,
       "constructor-options-throwing-getters-rounding-mode.js": false,
+      "constructor-signDisplay-negative.js": false,
       "currency-digits.js": false,
       "prototype": {
         "format": {
@@ -4781,7 +4808,29 @@
           "format-rounding-mode-half-even.js": false,
           "format-rounding-mode-half-floor.js": false,
           "format-rounding-mode-half-trunc.js": false,
-          "format-rounding-mode-trunc.js": false
+          "format-rounding-mode-trunc.js": false,
+          "signDisplay-negative-currency-de-DE.js": false,
+          "signDisplay-negative-currency-en-US.js": false,
+          "signDisplay-negative-currency-ja-JP.js": false,
+          "signDisplay-negative-currency-ko-KR.js": false,
+          "signDisplay-negative-currency-zh-TW.js": false,
+          "signDisplay-negative-de-DE.js": false,
+          "signDisplay-negative-en-US.js": false,
+          "signDisplay-negative-ja-JP.js": false,
+          "signDisplay-negative-ko-KR.js": false,
+          "signDisplay-negative-zh-TW.js": false
+        },
+        "formatToParts": {
+          "signDisplay-negative-currency-de-DE.js": false,
+          "signDisplay-negative-currency-en-US.js": false,
+          "signDisplay-negative-currency-ja-JP.js": false,
+          "signDisplay-negative-currency-ko-KR.js": false,
+          "signDisplay-negative-currency-zh-TW.js": false,
+          "signDisplay-negative-de-DE.js": false,
+          "signDisplay-negative-en-US.js": false,
+          "signDisplay-negative-ja-JP.js": false,
+          "signDisplay-negative-ko-KR.js": false,
+          "signDisplay-negative-zh-TW.js": false
         },
         "resolvedOptions": {
           "roundingMode.js": false
