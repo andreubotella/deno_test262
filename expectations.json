@@ -825,6 +825,7 @@
             "add-years.js": false,
             "argument-plaindatetime.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "balance-smaller-units.js": false,
@@ -870,6 +871,7 @@
             "argument-infinity-throws-rangeerror.js": false,
             "argument-plaindatetime.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -893,6 +895,7 @@
           },
           "day": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -913,6 +916,7 @@
           },
           "dayOfWeek": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -932,6 +936,7 @@
           },
           "dayOfYear": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -951,6 +956,7 @@
           },
           "daysInMonth": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -970,6 +976,7 @@
           },
           "daysInWeek": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -989,6 +996,7 @@
           },
           "daysInYear": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -1026,6 +1034,7 @@
           },
           "inLeapYear": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -1051,6 +1060,7 @@
           },
           "month": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -1072,6 +1082,7 @@
           },
           "monthCode": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -1106,6 +1117,7 @@
           },
           "monthsInYear": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -1136,6 +1148,7 @@
           },
           "weekOfYear": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -1152,6 +1165,7 @@
           },
           "year": {
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -1200,6 +1214,7 @@
           "read-time-fields-before-datefromfields.js": false,
           "relativeto-propertybag-infinity-throws-rangeerror.js": false,
           "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "relativeto-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "relativeto-string-invalid.js": false,
@@ -1210,6 +1225,7 @@
           "relativeto-undefined-throw-on-calendar-units.js": false,
           "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
           "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "timezone-getpossibleinstantsfor-iterable.js": false,
@@ -1217,6 +1233,7 @@
         },
         "constructor.js": false,
         "days-undefined.js": false,
+        "fractional-throws-rangeerror.js": false,
         "from": {
           "argument-existing-object.js": false,
           "argument-non-string.js": false,
@@ -1277,6 +1294,7 @@
             "relativeto-infinity-throws-rangeerror.js": false,
             "relativeto-propertybag-no-time-units.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "relativeto-string-datetime.js": false,
@@ -1287,6 +1305,7 @@
             "relativeto-sub-minute-offset.js": false,
             "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "subclassing-ignored.js": false,
@@ -1354,6 +1373,7 @@
             "relativeto-infinity-throws-rangeerror.js": false,
             "relativeto-propertybag-no-time-units.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "relativeto-string-datetime.js": false,
@@ -1365,6 +1385,7 @@
             "relativeto-undefined-throw-on-calendar-units.js": false,
             "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "round-negative-result.js": false,
@@ -1374,8 +1395,11 @@
             "roundingmode-invalid-string.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
+            "smallestunit-disallowed-units-string.js": false,
             "smallestunit-invalid-string.js": false,
+            "smallestunit-plurals-accepted-string.js": false,
             "smallestunit-plurals-accepted.js": false,
+            "smallestunit-string-shorthand-string.js": false,
             "smallestunit-undefined.js": false,
             "smallestunit-wrong-type.js": false,
             "subclassing-ignored.js": false,
@@ -1413,6 +1437,7 @@
             "relativeto-infinity-throws-rangeerror.js": false,
             "relativeto-propertybag-no-time-units.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "relativeto-string-datetime.js": false,
@@ -1423,6 +1448,7 @@
             "relativeto-sub-minute-offset.js": false,
             "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "subclassing-ignored.js": false,
@@ -1487,6 +1513,7 @@
             "relativeto-infinity-throws-rangeerror.js": false,
             "relativeto-propertybag-no-time-units.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "relativeto-string-datetime.js": false,
@@ -1498,12 +1525,16 @@
             "relativeto-undefined-throw-on-calendar-units.js": false,
             "relativeto-zoneddatetime-negative-epochnanoseconds.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "relativeto-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
             "timezone-string-datetime.js": false,
+            "unit-disallowed-units-string.js": false,
             "unit-invalid-string.js": false,
+            "unit-plurals-accepted-string.js": false,
             "unit-plurals-accepted.js": false,
+            "unit-string-shorthand-string.js": false,
             "unit-wrong-type.js": false
           },
           "valueOf": {
@@ -1670,8 +1701,10 @@
             "roundingmode-invalid-string.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
+            "smallestunit-disallowed-units.js": false,
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
+            "smallestunit-string-shorthand.js": false,
             "smallestunit-wrong-type.js": false,
             "subclassing-ignored.js": false
           },
@@ -1726,7 +1759,8 @@
             "name.js": false,
             "negative-epochnanoseconds.js": false,
             "not-a-constructor.js": false,
-            "prop-desc.js": false
+            "prop-desc.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
           "toLocaleString": {
             "branding.js": false,
@@ -1763,6 +1797,7 @@
             "smallestunit-valid-units.js": false,
             "smallestunit-wrong-type.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-offset.js": false,
@@ -1844,6 +1879,7 @@
           "calendar-temporal-object.js": false,
           "length.js": false,
           "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "timezone-string-datetime.js": false,
@@ -1852,6 +1888,7 @@
         "plainDateISO": {
           "length.js": false,
           "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "timezone-string-datetime.js": false
@@ -1875,6 +1912,7 @@
           "timezone-getoffsetnanosecondsfor-non-integer.js": false,
           "timezone-getoffsetnanosecondsfor-non-method.js": false,
           "timezone-getoffsetnanosecondsfor-not-a-number.js": false,
+          "timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "timezone-getoffsetnanosecondsfor-poisoned.js": false,
           "timezone-getoffsetnanosecondsfor-throws.js": false,
@@ -1899,6 +1937,7 @@
           "timezone-getoffsetnanosecondsfor-non-integer.js": false,
           "timezone-getoffsetnanosecondsfor-non-method.js": false,
           "timezone-getoffsetnanosecondsfor-not-a-number.js": false,
+          "timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "timezone-getoffsetnanosecondsfor-poisoned.js": false,
           "timezone-getoffsetnanosecondsfor-throws.js": false,
@@ -1913,6 +1952,7 @@
         "plainTimeISO": {
           "length.js": false,
           "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "timezone-string-datetime.js": false,
@@ -1976,6 +2016,7 @@
         "compare": {
           "argument-plaindatetime.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "builtin.js": false,
@@ -1995,6 +2036,7 @@
           "argument-plaindatetime.js": false,
           "argument-string.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "builtin.js": false,
@@ -2078,6 +2120,7 @@
             "argument-plaindatetime.js": false,
             "argument-wrong-type.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -2122,6 +2165,7 @@
           "since": {
             "argument-plaindatetime.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -2200,6 +2244,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -2258,11 +2303,13 @@
             "not-a-constructor.js": false,
             "plaintime-argument-zoneddatetime-balance-negative-time-units.js": false,
             "plaintime-argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "plaintime-argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "plaintime-argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "plaintime-argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "plaintime-propertybag-no-time-units.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
@@ -2271,6 +2318,7 @@
           "until": {
             "argument-plaindatetime.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -2368,6 +2416,7 @@
           "argument-plaindate.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "builtin.js": false,
@@ -2387,6 +2436,7 @@
           "argument-zoneddatetime-balance-negative-time-units.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "builtin.js": false,
@@ -2475,6 +2525,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -2551,8 +2602,10 @@
             "roundingmode-invalid-string.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
+            "smallestunit-disallowed-units.js": false,
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
+            "smallestunit-string-shorthand.js": false,
             "smallestunit-wrong-type.js": false,
             "subclassing-ignored.js": false
           },
@@ -2565,6 +2618,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "balance-negative-duration.js": false,
@@ -2716,6 +2770,7 @@
             "plain-custom-timezone.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
@@ -2726,6 +2781,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "balance-negative-duration.js": false,
@@ -2808,6 +2864,7 @@
           "withPlainDate": {
             "argument-plaindatetime.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -2825,6 +2882,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -3011,6 +3069,7 @@
         "compare": {
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "builtin.js": false,
@@ -3028,6 +3087,7 @@
           "argument-zoneddatetime-balance-negative-time-units.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "builtin.js": false,
@@ -3082,6 +3142,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -3139,8 +3200,10 @@
             "roundingmode-invalid-string.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
+            "smallestunit-disallowed-units.js": false,
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
+            "smallestunit-string-shorthand.js": false,
             "smallestunit-wrong-type.js": false,
             "subclassing-ignored.js": false
           },
@@ -3152,6 +3215,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "balance-negative-time-units.js": false,
@@ -3218,6 +3282,7 @@
           "toPlainDateTime": {
             "argument-plaindatetime.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -3258,6 +3323,7 @@
             "argument-plaindatetime.js": false,
             "argument-primitive.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "basic.js": false,
@@ -3273,6 +3339,7 @@
             "plaindate-infinity-throws-rangeerror.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
@@ -3282,6 +3349,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "balance-negative-time-units.js": false,
@@ -3644,6 +3712,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "balance-negative-time-units.js": false,
@@ -3691,13 +3760,13 @@
             "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
-            "getOffsetNanosecondsFor-undefined.js": false,
             "instant-string.js": false,
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3711,7 +3780,6 @@
             "calendar-temporal-object.js": false,
             "calendar-undefined.js": false,
             "custom-timezone.js": false,
-            "getOffsetNanosecondsFor-undefined.js": false,
             "instant-string.js": false,
             "length.js": false,
             "name.js": false,
@@ -3719,6 +3787,7 @@
             "pre-epoch.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3728,6 +3797,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -3782,6 +3852,7 @@
         "calendar-undefined.js": false,
         "compare": {
           "argument-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "builtin.js": false,
@@ -3800,6 +3871,7 @@
         "constructor.js": false,
         "from": {
           "argument-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+          "argument-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
           "balance-negative-time-units.js": false,
@@ -3849,6 +3921,7 @@
             "prop-desc.js": false,
             "subclassing-ignored.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3862,6 +3935,7 @@
             "calendar-returns-infinity.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3869,6 +3943,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3876,6 +3951,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3883,6 +3959,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3890,6 +3967,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3897,6 +3975,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3922,6 +4001,7 @@
           },
           "equals": {
             "argument-propertybag-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-propertybag-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-propertybag-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -3953,6 +4033,7 @@
             "offset.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3961,6 +4042,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3968,6 +4050,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false
@@ -3976,6 +4059,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3985,6 +4069,7 @@
             "negative-epochnanoseconds.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -3994,6 +4079,7 @@
             "negative-epochnanoseconds.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4002,6 +4088,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4010,6 +4097,7 @@
             "calendar-returns-infinity.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4017,6 +4105,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4024,6 +4113,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4032,6 +4122,7 @@
             "negative-epochnanoseconds.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4040,6 +4131,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4047,6 +4139,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4069,11 +4162,14 @@
             "roundingmode-invalid-string.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
+            "smallestunit-disallowed-units.js": false,
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
+            "smallestunit-string-shorthand.js": false,
             "smallestunit-wrong-type.js": false,
             "subclassing-ignored.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false
@@ -4083,10 +4179,12 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "since": {
+            "argument-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "balance-negative-time-units.js": false,
             "branding.js": false,
             "builtin.js": false,
@@ -4120,6 +4218,7 @@
             "smallestunit-wrong-type.js": false,
             "sub-minute-offset.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
@@ -4136,6 +4235,7 @@
             "prop-desc.js": false,
             "subclassing-ignored.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4155,6 +4255,7 @@
             "prop-desc.js": false,
             "subclassing-ignored.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4181,6 +4282,7 @@
             "offset.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4201,6 +4303,7 @@
             "not-a-constructor.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4215,6 +4318,7 @@
             "plain-custom-timezone.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4229,6 +4333,7 @@
             "not-a-constructor.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4242,6 +4347,7 @@
             "not-a-constructor.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4256,6 +4362,7 @@
             "not-a-constructor.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4291,6 +4398,7 @@
             "smallestunit-valid-units.js": false,
             "smallestunit-wrong-type.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezonename-invalid-string.js": false,
@@ -4298,6 +4406,7 @@
             "timezonename-wrong-type.js": false
           },
           "until": {
+            "argument-propertybag-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "balance-negative-time-units.js": false,
             "branding.js": false,
             "builtin.js": false,
@@ -4331,6 +4440,7 @@
             "smallestunit-wrong-type.js": false,
             "sub-minute-offset.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
@@ -4349,6 +4459,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4379,6 +4490,7 @@
             "receiver-offset-broken.js": false,
             "subclassing-ignored.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false
@@ -4397,6 +4509,7 @@
           "withPlainDate": {
             "argument-plaindatetime.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -4412,6 +4525,7 @@
             "prop-desc.js": false,
             "subclassing-ignored.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4419,6 +4533,7 @@
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "branding.js": false,
@@ -4433,6 +4548,7 @@
             "subclassing-ignored.js": false,
             "time-undefined.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -4451,6 +4567,7 @@
             "calendar-returns-infinity.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           }
@@ -4699,16 +4816,20 @@
     "DateTimeFormat": {
       "prototype": {
         "format": {
-          "temporal-objects-resolved-time-zone.js": false
+          "temporal-objects-resolved-time-zone.js": false,
+          "temporal-objects-timezone-getoffsetnanosecondsfor-not-callable.js": false
         },
         "formatRange": {
-          "temporal-objects-resolved-time-zone.js": false
+          "temporal-objects-resolved-time-zone.js": false,
+          "temporal-objects-timezone-getoffsetnanosecondsfor-not-callable.js": false
         },
         "formatRangeToParts": {
-          "temporal-objects-resolved-time-zone.js": false
+          "temporal-objects-resolved-time-zone.js": false,
+          "temporal-objects-timezone-getoffsetnanosecondsfor-not-callable.js": false
         },
         "formatToParts": {
-          "temporal-objects-resolved-time-zone.js": false
+          "temporal-objects-resolved-time-zone.js": false,
+          "temporal-objects-timezone-getoffsetnanosecondsfor-not-callable.js": false
         }
       }
     },
@@ -4871,6 +4992,7 @@
             "infinity-throws-rangeerror.js": false
           },
           "era": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "branding.js": false,
             "builtin.js": false,
             "infinity-throws-rangeerror.js": false,
@@ -4880,6 +5002,7 @@
             "prop-desc.js": false
           },
           "eraYear": {
+            "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "branding.js": false,
             "builtin.js": false,
             "infinity-throws-rangeerror.js": false,
@@ -4965,7 +5088,8 @@
           "toLocaleString": {
             "locales-undefined.js": false,
             "options-undefined.js": false,
-            "resolved-time-zone.js": false
+            "resolved-time-zone.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
           "until": {
             "infinity-throws-rangeerror.js": false
@@ -4998,7 +5122,8 @@
           "toLocaleString": {
             "locales-undefined.js": false,
             "options-undefined.js": false,
-            "resolved-time-zone.js": false
+            "resolved-time-zone.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
           "until": {
             "infinity-throws-rangeerror.js": false
@@ -5019,7 +5144,8 @@
           "toLocaleString": {
             "locales-undefined.js": false,
             "options-undefined.js": false,
-            "resolved-time-zone.js": false
+            "resolved-time-zone.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
           "toPlainDate": {
             "infinity-throws-rangeerror.js": false
@@ -5031,7 +5157,8 @@
           "toLocaleString": {
             "locales-undefined.js": false,
             "options-undefined.js": false,
-            "resolved-time-zone.js": false
+            "resolved-time-zone.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
           "toPlainDateTime": {
             "infinity-throws-rangeerror.js": false
@@ -5067,7 +5194,8 @@
           "toLocaleString": {
             "locales-undefined.js": false,
             "options-undefined.js": false,
-            "resolved-time-zone.js": false
+            "resolved-time-zone.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
           "until": {
             "infinity-throws-rangeerror.js": false
@@ -5114,6 +5242,7 @@
             "branding.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
@@ -5122,6 +5251,7 @@
             "calendar-returns-infinity.js": false,
             "prop-desc.js": false,
             "timezone-getoffsetnanosecondsfor-non-integer.js": false,
+            "timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
