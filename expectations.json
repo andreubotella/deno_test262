@@ -5066,7 +5066,6 @@
           "infinity-throws-rangeerror.js": false
         },
         "from": {
-          "basic.js": false,
           "infinity-throws-rangeerror.js": false
         },
         "prototype": {
@@ -5134,9 +5133,6 @@
         }
       },
       "PlainMonthDay": {
-        "from": {
-          "basic.js": false
-        },
         "prototype": {
           "equals": {
             "infinity-throws-rangeerror.js": false
@@ -5205,7 +5201,6 @@
       "TimeZone": {
         "basic.js": false,
         "from": {
-          "argument-invalid.js": false,
           "argument-object.js": false,
           "argument-valid.js": false
         },
