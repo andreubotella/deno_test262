@@ -2329,6 +2329,8 @@
             "calendar-id-match.js": false,
             "calendar-mismatch.js": false,
             "calendar-temporal-object.js": false,
+            "days-in-month.js": false,
+            "days-in-year.js": false,
             "infinity-throws-rangeerror.js": false,
             "largestunit-default.js": false,
             "largestunit-higher-units.js": false,
@@ -2352,7 +2354,8 @@
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
             "smallestunit-undefined.js": false,
-            "smallestunit-wrong-type.js": false
+            "smallestunit-wrong-type.js": false,
+            "weeks-months.js": false
           },
           "valueOf": {
             "basic.js": false,
@@ -3527,21 +3530,29 @@
             "prop-desc.js": false
           },
           "since": {
+            "arguments-casting.js": false,
+            "arguments-missing-throws.js": false,
+            "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-temporal-object.js": false,
             "infinity-throws-rangeerror.js": false,
+            "largestunit-disallowed-units.js": false,
             "largestunit-invalid-string.js": false,
             "largestunit-plurals-accepted.js": false,
             "largestunit-undefined.js": false,
             "largestunit-wrong-type.js": false,
             "length.js": false,
+            "mixed-calendar-invalid.js": false,
             "name.js": false,
+            "negation.js": false,
             "not-a-constructor.js": false,
+            "options-invalid.js": false,
             "options-undefined.js": false,
             "prop-desc.js": false,
+            "roundingincrement-as-expected.js": false,
             "roundingincrement-nan.js": false,
             "roundingincrement-non-integer.js": false,
             "roundingincrement-out-of-range.js": false,
@@ -3550,10 +3561,12 @@
             "roundingmode-invalid-string.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
+            "smallestunit-disallowed-units.js": false,
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
             "smallestunit-undefined.js": false,
-            "smallestunit-wrong-type.js": false
+            "smallestunit-wrong-type.js": false,
+            "symmetry.js": false
           },
           "subtract": {
             "argument-not-object.js": false,
@@ -4833,6 +4846,12 @@
         }
       }
     },
+    "DurationFormat": {
+      "prototype": {
+        "prototype_attributes.js": false,
+        "toStringTag.js": false
+      }
+    },
     "Intl": {
       "getCanonicalLocales": {
         "unicode-ext-canonicalize-yes-to-true.js": false
@@ -4939,7 +4958,11 @@
           "signDisplay-negative-en-US.js": false,
           "signDisplay-negative-ja-JP.js": false,
           "signDisplay-negative-ko-KR.js": false,
-          "signDisplay-negative-zh-TW.js": false
+          "signDisplay-negative-zh-TW.js": false,
+          "useGrouping-extended-de-DE.js": false,
+          "useGrouping-extended-en-IN.js": false,
+          "useGrouping-extended-en-US.js": false,
+          "value-decimal-string.js": false
         },
         "formatToParts": {
           "signDisplay-negative-currency-de-DE.js": false,
@@ -4956,7 +4979,8 @@
         "resolvedOptions": {
           "roundingMode.js": false
         }
-      }
+      },
+      "test-option-useGrouping-extended.js": false
     },
     "Temporal": {
       "Calendar": {
@@ -5059,6 +5083,17 @@
             "locales-undefined.js": false,
             "options-undefined.js": false
           }
+        }
+      },
+      "Now": {
+        "plainDateTimeISO": {
+          "timezone-string-datetime.js": false
+        },
+        "zonedDateTime": {
+          "timezone-string-datetime.js": false
+        },
+        "zonedDateTimeISO": {
+          "timezone-string-datetime.js": false
         }
       },
       "PlainDate": {
