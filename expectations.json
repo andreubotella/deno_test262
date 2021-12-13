@@ -1768,7 +1768,8 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "prop-desc.js": false
+            "prop-desc.js": false,
+            "return-string.js": false
           },
           "toString": {
             "basic.js": false,
@@ -2236,7 +2237,8 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "prop-desc.js": false
+            "prop-desc.js": false,
+            "return-string.js": false
           },
           "toPlainDateTime": {
             "argument-zoneddatetime-balance-negative-time-units.js": false,
@@ -2691,7 +2693,8 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "prop-desc.js": false
+            "prop-desc.js": false,
+            "return-string.js": false
           },
           "toPlainDate": {
             "branding.js": false,
@@ -3276,7 +3279,8 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "prop-desc.js": false
+            "prop-desc.js": false,
+            "return-string.js": false
           },
           "toPlainDateTime": {
             "argument-plaindatetime.js": false,
@@ -4301,7 +4305,8 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "prop-desc.js": false
+            "prop-desc.js": false,
+            "return-string.js": false
           },
           "toPlainDate": {
             "branding.js": false,
@@ -5076,6 +5081,7 @@
         "prototype": {
           "toLocaleString": {
             "locales-undefined.js": false,
+            "options-conflict.js": false,
             "options-undefined.js": false
           }
         }
@@ -5116,6 +5122,7 @@
           },
           "toLocaleString": {
             "locales-undefined.js": false,
+            "options-conflict.js": false,
             "options-undefined.js": false,
             "resolved-time-zone.js": false,
             "timezone-getoffsetnanosecondsfor-not-callable.js": false
@@ -5150,6 +5157,7 @@
           },
           "toLocaleString": {
             "locales-undefined.js": false,
+            "options-conflict.js": false,
             "options-undefined.js": false,
             "resolved-time-zone.js": false,
             "timezone-getoffsetnanosecondsfor-not-callable.js": false
@@ -5182,6 +5190,7 @@
         "prototype": {
           "toLocaleString": {
             "locales-undefined.js": false,
+            "options-conflict.js": false,
             "options-undefined.js": false,
             "resolved-time-zone.js": false,
             "timezone-getoffsetnanosecondsfor-not-callable.js": false
@@ -5285,6 +5294,7 @@
           },
           "toLocaleString": {
             "locales-undefined.js": false,
+            "options-conflict.js": false,
             "options-undefined.js": false
           },
           "until": {
