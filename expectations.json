@@ -1768,7 +1768,6 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "options-conflict.js": false,
             "prop-desc.js": false
           },
           "toString": {
@@ -2237,7 +2236,6 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "options-conflict.js": false,
             "prop-desc.js": false
           },
           "toPlainDateTime": {
@@ -2693,7 +2691,6 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "options-conflict.js": false,
             "prop-desc.js": false
           },
           "toPlainDate": {
@@ -3279,7 +3276,6 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "options-conflict.js": false,
             "prop-desc.js": false
           },
           "toPlainDateTime": {
@@ -4305,7 +4301,6 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
-            "options-conflict.js": false,
             "prop-desc.js": false
           },
           "toPlainDate": {
