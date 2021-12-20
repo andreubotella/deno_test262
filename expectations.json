@@ -351,6 +351,10 @@
       }
     },
     "DataView": {
+      "custom-proto-access-resizes-buffer-invalid-by-length.js": false,
+      "custom-proto-access-resizes-buffer-invalid-by-offset.js": false,
+      "custom-proto-access-resizes-buffer-valid-by-length.js": false,
+      "custom-proto-access-resizes-buffer-valid-by-offset.js": false,
       "prototype": {
         "byteLength": {
           "resizable-array-buffer-auto.js": false,
@@ -716,6 +720,7 @@
           "wrapped-function-multiple-different-realms.js": false,
           "wrapped-function-observing-their-scopes.js": false,
           "wrapped-function-proxied-observes-boundary.js": false,
+          "wrapped-function-throws-typeerror-on-exceptional-exit.js": false,
           "wrapped-function-throws-typeerror-on-non-primitive-arguments.js": false,
           "wrapped-function-throws-typeerror-on-non-primitive-returns.js": false,
           "wrapped-functions-accepts-callable-objects.js": false,
@@ -734,6 +739,8 @@
           "proto.js": false,
           "specifier-tostring.js": false,
           "throws-if-import-value-does-not-exist.js": false,
+          "throws-typeerror-import-syntax-error.js": false,
+          "throws-typeerror-import-throws.js": false,
           "validates-realm-object.js": false
         },
         "proto.js": false
@@ -823,6 +830,7 @@
             "add-years-weeks.js": false,
             "add-years.js": false,
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -869,6 +877,7 @@
           "dateUntil": {
             "argument-infinity-throws-rangeerror.js": false,
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -893,6 +902,7 @@
             "throws-type-error-GetOptionsObject.js": false
           },
           "day": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -914,6 +924,7 @@
             "throw-range-error-ToTemporalDate.js": false
           },
           "dayOfWeek": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -934,6 +945,7 @@
             "throw-range-error-ToTemporalDate.js": false
           },
           "dayOfYear": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -954,6 +966,7 @@
             "throw-range-error-ToTemporalDate.js": false
           },
           "daysInMonth": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -974,6 +987,7 @@
             "throw-range-error-ToTemporalDate.js": false
           },
           "daysInWeek": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -994,6 +1008,7 @@
             "throw-range-error-ToTemporalDate.js": false
           },
           "daysInYear": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -1032,6 +1047,7 @@
             "prop-desc.js": false
           },
           "inLeapYear": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -1058,6 +1074,7 @@
             "prop-desc.js": false
           },
           "month": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -1080,6 +1097,7 @@
             "year-month.js": false
           },
           "monthCode": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -1115,6 +1133,7 @@
             "prop-desc.js": false
           },
           "monthsInYear": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -1130,6 +1149,7 @@
             "not-a-constructor.js": false,
             "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "toJSON": {
             "builtin.js": false,
             "length.js": false,
@@ -1146,6 +1166,7 @@
             "prop-desc.js": false
           },
           "weekOfYear": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -1163,6 +1184,7 @@
             "prop-desc.js": false
           },
           "year": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -1203,6 +1225,7 @@
         "compare": {
           "argument-string-negative-fractional-units.js": false,
           "builtin.js": false,
+          "calendar-dateadd-called-with-plaindate-instance.js": false,
           "calendar-fields-iterable.js": false,
           "calendar-temporal-object.js": false,
           "length.js": false,
@@ -1277,6 +1300,7 @@
             "branding.js": false,
             "builtin.js": false,
             "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-temporal-object.js": false,
@@ -1352,10 +1376,12 @@
             "prop-desc.js": false,
             "subclassing-ignored.js": false
           },
+          "prop-desc.js": false,
           "round": {
             "balance-negative-result.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-temporal-object.js": false,
@@ -1420,6 +1446,7 @@
             "branding.js": false,
             "builtin.js": false,
             "calendar-dateadd-called-with-options-undefined.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-temporal-object.js": false,
@@ -1459,6 +1486,7 @@
             "builtin.js": false,
             "length.js": false,
             "name.js": false,
+            "negative-components.js": false,
             "not-a-constructor.js": false,
             "prop-desc.js": false
           },
@@ -1482,6 +1510,7 @@
             "fractionalseconddigits-wrong-type.js": false,
             "length.js": false,
             "name.js": false,
+            "negative-components.js": false,
             "not-a-constructor.js": false,
             "options-undefined.js": false,
             "precision.js": false,
@@ -1499,6 +1528,7 @@
             "balance-negative-result.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-temporal-object.js": false,
@@ -1577,6 +1607,7 @@
         "compare": {
           "argument-zoneddatetime.js": false,
           "builtin.js": false,
+          "instant-string-multiple-offsets.js": false,
           "instant-string.js": false,
           "length.js": false,
           "name.js": false,
@@ -1587,6 +1618,7 @@
         "from": {
           "argument-zoneddatetime.js": false,
           "builtin.js": false,
+          "instant-string-multiple-offsets.js": false,
           "instant-string.js": false,
           "length.js": false,
           "name.js": false,
@@ -1677,6 +1709,7 @@
             "argument-zoneddatetime.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "instant-string-multiple-offsets.js": false,
             "instant-string.js": false,
             "length.js": false,
             "name.js": false,
@@ -1711,11 +1744,13 @@
             "argument-zoneddatetime.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "instant-string-multiple-offsets.js": false,
             "instant-string.js": false,
             "largestunit-invalid-string.js": false,
             "largestunit-plurals-accepted.js": false,
             "largestunit-undefined.js": false,
             "largestunit-wrong-type.js": false,
+            "largestunit.js": false,
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
@@ -1801,6 +1836,7 @@
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-offset.js": false,
             "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false,
             "timezone.js": false
           },
           "toStringTag": {
@@ -1815,7 +1851,8 @@
             "not-a-constructor.js": false,
             "plain-custom-timezone.js": false,
             "prop-desc.js": false,
-            "timezone-string-datetime.js": false
+            "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false
           },
           "toZonedDateTimeISO": {
             "branding.js": false,
@@ -1824,12 +1861,14 @@
             "name.js": false,
             "not-a-constructor.js": false,
             "prop-desc.js": false,
-            "timezone-string-datetime.js": false
+            "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false
           },
           "until": {
             "argument-zoneddatetime.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "instant-string-multiple-offsets.js": false,
             "instant-string.js": false,
             "largestunit-invalid-string.js": false,
             "largestunit-plurals-accepted.js": false,
@@ -1990,7 +2029,8 @@
           "timezone-object-fail-has-nested-timezone.js": false,
           "timezone-object-fail-has-timezone.js": false,
           "timezone-object.js": false,
-          "timezone-string-datetime.js": false
+          "timezone-string-datetime.js": false,
+          "timezone-string-multiple-offsets.js": false
         },
         "zonedDateTimeISO": {
           "extensible.js": false,
@@ -2004,7 +2044,8 @@
           "timezone-object-fail-has-nested-timezone.js": false,
           "timezone-object-fail-has-timezone.js": false,
           "timezone-object.js": false,
-          "timezone-string-datetime.js": false
+          "timezone-string-datetime.js": false,
+          "timezone-string-multiple-offsets.js": false
         }
       },
       "PlainDate": {
@@ -2014,6 +2055,7 @@
         "calendar-undefined.js": false,
         "compare": {
           "argument-plaindatetime.js": false,
+          "argument-string-with-utc-designator.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -2033,6 +2075,7 @@
           "argument-object.js": false,
           "argument-plaindate.js": false,
           "argument-plaindatetime.js": false,
+          "argument-string-with-utc-designator.js": false,
           "argument-string.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
@@ -2117,6 +2160,7 @@
           },
           "equals": {
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-wrong-type.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
@@ -2161,8 +2205,10 @@
             "branding.js": false,
             "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "since": {
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -2170,6 +2216,7 @@
             "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-id-match.js": false,
@@ -2182,6 +2229,7 @@
             "largestunit-plurals-accepted.js": false,
             "largestunit-smallestunit-mismatch.js": false,
             "largestunit-wrong-type.js": false,
+            "largestunit.js": false,
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
@@ -2240,6 +2288,7 @@
             "return-string.js": false
           },
           "toPlainDateTime": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -2291,6 +2340,7 @@
             "prop-desc.js": false
           },
           "toZonedDateTime": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "basic.js": false,
             "branding.js": false,
@@ -2312,10 +2362,12 @@
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
-            "timezone-string-datetime.js": false
+            "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false
           },
           "until": {
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -2323,6 +2375,7 @@
             "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-id-match.js": false,
@@ -2416,6 +2469,7 @@
         "calendar-undefined.js": false,
         "compare": {
           "argument-plaindate.js": false,
+          "argument-string-with-utc-designator.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
@@ -2435,6 +2489,7 @@
         "constructor.js": false,
         "from": {
           "argument-plaindate.js": false,
+          "argument-string-with-utc-designator.js": false,
           "argument-zoneddatetime-balance-negative-time-units.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -2523,6 +2578,7 @@
           },
           "equals": {
             "argument-plaindate.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-wrong-type.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
@@ -2589,6 +2645,7 @@
             "branding.js": false,
             "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "round": {
             "branding.js": false,
             "builtin.js": false,
@@ -2617,6 +2674,7 @@
           },
           "since": {
             "argument-plaindate.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -2627,6 +2685,7 @@
             "balance-negative-time-units.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-copy-of-options.js": false,
             "calendar-dateuntil-called-with-plaindate-calendar.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
@@ -2637,6 +2696,7 @@
             "largestunit-plurals-accepted.js": false,
             "largestunit-undefined.js": false,
             "largestunit-wrong-type.js": false,
+            "largestunit.js": false,
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
@@ -2776,10 +2836,12 @@
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
-            "timezone-string-datetime.js": false
+            "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false
           },
           "until": {
             "argument-plaindate.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -2791,6 +2853,7 @@
             "balance.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-copy-of-options.js": false,
             "calendar-dateuntil-called-with-plaindate-calendar.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
@@ -2865,6 +2928,7 @@
           },
           "withPlainDate": {
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -2881,6 +2945,7 @@
             "subclassing-ignored.js": false
           },
           "withPlainTime": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -2914,6 +2979,7 @@
         "calendar-undefined.js": false,
         "constructor.js": false,
         "from": {
+          "argument-string-with-utc-designator.js": false,
           "builtin.js": false,
           "calendar-fields-iterable.js": false,
           "calendar-temporal-object.js": false,
@@ -2954,6 +3020,7 @@
             "prop-desc.js": false
           },
           "equals": {
+            "argument-string-with-utc-designator.js": false,
             "argument-wrong-type.js": false,
             "basic.js": false,
             "branding.js": false,
@@ -2986,6 +3053,7 @@
             "branding.js": false,
             "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "toJSON": {
             "branding.js": false,
             "builtin.js": false,
@@ -3069,6 +3137,7 @@
         "basic.js": false,
         "builtin.js": false,
         "compare": {
+          "argument-string-with-utc-designator.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
@@ -3086,6 +3155,7 @@
         "constructor.js": false,
         "from": {
           "argument-string-with-calendar.js": false,
+          "argument-string-with-utc-designator.js": false,
           "argument-zoneddatetime-balance-negative-time-units.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -3140,6 +3210,7 @@
             "prop-desc.js": false
           },
           "equals": {
+            "argument-string-with-utc-designator.js": false,
             "argument-wrong-type.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
@@ -3187,6 +3258,7 @@
             "branding.js": false,
             "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "round": {
             "branding.js": false,
             "builtin.js": false,
@@ -3214,6 +3286,7 @@
             "prop-desc.js": false
           },
           "since": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -3228,6 +3301,7 @@
             "largestunit-plurals-accepted.js": false,
             "largestunit-undefined.js": false,
             "largestunit-wrong-type.js": false,
+            "largestunit.js": false,
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
@@ -3283,6 +3357,7 @@
           },
           "toPlainDateTime": {
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -3324,6 +3399,7 @@
           "toZonedDateTime": {
             "argument-plaindatetime.js": false,
             "argument-primitive.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -3345,9 +3421,11 @@
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
-            "timezone-string-datetime.js": false
+            "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false
           },
           "until": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -3417,6 +3495,7 @@
         "calendar-temporal-object.js": false,
         "calendar-undefined.js": false,
         "compare": {
+          "argument-string-with-utc-designator.js": false,
           "builtin.js": false,
           "calendar-fields-iterable.js": false,
           "calendar-temporal-object.js": false,
@@ -3429,6 +3508,7 @@
         },
         "constructor.js": false,
         "from": {
+          "argument-string-with-utc-designator.js": false,
           "argument-string.js": false,
           "builtin.js": false,
           "calendar-fields-iterable.js": false,
@@ -3489,6 +3569,7 @@
             "prop-desc.js": false
           },
           "equals": {
+            "argument-string-with-utc-designator.js": false,
             "argument-wrong-type.js": false,
             "branding.js": false,
             "builtin.js": false,
@@ -3528,12 +3609,15 @@
             "branding.js": false,
             "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "since": {
+            "argument-string-with-utc-designator.js": false,
             "arguments-casting.js": false,
             "arguments-missing-throws.js": false,
             "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-temporal-object.js": false,
@@ -3543,6 +3627,7 @@
             "largestunit-plurals-accepted.js": false,
             "largestunit-undefined.js": false,
             "largestunit-wrong-type.js": false,
+            "largestunit.js": false,
             "length.js": false,
             "mixed-calendar-invalid.js": false,
             "name.js": false,
@@ -3633,8 +3718,10 @@
             "prop-desc.js": false
           },
           "until": {
+            "argument-string-with-utc-designator.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-dateadd-called-with-plaindate-instance.js": false,
             "calendar-dateuntil-called-with-singular-largestunit.js": false,
             "calendar-fields-iterable.js": false,
             "calendar-temporal-object.js": false,
@@ -3711,7 +3798,8 @@
           "not-a-constructor.js": false,
           "prop-desc.js": false,
           "subclassing-ignored.js": false,
-          "timezone-string-datetime.js": false
+          "timezone-string-datetime.js": false,
+          "timezone-string-multiple-offsets.js": false
         },
         "length.js": false,
         "missing-arguments.js": false,
@@ -3721,6 +3809,7 @@
           "getInstantFor": {
             "argument-not-datetime.js": false,
             "argument-plaindate.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -3792,6 +3881,7 @@
             "calendar-temporal-object.js": false,
             "calendar-undefined.js": false,
             "custom-timezone.js": false,
+            "instant-string-multiple-offsets.js": false,
             "instant-string.js": false,
             "length.js": false,
             "name.js": false,
@@ -3806,6 +3896,7 @@
           "getPossibleInstantsFor": {
             "argument-not-datetime.js": false,
             "argument-plaindate.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -3838,6 +3929,7 @@
             "plain-custom-timezone.js": false,
             "prop-desc.js": false
           },
+          "prop-desc.js": false,
           "toJSON": {
             "builtin.js": false,
             "length.js": false,
@@ -3878,6 +3970,7 @@
           "read-time-fields-before-datefromfields.js": false,
           "timezone-getpossibleinstantsfor-iterable.js": false,
           "timezone-string-datetime.js": false,
+          "zoneddatetime-string-multiple-offsets.js": false,
           "zoneddatetime-string.js": false
         },
         "constructor.js": false,
@@ -3909,6 +4002,8 @@
           "subclassing-ignored.js": false,
           "timezone-getpossibleinstantsfor-iterable.js": false,
           "timezone-string-datetime.js": false,
+          "timezone-string-multiple-offsets.js": false,
+          "zoneddatetime-string-multiple-offsets.js": false,
           "zoneddatetime-string.js": false,
           "zoneddatetime-sub-minute-offset.js": false
         },
@@ -4029,6 +4124,8 @@
             "sub-minute-offset.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
             "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false,
+            "zoneddatetime-string-multiple-offsets.js": false,
             "zoneddatetime-string.js": false
           },
           "getISOFields": {
@@ -4155,6 +4252,7 @@
             "timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
+          "prop-desc.js": false,
           "round": {
             "branding.js": false,
             "builtin.js": false,
@@ -4209,6 +4307,7 @@
             "largestunit-plurals-accepted.js": false,
             "largestunit-undefined.js": false,
             "largestunit-wrong-type.js": false,
+            "largestunit.js": false,
             "length.js": false,
             "name.js": false,
             "negative-epochnanoseconds.js": false,
@@ -4235,6 +4334,8 @@
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
             "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false,
+            "zoneddatetime-string-multiple-offsets.js": false,
             "zoneddatetime-string.js": false
           },
           "startOfDay": {
@@ -4457,6 +4558,8 @@
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false,
             "timezone-getpossibleinstantsfor-iterable.js": false,
             "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false,
+            "zoneddatetime-string-multiple-offsets.js": false,
             "zoneddatetime-string.js": false
           },
           "valueOf": {
@@ -4520,6 +4623,7 @@
           },
           "withPlainDate": {
             "argument-plaindatetime.js": false,
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
@@ -4542,6 +4646,7 @@
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "withPlainTime": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-balance-negative-time-units.js": false,
             "argument-zoneddatetime-negative-epochnanoseconds.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -4572,7 +4677,8 @@
             "not-a-constructor.js": false,
             "prop-desc.js": false,
             "subclassing-ignored.js": false,
-            "timezone-string-datetime.js": false
+            "timezone-string-datetime.js": false,
+            "timezone-string-multiple-offsets.js": false
           },
           "year": {
             "branding.js": false,
@@ -4963,6 +5069,27 @@
           "useGrouping-extended-en-US.js": false,
           "value-decimal-string.js": false
         },
+        "formatRange": {
+          "builtin.js": false,
+          "en-US.js": false,
+          "invoked-as-func.js": false,
+          "length.js": false,
+          "name.js": false,
+          "nan-arguments-throws.js": false,
+          "prop-desc.js": false,
+          "pt-PT.js": false,
+          "x-greater-than-y-throws.js": false
+        },
+        "formatRangeToParts": {
+          "builtin.js": false,
+          "en-US.js": false,
+          "invoked-as-func.js": false,
+          "length.js": false,
+          "name.js": false,
+          "nan-arguments-throws.js": false,
+          "prop-desc.js": false,
+          "x-greater-than-y-throws.js": false
+        },
         "formatToParts": {
           "signDisplay-negative-currency-de-DE.js": false,
           "signDisplay-negative-currency-en-US.js": false,
@@ -4980,6 +5107,19 @@
         }
       },
       "test-option-useGrouping-extended.js": false
+    },
+    "PluralRules": {
+      "prototype": {
+        "selectRange": {
+          "default-en-us.js": false,
+          "invoked-as-func.js": false,
+          "length.js": false,
+          "name.js": false,
+          "nan-arguments-throws.js": false,
+          "prop-desc.js": false,
+          "x-greater-than-y-throws.js": false
+        }
+      }
     },
     "Temporal": {
       "Calendar": {
@@ -5015,6 +5155,7 @@
             "infinity-throws-rangeerror.js": false
           },
           "era": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "branding.js": false,
             "builtin.js": false,
@@ -5025,6 +5166,7 @@
             "prop-desc.js": false
           },
           "eraYear": {
+            "argument-string-with-utc-designator.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "branding.js": false,
             "builtin.js": false,
