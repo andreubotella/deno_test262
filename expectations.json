@@ -426,6 +426,34 @@
         }
       }
     },
+    "Date": {
+      "prototype": {
+        "setHours": {
+          "arg-coercion-order.js": false
+        },
+        "setMinutes": {
+          "arg-coercion-order.js": false
+        },
+        "setMonth": {
+          "arg-coercion-order.js": false
+        },
+        "setSeconds": {
+          "arg-coercion-order.js": false
+        },
+        "setUTCHours": {
+          "arg-coercion-order.js": false
+        },
+        "setUTCMinutes": {
+          "arg-coercion-order.js": false
+        },
+        "setUTCMonth": {
+          "arg-coercion-order.js": false
+        },
+        "setUTCSeconds": {
+          "arg-coercion-order.js": false
+        }
+      }
+    },
     "FinalizationRegistry": {
       "gc-has-one-chance-to-call-cleanupCallback.js": false,
       "prototype": {
@@ -669,7 +697,17 @@
           "Uppercase.js": false,
           "Variation_Selector.js": false,
           "XID_Continue.js": false,
-          "XID_Start.js": false
+          "XID_Start.js": false,
+          "strings": {
+            "Basic_Emoji.js": false,
+            "Emoji_Keycap_Sequence.js": false,
+            "Emoji_Test.js": false,
+            "RGI_Emoji.js": false,
+            "RGI_Emoji_Flag_Sequence.js": false,
+            "RGI_Emoji_Modifier_Sequence.js": false,
+            "RGI_Emoji_Tag_Sequence.js": false,
+            "RGI_Emoji_ZWJ_Sequence.js": false
+          }
         }
       },
       "prototype": {
@@ -2054,15 +2092,19 @@
         "calendar-temporal-object.js": false,
         "calendar-undefined.js": false,
         "compare": {
+          "argument-object.js": false,
           "argument-plaindatetime.js": false,
           "argument-string-with-utc-designator.js": false,
+          "argument-string.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "basic.js": false,
           "builtin.js": false,
           "calendar-fields-iterable.js": false,
           "calendar-temporal-object.js": false,
+          "calendar.js": false,
           "infinity-throws-rangeerror.js": false,
           "length.js": false,
           "name.js": false,
@@ -2075,6 +2117,7 @@
           "argument-object.js": false,
           "argument-plaindate.js": false,
           "argument-plaindatetime.js": false,
+          "argument-string-invalid.js": false,
           "argument-string-with-utc-designator.js": false,
           "argument-string.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -2086,6 +2129,7 @@
           "calendar-temporal-object.js": false,
           "infinity-throws-rangeerror.js": false,
           "length.js": false,
+          "limits.js": false,
           "name.js": false,
           "not-a-constructor.js": false,
           "options-invalid.js": false,
@@ -2099,6 +2143,7 @@
         },
         "infinity-throws-rangeerror.js": false,
         "length.js": false,
+        "limits.js": false,
         "missing-arguments.js": false,
         "name.js": false,
         "negative-infinity-throws-rangeerror.js": false,
@@ -2113,6 +2158,7 @@
             "builtin.js": false,
             "infinity-throws-rangeerror.js": false,
             "length.js": false,
+            "limits.js": false,
             "name.js": false,
             "negative-infinity-throws-rangeerror.js": false,
             "non-integer-throws-rangeerror.js": false,
@@ -2159,16 +2205,23 @@
             "prop-desc.js": false
           },
           "equals": {
+            "argument-object-invalid.js": false,
+            "argument-object-valid.js": false,
             "argument-plaindatetime.js": false,
             "argument-string-with-utc-designator.js": false,
+            "argument-string.js": false,
             "argument-wrong-type.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendar-call-different.js": false,
+            "calendar-call-same.js": false,
             "calendar-fields-iterable.js": false,
+            "calendar-no-call.js": false,
             "calendar-temporal-object.js": false,
             "infinity-throws-rangeerror.js": false,
             "length.js": false,
@@ -2257,6 +2310,7 @@
             "builtin.js": false,
             "infinity-throws-rangeerror.js": false,
             "length.js": false,
+            "limits.js": false,
             "name.js": false,
             "negative-infinity-throws-rangeerror.js": false,
             "non-integer-throws-rangeerror.js": false,
@@ -2328,9 +2382,13 @@
             "prop-desc.js": false
           },
           "toString": {
+            "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "calendarname-always.js": false,
+            "calendarname-auto.js": false,
             "calendarname-invalid-string.js": false,
+            "calendarname-never.js": false,
             "calendarname-undefined.js": false,
             "calendarname-wrong-type.js": false,
             "length.js": false,
@@ -2759,6 +2817,7 @@
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
+            "limits.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "prop-desc.js": false
@@ -3081,6 +3140,7 @@
             "copies-merge-fields-object.js": false,
             "infinity-throws-rangeerror.js": false,
             "length.js": false,
+            "limits.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "prop-desc.js": false
@@ -3701,6 +3761,7 @@
             "copies-merge-fields-object.js": false,
             "infinity-throws-rangeerror.js": false,
             "length.js": false,
+            "limits.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
             "prop-desc.js": false
@@ -5041,11 +5102,32 @@
     },
     "NumberFormat": {
       "constructor-options-roundingMode-invalid.js": false,
+      "constructor-options-throwing-getters-rounding-increment.js": false,
       "constructor-options-throwing-getters-rounding-mode.js": false,
+      "constructor-options-throwing-getters-rounding-priority.js": false,
+      "constructor-options-throwing-getters-trailing-zero-display.js": false,
+      "constructor-roundingIncrement-invalid.js": false,
+      "constructor-roundingIncrement.js": false,
       "constructor-signDisplay-negative.js": false,
+      "constructor-trailingZeroDisplay-invalid.js": false,
+      "constructor-trailingZeroDisplay.js": false,
       "currency-digits.js": false,
       "prototype": {
         "format": {
+          "format-rounding-increment-10.js": false,
+          "format-rounding-increment-100.js": false,
+          "format-rounding-increment-1000.js": false,
+          "format-rounding-increment-2.js": false,
+          "format-rounding-increment-20.js": false,
+          "format-rounding-increment-200.js": false,
+          "format-rounding-increment-2000.js": false,
+          "format-rounding-increment-25.js": false,
+          "format-rounding-increment-250.js": false,
+          "format-rounding-increment-2500.js": false,
+          "format-rounding-increment-5.js": false,
+          "format-rounding-increment-50.js": false,
+          "format-rounding-increment-500.js": false,
+          "format-rounding-increment-5000.js": false,
           "format-rounding-mode-ceil.js": false,
           "format-rounding-mode-expand.js": false,
           "format-rounding-mode-floor.js": false,
@@ -5054,6 +5136,8 @@
           "format-rounding-mode-half-floor.js": false,
           "format-rounding-mode-half-trunc.js": false,
           "format-rounding-mode-trunc.js": false,
+          "format-rounding-priority-less-precision.js": false,
+          "format-rounding-priority-more-precision.js": false,
           "signDisplay-negative-currency-de-DE.js": false,
           "signDisplay-negative-currency-en-US.js": false,
           "signDisplay-negative-currency-ja-JP.js": false,
@@ -5106,6 +5190,7 @@
           "roundingMode.js": false
         }
       },
+      "test-option-roundingPriority.js": false,
       "test-option-useGrouping-extended.js": false
     },
     "PluralRules": {
@@ -5863,8 +5948,12 @@
       "assign-to-global-undefined.js": false
     },
     "identifiers": {
+      "part-unicode-14.0.0-class-escaped.js": false,
+      "part-unicode-14.0.0-class.js": false,
       "part-unicode-14.0.0-escaped.js": false,
       "part-unicode-14.0.0.js": false,
+      "start-unicode-14.0.0-class-escaped.js": false,
+      "start-unicode-14.0.0-class.js": false,
       "start-unicode-14.0.0-escaped.js": false,
       "start-unicode-14.0.0.js": false
     },
