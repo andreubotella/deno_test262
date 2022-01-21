@@ -587,9 +587,6 @@
       }
     },
     "RegExp": {
-      "named-groups": {
-        "non-unicode-property-names-valid.js": false
-      },
       "property-escapes": {
         "generated": {
           "Alphabetic.js": false,
@@ -6001,18 +5998,9 @@
       "export-default-asyncgenerator-declaration-binding-exists.js": false,
       "export-default-function-declaration-binding-exists.js": false,
       "export-default-generator-declaration-binding-exists.js": false,
-      "export-expname-binding-index.js": false,
-      "export-expname-binding-string.js": false,
       "export-expname-from-as-unpaired-surrogate.js": false,
-      "export-expname-from-binding-string.js": false,
-      "export-expname-from-star-string.js": false,
       "export-expname-from-star-unpaired-surrogate.js": false,
-      "export-expname-from-star.js": false,
-      "export-expname-from-string-binding.js": false,
-      "export-expname-from-string-string.js": false,
-      "export-expname-from-string.js": false,
       "export-expname-from-unpaired-surrogate.js": false,
-      "export-expname-import-string-binding.js": false,
       "export-expname-import-unpaired-surrogate.js": false,
       "export-expname-string-binding.js": false,
       "export-expname-unpaired-surrogate.js": false,
