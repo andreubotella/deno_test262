@@ -5365,7 +5365,7 @@
             "resolved-time-zone.js": false,
             "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
-          "toZonedDateTimeISO": {
+          "toZonedDateTime": {
             "timezone-string-datetime.js": false
           },
           "until": {
@@ -5403,7 +5403,7 @@
             "resolved-time-zone.js": false,
             "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
-          "toZonedDateTimeISO": {
+          "toZonedDateTime": {
             "timezone-string-datetime.js": false
           },
           "until": {
@@ -5444,7 +5444,7 @@
           },
           "toZonedDateTime": {
             "plaindate-infinity-throws-rangeerror.js": false,
-            "relativeto-string-datetime.js": false
+            "timezone-string-datetime.js": false
           }
         }
       },
