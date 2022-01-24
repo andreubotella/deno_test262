@@ -5184,13 +5184,11 @@
           "signDisplay-negative-zh-TW.js": false
         },
         "resolvedOptions": {
-          "basic.js": false,
           "roundingMode.js": false
         }
       },
       "test-option-roundingPriority.js": false,
-      "test-option-useGrouping-extended.js": false,
-      "test-option-useGrouping.js": false
+      "test-option-useGrouping-extended.js": false
     },
     "PluralRules": {
       "prototype": {
