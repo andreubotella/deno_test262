@@ -5184,11 +5184,13 @@
           "signDisplay-negative-zh-TW.js": false
         },
         "resolvedOptions": {
+          "basic.js": false,
           "roundingMode.js": false
         }
       },
       "test-option-roundingPriority.js": false,
-      "test-option-useGrouping-extended.js": false
+      "test-option-useGrouping-extended.js": false,
+      "test-option-useGrouping.js": false
     },
     "PluralRules": {
       "prototype": {
@@ -5287,16 +5289,20 @@
       "Duration": {
         "prototype": {
           "add": {
-            "relativeto-infinity-throws-rangeerror.js": false
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-string-datetime.js": false
           },
           "round": {
-            "relativeto-infinity-throws-rangeerror.js": false
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-string-datetime.js": false
           },
           "subtract": {
-            "relativeto-infinity-throws-rangeerror.js": false
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-string-datetime.js": false
           },
           "total": {
-            "relativeto-infinity-throws-rangeerror.js": false
+            "relativeto-infinity-throws-rangeerror.js": false,
+            "relativeto-string-datetime.js": false
           }
         }
       },
@@ -5306,6 +5312,15 @@
             "locales-undefined.js": false,
             "options-conflict.js": false,
             "options-undefined.js": false
+          },
+          "toString": {
+            "timezone-string-datetime.js": false
+          },
+          "toZonedDateTime": {
+            "timezone-string-datetime.js": false
+          },
+          "toZonedDateTimeISO": {
+            "timezone-string-datetime.js": false
           }
         }
       },
@@ -5350,6 +5365,9 @@
             "resolved-time-zone.js": false,
             "timezone-getoffsetnanosecondsfor-not-callable.js": false
           },
+          "toZonedDateTimeISO": {
+            "timezone-string-datetime.js": false
+          },
           "until": {
             "infinity-throws-rangeerror.js": false
           }
@@ -5384,6 +5402,9 @@
             "options-undefined.js": false,
             "resolved-time-zone.js": false,
             "timezone-getoffsetnanosecondsfor-not-callable.js": false
+          },
+          "toZonedDateTimeISO": {
+            "timezone-string-datetime.js": false
           },
           "until": {
             "infinity-throws-rangeerror.js": false
@@ -5422,7 +5443,8 @@
             "infinity-throws-rangeerror.js": false
           },
           "toZonedDateTime": {
-            "plaindate-infinity-throws-rangeerror.js": false
+            "plaindate-infinity-throws-rangeerror.js": false,
+            "relativeto-string-datetime.js": false
           }
         }
       },
@@ -5464,7 +5486,8 @@
         "basic.js": false,
         "from": {
           "argument-object.js": false,
-          "argument-valid.js": false
+          "argument-valid.js": false,
+          "timezone-string-datetime.js": false
         },
         "prototype": {
           "getInstantFor": {
@@ -5489,11 +5512,13 @@
           "infinity-throws-rangeerror.js": false
         },
         "from": {
-          "infinity-throws-rangeerror.js": false
+          "infinity-throws-rangeerror.js": false,
+          "timezone-string-datetime.js": false
         },
         "prototype": {
           "equals": {
-            "infinity-throws-rangeerror.js": false
+            "infinity-throws-rangeerror.js": false,
+            "timezone-string-datetime.js": false
           },
           "era": {
             "branding.js": false,
@@ -5513,7 +5538,8 @@
             "timezone-getoffsetnanosecondsfor-wrong-type.js": false
           },
           "since": {
-            "infinity-throws-rangeerror.js": false
+            "infinity-throws-rangeerror.js": false,
+            "timezone-string-datetime.js": false
           },
           "toLocaleString": {
             "locales-undefined.js": false,
@@ -5521,7 +5547,8 @@
             "options-undefined.js": false
           },
           "until": {
-            "infinity-throws-rangeerror.js": false
+            "infinity-throws-rangeerror.js": false,
+            "timezone-string-datetime.js": false
           },
           "withPlainDate": {
             "infinity-throws-rangeerror.js": false
