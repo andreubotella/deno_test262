@@ -2111,7 +2111,6 @@
         },
         "constructor.js": false,
         "from": {
-          "argument-object.js": false,
           "argument-plaindate.js": false,
           "argument-plaindatetime.js": false,
           "argument-string-invalid.js": false,
@@ -5011,8 +5010,7 @@
     },
     "DurationFormat": {
       "prototype": {
-        "prototype_attributes.js": false,
-        "toStringTag.js": false
+        "prototype_attributes.js": false
       }
     },
     "Intl": {
