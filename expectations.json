@@ -2125,6 +2125,7 @@
         "constructor.js": false,
         "from": {
           "argument-number.js": false,
+          "argument-object.js": false,
           "argument-object-invalid.js": false,
           "argument-object-valid.js": false,
           "argument-plaindate.js": false,
@@ -5102,10 +5103,7 @@
           "prop-desc.js": false,
           "throw-invoked-as-func.js": false
         },
-        "toStringTag": {
-          "toString.js": false,
-          "toStringTag.js": false
-        }
+        "toStringTag.js": false
       }
     },
     "Intl": {
@@ -5277,13 +5275,11 @@
           "signDisplay-negative-zh-TW.js": false
         },
         "resolvedOptions": {
-          "basic.js": false,
           "roundingMode.js": false
         }
       },
       "test-option-roundingPriority.js": false,
-      "test-option-useGrouping-extended.js": false,
-      "test-option-useGrouping.js": false
+      "test-option-useGrouping-extended.js": false
     },
     "PluralRules": {
       "prototype": {
