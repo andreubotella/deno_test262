@@ -3614,7 +3614,7 @@
         },
         "constructor.js": false,
         "from": {
-          "argument-nmuber.js": false,
+          "argument-number.js": false,
           "argument-object.js": false,
           "argument-plaindate.js": false,
           "argument-plainyearmonth.js": false,
