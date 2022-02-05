@@ -2125,9 +2125,9 @@
         "constructor.js": false,
         "from": {
           "argument-number.js": false,
-          "argument-object.js": false,
           "argument-object-invalid.js": false,
           "argument-object-valid.js": false,
+          "argument-object.js": false,
           "argument-plaindate.js": false,
           "argument-plaindatetime.js": false,
           "argument-string-invalid.js": false,
