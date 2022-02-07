@@ -2127,7 +2127,6 @@
           "argument-number.js": false,
           "argument-object-invalid.js": false,
           "argument-object-valid.js": false,
-          "argument-object.js": false,
           "argument-plaindate.js": false,
           "argument-plaindatetime.js": false,
           "argument-string-invalid.js": false,
@@ -3733,7 +3732,6 @@
             "argument-string-with-utc-designator.js": false,
             "arguments-casting.js": false,
             "arguments-missing-throws.js": false,
-            "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
             "calendar-dateadd-called-with-plaindate-instance.js": false,
@@ -3746,11 +3744,9 @@
             "largestunit-plurals-accepted.js": false,
             "largestunit-undefined.js": false,
             "largestunit-wrong-type.js": false,
-            "largestunit.js": false,
             "length.js": false,
             "mixed-calendar-invalid.js": false,
             "name.js": false,
-            "negation.js": false,
             "not-a-constructor.js": false,
             "options-invalid.js": false,
             "options-undefined.js": false,
@@ -5102,8 +5098,7 @@
           "name.js": false,
           "prop-desc.js": false,
           "throw-invoked-as-func.js": false
-        },
-        "toStringTag.js": false
+        }
       }
     },
     "Intl": {
