@@ -3809,7 +3809,6 @@
           "prop-desc.js": false,
           "since": {
             "argument-string-with-utc-designator.js": false,
-            "arguments-casting.js": false,
             "arguments-missing-throws.js": false,
             "branding.js": false,
             "builtin.js": false,
@@ -3843,7 +3842,6 @@
             "roundingmode-invalid-string.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
-            "smallestunit-disallowed-units.js": false,
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
             "smallestunit-undefined.js": false,
@@ -4148,7 +4146,6 @@
           },
           "id": {
             "no-toString.js": false,
-            "plain-custom-timezone.js": false,
             "prop-desc.js": false
           },
           "prop-desc.js": false,
