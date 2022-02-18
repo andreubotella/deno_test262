@@ -5328,81 +5328,9 @@
         "unicode-ext-canonicalize-yes-to-true.js": false
       },
       "supportedValuesOf": {
-        "builtin.js": false,
-        "calendars-accepted-by-DateTimeFormat.js": false,
         "calendars-accepted-by-DisplayNames.js": false,
-        "calendars.js": false,
-        "coerced-to-string.js": false,
         "collations-accepted-by-Collator.js": false,
-        "collations.js": false,
-        "currencies-accepted-by-DisplayNames.js": false,
-        "currencies-accepted-by-NumberFormat.js": false,
-        "currencies.js": false,
-        "invalid-key.js": false,
-        "length.js": false,
-        "name.js": false,
-        "numberingSystems-accepted-by-DateTimeFormat.js": false,
-        "numberingSystems-accepted-by-NumberFormat.js": false,
-        "numberingSystems-accepted-by-RelativeTimeFormat.js": false,
-        "numberingSystems-with-simple-digit-mappings.js": false,
-        "numberingSystems.js": false,
-        "prop-desc.js": false,
-        "timeZones-accepted-by-DateTimeFormat.js": false,
-        "timeZones.js": false,
-        "units-accepted-by-NumberFormat.js": false,
-        "units.js": false
-      }
-    },
-    "Locale": {
-      "prototype": {
-        "calendars": {
-          "branding.js": false,
-          "name.js": false,
-          "output-array.js": false,
-          "prop-desc.js": false
-        },
-        "collations": {
-          "branding.js": false,
-          "name.js": false,
-          "output-array-values.js": false,
-          "output-array.js": false,
-          "prop-desc.js": false
-        },
-        "hourCycles": {
-          "branding.js": false,
-          "name.js": false,
-          "output-array-values.js": false,
-          "output-array.js": false,
-          "prop-desc.js": false
-        },
-        "numberingSystems": {
-          "branding.js": false,
-          "name.js": false,
-          "output-array.js": false,
-          "prop-desc.js": false
-        },
-        "textInfo": {
-          "branding.js": false,
-          "name.js": false,
-          "output-object-keys.js": false,
-          "output-object.js": false,
-          "prop-desc.js": false
-        },
-        "timeZones": {
-          "branding.js": false,
-          "name.js": false,
-          "output-array-sorted.js": false,
-          "output-array.js": false,
-          "output-undefined.js": false,
-          "prop-desc.js": false
-        },
-        "weekInfo": {
-          "branding.js": false,
-          "name.js": false,
-          "output-object-keys.js": false,
-          "output-object.js": false,
-          "prop-desc.js": false
-        }
+        "currencies-accepted-by-DisplayNames.js": false
       }
     },
     "NumberFormat": {
