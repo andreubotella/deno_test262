@@ -53,6 +53,9 @@
       },
       "prototype": {
         "Symbol.iterator.js": false,
+        "Symbol.unscopables": {
+          "value.js": false
+        },
         "concat": {
           "15.4.4.4-5-b-iii-3-b-1.js": false,
           "15.4.4.4-5-c-i-1.js": false,
@@ -3339,6 +3342,7 @@
         "basic.js": false,
         "builtin.js": false,
         "compare": {
+          "argument-cast.js": false,
           "argument-string-no-implicit-midnight.js": false,
           "argument-string-time-designator-required-for-disambiguation.js": false,
           "argument-string-with-time-designator.js": false,
@@ -3348,6 +3352,7 @@
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+          "basic.js": false,
           "builtin.js": false,
           "calendar-temporal-object.js": false,
           "length.js": false,
@@ -3360,11 +3365,16 @@
         },
         "constructor.js": false,
         "from": {
+          "argument-plaindatetime.js": false,
+          "argument-plaintime.js": false,
+          "argument-string-invalid.js": false,
           "argument-string-no-implicit-midnight.js": false,
           "argument-string-time-designator-required-for-disambiguation.js": false,
+          "argument-string-trailing-junk.js": false,
           "argument-string-with-calendar.js": false,
           "argument-string-with-time-designator.js": false,
           "argument-string-with-utc-designator.js": false,
+          "argument-string.js": false,
           "argument-zoneddatetime-balance-negative-time-units.js": false,
           "argument-zoneddatetime-negative-epochnanoseconds.js": false,
           "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-non-integer.js": false,
@@ -3377,6 +3387,7 @@
           "length.js": false,
           "name.js": false,
           "not-a-constructor.js": false,
+          "options-invalid.js": false,
           "options-undefined.js": false,
           "order-of-operations.js": false,
           "overflow-invalid-string.js": false,
@@ -3400,6 +3411,7 @@
         "prototype": {
           "add": {
             "argument-not-object.js": false,
+            "argument-object-invalid.js": false,
             "argument-string-fractional-units-rounding-mode.js": false,
             "argument-string-negative-fractional-units.js": false,
             "argument-string.js": false,
@@ -3412,6 +3424,7 @@
             "negative-infinity-throws-rangeerror.js": false,
             "non-integer-throws-rangeerror.js": false,
             "not-a-constructor.js": false,
+            "options-ignored.js": false,
             "order-of-operations.js": false,
             "prop-desc.js": false,
             "subclassing-ignored.js": false
@@ -3421,6 +3434,7 @@
             "prop-desc.js": false
           },
           "equals": {
+            "argument-cast.js": false,
             "argument-string-no-implicit-midnight.js": false,
             "argument-string-time-designator-required-for-disambiguation.js": false,
             "argument-string-with-time-designator.js": false,
@@ -3432,6 +3446,7 @@
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-not-callable.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-out-of-range.js": false,
             "argument-zoneddatetime-timezone-getoffsetnanosecondsfor-wrong-type.js": false,
+            "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
             "calendar-temporal-object.js": false,
@@ -3524,6 +3539,7 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
+            "options-invalid.js": false,
             "options-undefined.js": false,
             "plaintime-propertybag-no-time-units.js": false,
             "prop-desc.js": false,
@@ -3543,6 +3559,7 @@
           },
           "subtract": {
             "argument-not-object.js": false,
+            "argument-object-invalid.js": false,
             "argument-string-fractional-units-rounding-mode.js": false,
             "argument-string-negative-fractional-units.js": false,
             "argument-string.js": false,
@@ -3555,6 +3572,7 @@
             "negative-infinity-throws-rangeerror.js": false,
             "non-integer-throws-rangeerror.js": false,
             "not-a-constructor.js": false,
+            "options-ignored.js": false,
             "order-of-operations.js": false,
             "prop-desc.js": false,
             "subclassing-ignored.js": false
@@ -3596,22 +3614,32 @@
             "year-zero.js": false
           },
           "toString": {
+            "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
+            "fractionalseconddigits-auto.js": false,
             "fractionalseconddigits-invalid-string.js": false,
             "fractionalseconddigits-nan.js": false,
             "fractionalseconddigits-non-integer.js": false,
+            "fractionalseconddigits-number.js": false,
             "fractionalseconddigits-out-of-range.js": false,
             "fractionalseconddigits-undefined.js": false,
             "fractionalseconddigits-wrong-type.js": false,
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
+            "options-invalid.js": false,
             "options-undefined.js": false,
             "prop-desc.js": false,
+            "rounding-cross-midnight.js": false,
+            "roundingmode-ceil.js": false,
+            "roundingmode-floor.js": false,
+            "roundingmode-halfExpand.js": false,
             "roundingmode-invalid-string.js": false,
+            "roundingmode-trunc.js": false,
             "roundingmode-undefined.js": false,
             "roundingmode-wrong-type.js": false,
+            "smallestunit-fractionalseconddigits.js": false,
             "smallestunit-invalid-string.js": false,
             "smallestunit-plurals-accepted.js": false,
             "smallestunit-undefined.js": false,
@@ -3670,6 +3698,7 @@
             "length.js": false,
             "name.js": false,
             "not-a-constructor.js": false,
+            "options-invalid.js": false,
             "options-undefined.js": false,
             "plaintime-propertybag-no-time-units.js": false,
             "prop-desc.js": false,
@@ -3688,6 +3717,7 @@
             "year-zero.js": false
           },
           "valueOf": {
+            "basic.js": false,
             "branding.js": false,
             "builtin.js": false,
             "length.js": false,
