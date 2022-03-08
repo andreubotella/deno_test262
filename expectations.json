@@ -3366,9 +3366,13 @@
         },
         "constructor.js": false,
         "from": {
+          "argument-number.js": false,
+          "argument-object-leap-second.js": false,
+          "argument-object.js": false,
           "argument-plaindatetime.js": false,
           "argument-plaintime.js": false,
           "argument-string-invalid.js": false,
+          "argument-string-leap-second.js": false,
           "argument-string-no-implicit-midnight.js": false,
           "argument-string-time-designator-required-for-disambiguation.js": false,
           "argument-string-trailing-junk.js": false,
@@ -3391,7 +3395,9 @@
           "options-invalid.js": false,
           "options-undefined.js": false,
           "order-of-operations.js": false,
+          "overflow-constrain.js": false,
           "overflow-invalid-string.js": false,
+          "overflow-reject.js": false,
           "overflow-undefined.js": false,
           "overflow-wrong-type.js": false,
           "plaintime-propertybag-no-time-units.js": false,
@@ -3408,11 +3414,15 @@
         "name.js": false,
         "nanosecond-undefined.js": false,
         "negative-infinity-throws-rangeerror.js": false,
+        "negative-zero.js": false,
         "prop-desc.js": false,
         "prototype": {
           "add": {
+            "argument-duration.js": false,
+            "argument-higher-units.js": false,
             "argument-not-object.js": false,
             "argument-object-invalid.js": false,
+            "argument-object.js": false,
             "argument-string-fractional-units-rounding-mode.js": false,
             "argument-string-negative-fractional-units.js": false,
             "argument-string.js": false,
@@ -3497,10 +3507,17 @@
             "name.js": false,
             "not-a-constructor.js": false,
             "prop-desc.js": false,
+            "rounding-cross-midnight.js": false,
+            "roundingincrement-hours.js": false,
             "roundingincrement-invalid.js": false,
+            "roundingincrement-microseconds.js": false,
+            "roundingincrement-milliseconds.js": false,
+            "roundingincrement-minutes.js": false,
             "roundingincrement-nan.js": false,
+            "roundingincrement-nanoseconds.js": false,
             "roundingincrement-non-integer.js": false,
             "roundingincrement-out-of-range.js": false,
+            "roundingincrement-seconds.js": false,
             "roundingincrement-undefined.js": false,
             "roundingincrement-wrong-type.js": false,
             "roundingmode-ceil.js": false,
@@ -3552,10 +3569,16 @@
             "options-undefined.js": false,
             "prop-desc.js": false,
             "result-sub-second.js": false,
+            "roundingincrement-hours.js": false,
             "roundingincrement-invalid.js": false,
+            "roundingincrement-microseconds.js": false,
+            "roundingincrement-milliseconds.js": false,
+            "roundingincrement-minutes.js": false,
             "roundingincrement-nan.js": false,
+            "roundingincrement-nanoseconds.js": false,
             "roundingincrement-non-integer.js": false,
             "roundingincrement-out-of-range.js": false,
+            "roundingincrement-seconds.js": false,
             "roundingincrement-undefined.js": false,
             "roundingincrement-wrong-type.js": false,
             "roundingmode-ceil.js": false,
@@ -3572,8 +3595,11 @@
             "year-zero.js": false
           },
           "subtract": {
+            "argument-duration.js": false,
+            "argument-higher-units.js": false,
             "argument-not-object.js": false,
             "argument-object-invalid.js": false,
+            "argument-object.js": false,
             "argument-string-fractional-units-rounding-mode.js": false,
             "argument-string-negative-fractional-units.js": false,
             "argument-string.js": false,
@@ -3719,10 +3745,16 @@
             "options-undefined.js": false,
             "prop-desc.js": false,
             "result-sub-second.js": false,
+            "roundingincrement-hours.js": false,
             "roundingincrement-invalid.js": false,
+            "roundingincrement-microseconds.js": false,
+            "roundingincrement-milliseconds.js": false,
+            "roundingincrement-minutes.js": false,
             "roundingincrement-nan.js": false,
+            "roundingincrement-nanoseconds.js": false,
             "roundingincrement-non-integer.js": false,
             "roundingincrement-out-of-range.js": false,
+            "roundingincrement-seconds.js": false,
             "roundingincrement-undefined.js": false,
             "roundingincrement-wrong-type.js": false,
             "roundingmode-ceil.js": false,
@@ -5376,6 +5408,16 @@
       }
     },
     "Intl": {
+      "DateTimeFormat": {
+        "prototype": {
+          "formatRange": {
+            "fails-on-distinct-temporal-types.js": false
+          },
+          "formatRangeToParts": {
+            "fails-on-distinct-temporal-types.js": false
+          }
+        }
+      },
       "getCanonicalLocales": {
         "unicode-ext-canonicalize-yes-to-true.js": false
       },
